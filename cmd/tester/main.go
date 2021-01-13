@@ -2,13 +2,24 @@ package main
 
 import (
 	"fmt"
+	"math"
+	"os"
 
 	"github.com/spenczar/healpix"
 )
 
 func main() {
-	v := healpix.NewVec3Floats(0.0, 0.2, 0.3)
-	defer healpix.DeleteVec3Floats(v)
-	fmt.Println(v.Length())
-
+	mapper, err := healpix.NewHEALPixMapper(12, healpix.Nest)
+	if err != nil {
+		fmt.Printf("error: %v\n", err)
+		os.Exit(1)
+	}
+	pointing := healpix.Pointing{
+		Phi:   0.1,
+		Theta: 0.5,
+	}
+	pixels := mapper.QueryDisc(pointing, 2*math.Pi)
+	for _, pr := range pixels {
+		fmt.Printf("[%d, %d)\n", pr.Start, pr.Stop)
+	}
 }

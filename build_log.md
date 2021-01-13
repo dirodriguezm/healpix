@@ -30,11 +30,8 @@ swig4.0 -c++ -go -verbose -intgosize 64 $(pkg-config --cflags-only-I libsharp) $
 
 And you can go build:
 ```
-CGO_CXXFLAGS="$(pkg-config --cflags healpix_cxx libsharp)" CGO_LDFLAGS="$(pkg-config --libs healpix_cxx libsharp)" go build ./cmd/tester
+CGO_CXXFLAGS="$(pkg-config --cflags healpix_cxx libsharp)" CGO_LDFLAGS="$(pkg-config --libs healpix_cxx libsharp)" go build -ldflags "-linkmode external -extldflags -static" ./cmd/tester
 ```
-
-Running the code requires explicitly linking the library:
-(TODO: this is specific to my machine...)
 
 ```
 LD_LIBRARY_PATH=$PWD/../../3p/healpix-code/lib ./tester
