@@ -1,4 +1,5 @@
 #!/bin/bash
+cd internal/healpix_cxx
 swig4.0 \
     -c++ \
     -go \
