@@ -2,14 +2,34 @@ package healpix
 
 import (
 	"errors"
+	"math"
 	"runtime"
 
 	"github.com/spenczar/healpix/internal/healpix_cxx"
 )
 
+// A Pointing is a structure describing an orientation in polar coordinates.
 type Pointing struct {
+	// Theta is the polar angle in radians.
 	Theta float64
-	Phi   float64
+	// Phi is the azimuthal angle in radians.
+	Phi float64
+}
+
+// RADec returns a pointing corresponding to a given right ascension and
+// declination, both in degrees.
+func RADec(ra, dec float64) Pointing {
+	return Pointing{
+		Theta: math.Pi * ra / 180,
+		Phi:   math.Pi/2 - math.Pi*dec/180,
+	}
+
+}
+
+// RADec returns the right ascension and declination, in degrees, corresponding
+// to the pointing.
+func (p Pointing) RADec() (ra, dec float64) {
+	return p.Theta * 180.0 / math.Pi, 90 - (p.Phi * 180 / math.Pi)
 }
 
 func (p Pointing) to_c() healpix_cxx.Pointing {
@@ -27,6 +47,7 @@ func ptgFromC(cptg healpix_cxx.Pointing, destroy bool) Pointing {
 	return ptg
 }
 
+// An OrderingScheme is a class of pixel orderings for HEALPix.
 type OrderingScheme int
 
 const (
@@ -44,10 +65,15 @@ func (s OrderingScheme) to_c() healpix_cxx.Healpix_Ordering_Scheme {
 	panic("invalid ordering scheme")
 }
 
+// A HEALPixMapper is a persistent map with a given order for indexing positions
+// on a sphere.
 type HEALPixMapper struct {
 	cobj *healpix_cxx.SwigcptrHealpix_Base
 }
 
+// NewHEALPixMapper creates a persistent HEALPixMapper. The order parameter
+// controls how finely the sphere is pixelated; higher values of order
+// correspond to finer pixelization. Order must be between 0 and 14.
 func NewHEALPixMapper(order int, scheme OrderingScheme) (*HEALPixMapper, error) {
 	if order < 0 || order > 13 {
 		return nil, errors.New("invalid order, must be between 0 and 14")
