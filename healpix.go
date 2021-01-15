@@ -19,11 +19,16 @@ type Pointing struct {
 // RADec returns a pointing corresponding to a given right ascension and
 // declination, both in degrees.
 func RADec(ra, dec float64) Pointing {
-	return Pointing{
+	p := Pointing{
 		Theta: math.Pi * ra / 180,
 		Phi:   math.Pi/2 - math.Pi*dec/180,
 	}
-
+	p.Theta = math.Mod(p.Theta, 2*math.Pi)
+	if p.Theta > math.Pi {
+		p.Phi += math.Pi
+		p.Theta = 2*math.Pi - p.Theta
+	}
+	return p
 }
 
 // RADec returns the right ascension and declination, in degrees, corresponding
