@@ -19,14 +19,16 @@ type Pointing struct {
 // RADec returns a pointing corresponding to a given right ascension and
 // declination, both in degrees.
 func RADec(ra, dec float64) Pointing {
+	// Convert Dec to theta
+	// theta is the colatitude (0 to pi), while Dec is -90 to 90
+	theta := (90.0 - dec) * math.Pi / 180.0
+
+	// Convert RA to phi
+	// RA is already 0 to 360, just need to convert to radians
+	phi := ra * math.Pi / 180.0
 	p := Pointing{
-		Theta: math.Pi * ra / 180,
-		Phi:   math.Pi/2 - math.Pi*dec/180,
-	}
-	p.Theta = math.Mod(p.Theta, 2*math.Pi)
-	if p.Theta > math.Pi {
-		p.Phi += math.Pi
-		p.Theta = 2*math.Pi - p.Theta
+		Theta: theta,
+		Phi:   phi,
 	}
 	return p
 }
@@ -56,7 +58,7 @@ func ptgFromC(cptg healpix_cxx.Pointing, destroy bool) Pointing {
 type OrderingScheme int
 
 const (
-	Ring OrderingScheme = 1
+	Ring OrderingScheme = 0
 	Nest OrderingScheme = 1
 )
 

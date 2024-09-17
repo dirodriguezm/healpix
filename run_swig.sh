@@ -1,6 +1,6 @@
 #!/bin/bash
 cd internal/healpix_cxx
-swig4.0 \
+swig \
     -c++ \
     -go \
     -verbose \
