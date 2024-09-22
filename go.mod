@@ -1,3 +1,3 @@
-module github.com/spenczar/healpix
+module github.com/dirodriguezm/healpix
 
 go 1.14

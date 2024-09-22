@@ -5,7 +5,7 @@ import (
 	"math"
 	"os"
 
-	"github.com/spenczar/healpix"
+	"github.com/dirodriguezm/healpix"
 )
 
 func main() {

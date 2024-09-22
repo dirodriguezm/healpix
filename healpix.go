@@ -5,7 +5,7 @@ import (
 	"math"
 	"runtime"
 
-	"github.com/spenczar/healpix/internal/healpix_cxx"
+	"github.com/dirodriguezm/healpix/internal/healpix_cxx"
 )
 
 // A Pointing is a structure describing an orientation in polar coordinates.
