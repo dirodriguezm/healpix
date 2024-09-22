@@ -13,9 +13,9 @@ extern
 #ifdef __cplusplus
   "C"
 #endif
-  void cgo_panic__healpix_cxx_8fe10a3dd6e6c6d3(const char*);
+  void cgo_panic__healpix_cxx_5a797e8e3d968ccb(const char*);
 static void _swig_gopanic(const char *p) {
-  cgo_panic__healpix_cxx_8fe10a3dd6e6c6d3(p);
+  cgo_panic__healpix_cxx_5a797e8e3d968ccb(p);
 }
 
 
@@ -300,14 +300,14 @@ SWIGINTERN void std_vector_Sl_float_Sg__set(std::vector< float > *self,int i,std
                 else
                     throw std::out_of_range("vector index out of range");
             }
-SWIGINTERN std::vector< long long >::const_reference std_vector_Sl_int64_Sg__get(std::vector< int64 > *self,int i){
+SWIGINTERN std::vector< long long >::const_reference std_vector_Sl_int64_t_Sg__get(std::vector< int64_t > *self,int i){
                 int size = int(self->size());
                 if (i>=0 && i<size)
                     return (*self)[i];
                 else
                     throw std::out_of_range("vector index out of range");
             }
-SWIGINTERN void std_vector_Sl_int64_Sg__set(std::vector< int64 > *self,int i,std::vector< long long >::value_type const &val){
+SWIGINTERN void std_vector_Sl_int64_t_Sg__set(std::vector< int64_t > *self,int i,std::vector< long long >::value_type const &val){
                 int size = int(self->size());
                 if (i>=0 && i<size)
                     (*self)[i] = val;
@@ -346,7 +346,7 @@ SWIGINTERN void std_vector_Sl_pointing_Sg__set(std::vector< pointing > *self,int
 extern "C" {
 #endif
 
-void _wrap_Swig_free_healpix_cxx_8fe10a3dd6e6c6d3(void *_swig_go_0) {
+void _wrap_Swig_free_healpix_cxx_5a797e8e3d968ccb(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -356,7 +356,7 @@ void _wrap_Swig_free_healpix_cxx_8fe10a3dd6e6c6d3(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_healpix_cxx_8fe10a3dd6e6c6d3(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_healpix_cxx_5a797e8e3d968ccb(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -369,7 +369,7 @@ void *_wrap_Swig_malloc_healpix_cxx_8fe10a3dd6e6c6d3(intgo _swig_go_0) {
 }
 
 
-void _wrap_pointing_theta_set_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_0, double _swig_go_1) {
+void _wrap_pointing_theta_set_healpix_cxx_5a797e8e3d968ccb(pointing *_swig_go_0, double _swig_go_1) {
   pointing *arg1 = (pointing *) 0 ;
   double arg2 ;
   
@@ -381,7 +381,7 @@ void _wrap_pointing_theta_set_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_0,
 }
 
 
-double _wrap_pointing_theta_get_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_0) {
+double _wrap_pointing_theta_get_healpix_cxx_5a797e8e3d968ccb(pointing *_swig_go_0) {
   pointing *arg1 = (pointing *) 0 ;
   double result;
   double _swig_go_result;
@@ -394,7 +394,7 @@ double _wrap_pointing_theta_get_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_
 }
 
 
-void _wrap_pointing_phi_set_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_0, double _swig_go_1) {
+void _wrap_pointing_phi_set_healpix_cxx_5a797e8e3d968ccb(pointing *_swig_go_0, double _swig_go_1) {
   pointing *arg1 = (pointing *) 0 ;
   double arg2 ;
   
@@ -406,7 +406,7 @@ void _wrap_pointing_phi_set_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_0, d
 }
 
 
-double _wrap_pointing_phi_get_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_0) {
+double _wrap_pointing_phi_get_healpix_cxx_5a797e8e3d968ccb(pointing *_swig_go_0) {
   pointing *arg1 = (pointing *) 0 ;
   double result;
   double _swig_go_result;
@@ -419,7 +419,7 @@ double _wrap_pointing_phi_get_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_0)
 }
 
 
-pointing *_wrap_new_pointing__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3() {
+pointing *_wrap_new_pointing__SWIG_0_healpix_cxx_5a797e8e3d968ccb() {
   pointing *result = 0 ;
   pointing *_swig_go_result;
   
@@ -430,7 +430,7 @@ pointing *_wrap_new_pointing__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3() {
 }
 
 
-pointing *_wrap_new_pointing__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(double _swig_go_0, double _swig_go_1) {
+pointing *_wrap_new_pointing__SWIG_1_healpix_cxx_5a797e8e3d968ccb(double _swig_go_0, double _swig_go_1) {
   double arg1 ;
   double arg2 ;
   pointing *result = 0 ;
@@ -445,7 +445,7 @@ pointing *_wrap_new_pointing__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(double _swig_g
 }
 
 
-pointing *_wrap_new_pointing__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< float64 > *_swig_go_0) {
+pointing *_wrap_new_pointing__SWIG_2_healpix_cxx_5a797e8e3d968ccb(vec3_t< float64 > *_swig_go_0) {
   vec3 *arg1 = 0 ;
   pointing *result = 0 ;
   pointing *_swig_go_result;
@@ -458,7 +458,7 @@ pointing *_wrap_new_pointing__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< float6
 }
 
 
-vec3_t< float64 > *_wrap_pointing_to_vec3_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_0) {
+vec3_t< float64 > *_wrap_pointing_to_vec3_healpix_cxx_5a797e8e3d968ccb(pointing *_swig_go_0) {
   pointing *arg1 = (pointing *) 0 ;
   SwigValueWrapper< vec3_t< float64 > > result;
   vec3_t< float64 > *_swig_go_result;
@@ -471,7 +471,7 @@ vec3_t< float64 > *_wrap_pointing_to_vec3_healpix_cxx_8fe10a3dd6e6c6d3(pointing 
 }
 
 
-void _wrap_pointing_from_vec3_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_0, vec3_t< float64 > *_swig_go_1) {
+void _wrap_pointing_from_vec3_healpix_cxx_5a797e8e3d968ccb(pointing *_swig_go_0, vec3_t< float64 > *_swig_go_1) {
   pointing *arg1 = (pointing *) 0 ;
   vec3 *arg2 = 0 ;
   
@@ -483,7 +483,7 @@ void _wrap_pointing_from_vec3_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_0,
 }
 
 
-void _wrap_pointing_normalize_theta_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_0) {
+void _wrap_pointing_normalize_theta_healpix_cxx_5a797e8e3d968ccb(pointing *_swig_go_0) {
   pointing *arg1 = (pointing *) 0 ;
   
   arg1 = *(pointing **)&_swig_go_0; 
@@ -493,7 +493,7 @@ void _wrap_pointing_normalize_theta_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig
 }
 
 
-void _wrap_pointing_normalize_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_0) {
+void _wrap_pointing_normalize_healpix_cxx_5a797e8e3d968ccb(pointing *_swig_go_0) {
   pointing *arg1 = (pointing *) 0 ;
   
   arg1 = *(pointing **)&_swig_go_0; 
@@ -503,7 +503,7 @@ void _wrap_pointing_normalize_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_0)
 }
 
 
-void _wrap_delete_pointing_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_0) {
+void _wrap_delete_pointing_healpix_cxx_5a797e8e3d968ccb(pointing *_swig_go_0) {
   pointing *arg1 = (pointing *) 0 ;
   
   arg1 = *(pointing **)&_swig_go_0; 
@@ -513,7 +513,7 @@ void _wrap_delete_pointing_healpix_cxx_8fe10a3dd6e6c6d3(pointing *_swig_go_0) {
 }
 
 
-std::vector< double > *_wrap_new_VectorF64__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3() {
+std::vector< double > *_wrap_new_VectorF64__SWIG_0_healpix_cxx_5a797e8e3d968ccb() {
   std::vector< double > *result = 0 ;
   std::vector< double > *_swig_go_result;
   
@@ -524,7 +524,7 @@ std::vector< double > *_wrap_new_VectorF64__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(
 }
 
 
-std::vector< double > *_wrap_new_VectorF64__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(long long _swig_go_0) {
+std::vector< double > *_wrap_new_VectorF64__SWIG_1_healpix_cxx_5a797e8e3d968ccb(long long _swig_go_0) {
   std::vector< double >::size_type arg1 ;
   std::vector< double > *result = 0 ;
   std::vector< double > *_swig_go_result;
@@ -537,7 +537,7 @@ std::vector< double > *_wrap_new_VectorF64__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(
 }
 
 
-std::vector< double > *_wrap_new_VectorF64__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > *_swig_go_0) {
+std::vector< double > *_wrap_new_VectorF64__SWIG_2_healpix_cxx_5a797e8e3d968ccb(std::vector< double > *_swig_go_0) {
   std::vector< double > *arg1 = 0 ;
   std::vector< double > *result = 0 ;
   std::vector< double > *_swig_go_result;
@@ -550,7 +550,7 @@ std::vector< double > *_wrap_new_VectorF64__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(
 }
 
 
-long long _wrap_VectorF64_size_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > *_swig_go_0) {
+long long _wrap_VectorF64_size_healpix_cxx_5a797e8e3d968ccb(std::vector< double > *_swig_go_0) {
   std::vector< double > *arg1 = (std::vector< double > *) 0 ;
   std::vector< double >::size_type result;
   long long _swig_go_result;
@@ -563,7 +563,7 @@ long long _wrap_VectorF64_size_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double 
 }
 
 
-long long _wrap_VectorF64_capacity_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > *_swig_go_0) {
+long long _wrap_VectorF64_capacity_healpix_cxx_5a797e8e3d968ccb(std::vector< double > *_swig_go_0) {
   std::vector< double > *arg1 = (std::vector< double > *) 0 ;
   std::vector< double >::size_type result;
   long long _swig_go_result;
@@ -576,7 +576,7 @@ long long _wrap_VectorF64_capacity_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< dou
 }
 
 
-void _wrap_VectorF64_reserve_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > *_swig_go_0, long long _swig_go_1) {
+void _wrap_VectorF64_reserve_healpix_cxx_5a797e8e3d968ccb(std::vector< double > *_swig_go_0, long long _swig_go_1) {
   std::vector< double > *arg1 = (std::vector< double > *) 0 ;
   std::vector< double >::size_type arg2 ;
   
@@ -588,7 +588,7 @@ void _wrap_VectorF64_reserve_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > 
 }
 
 
-bool _wrap_VectorF64_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > *_swig_go_0) {
+bool _wrap_VectorF64_isEmpty_healpix_cxx_5a797e8e3d968ccb(std::vector< double > *_swig_go_0) {
   std::vector< double > *arg1 = (std::vector< double > *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -601,7 +601,7 @@ bool _wrap_VectorF64_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > 
 }
 
 
-void _wrap_VectorF64_clear_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > *_swig_go_0) {
+void _wrap_VectorF64_clear_healpix_cxx_5a797e8e3d968ccb(std::vector< double > *_swig_go_0) {
   std::vector< double > *arg1 = (std::vector< double > *) 0 ;
   
   arg1 = *(std::vector< double > **)&_swig_go_0; 
@@ -611,7 +611,7 @@ void _wrap_VectorF64_clear_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > *_
 }
 
 
-void _wrap_VectorF64_add_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > *_swig_go_0, double _swig_go_1) {
+void _wrap_VectorF64_add_healpix_cxx_5a797e8e3d968ccb(std::vector< double > *_swig_go_0, double _swig_go_1) {
   std::vector< double > *arg1 = (std::vector< double > *) 0 ;
   std::vector< double >::value_type *arg2 = 0 ;
   
@@ -623,7 +623,7 @@ void _wrap_VectorF64_add_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > *_sw
 }
 
 
-double _wrap_VectorF64_get_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > *_swig_go_0, intgo _swig_go_1) {
+double _wrap_VectorF64_get_healpix_cxx_5a797e8e3d968ccb(std::vector< double > *_swig_go_0, intgo _swig_go_1) {
   std::vector< double > *arg1 = (std::vector< double > *) 0 ;
   int arg2 ;
   std::vector< double >::value_type *result = 0 ;
@@ -644,7 +644,7 @@ double _wrap_VectorF64_get_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > *_
 }
 
 
-void _wrap_VectorF64_set_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > *_swig_go_0, intgo _swig_go_1, double _swig_go_2) {
+void _wrap_VectorF64_set_healpix_cxx_5a797e8e3d968ccb(std::vector< double > *_swig_go_0, intgo _swig_go_1, double _swig_go_2) {
   std::vector< double > *arg1 = (std::vector< double > *) 0 ;
   int arg2 ;
   std::vector< double >::value_type *arg3 = 0 ;
@@ -664,7 +664,7 @@ void _wrap_VectorF64_set_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > *_sw
 }
 
 
-void _wrap_delete_VectorF64_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > *_swig_go_0) {
+void _wrap_delete_VectorF64_healpix_cxx_5a797e8e3d968ccb(std::vector< double > *_swig_go_0) {
   std::vector< double > *arg1 = (std::vector< double > *) 0 ;
   
   arg1 = *(std::vector< double > **)&_swig_go_0; 
@@ -674,7 +674,7 @@ void _wrap_delete_VectorF64_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< double > *
 }
 
 
-std::vector< float > *_wrap_new_VectorF32__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3() {
+std::vector< float > *_wrap_new_VectorF32__SWIG_0_healpix_cxx_5a797e8e3d968ccb() {
   std::vector< float > *result = 0 ;
   std::vector< float > *_swig_go_result;
   
@@ -685,7 +685,7 @@ std::vector< float > *_wrap_new_VectorF32__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3()
 }
 
 
-std::vector< float > *_wrap_new_VectorF32__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(long long _swig_go_0) {
+std::vector< float > *_wrap_new_VectorF32__SWIG_1_healpix_cxx_5a797e8e3d968ccb(long long _swig_go_0) {
   std::vector< float >::size_type arg1 ;
   std::vector< float > *result = 0 ;
   std::vector< float > *_swig_go_result;
@@ -698,7 +698,7 @@ std::vector< float > *_wrap_new_VectorF32__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(l
 }
 
 
-std::vector< float > *_wrap_new_VectorF32__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *_swig_go_0) {
+std::vector< float > *_wrap_new_VectorF32__SWIG_2_healpix_cxx_5a797e8e3d968ccb(std::vector< float > *_swig_go_0) {
   std::vector< float > *arg1 = 0 ;
   std::vector< float > *result = 0 ;
   std::vector< float > *_swig_go_result;
@@ -711,7 +711,7 @@ std::vector< float > *_wrap_new_VectorF32__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(s
 }
 
 
-long long _wrap_VectorF32_size_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *_swig_go_0) {
+long long _wrap_VectorF32_size_healpix_cxx_5a797e8e3d968ccb(std::vector< float > *_swig_go_0) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   std::vector< float >::size_type result;
   long long _swig_go_result;
@@ -724,7 +724,7 @@ long long _wrap_VectorF32_size_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float >
 }
 
 
-long long _wrap_VectorF32_capacity_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *_swig_go_0) {
+long long _wrap_VectorF32_capacity_healpix_cxx_5a797e8e3d968ccb(std::vector< float > *_swig_go_0) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   std::vector< float >::size_type result;
   long long _swig_go_result;
@@ -737,7 +737,7 @@ long long _wrap_VectorF32_capacity_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< flo
 }
 
 
-void _wrap_VectorF32_reserve_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *_swig_go_0, long long _swig_go_1) {
+void _wrap_VectorF32_reserve_healpix_cxx_5a797e8e3d968ccb(std::vector< float > *_swig_go_0, long long _swig_go_1) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   std::vector< float >::size_type arg2 ;
   
@@ -749,7 +749,7 @@ void _wrap_VectorF32_reserve_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *
 }
 
 
-bool _wrap_VectorF32_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *_swig_go_0) {
+bool _wrap_VectorF32_isEmpty_healpix_cxx_5a797e8e3d968ccb(std::vector< float > *_swig_go_0) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -762,7 +762,7 @@ bool _wrap_VectorF32_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *
 }
 
 
-void _wrap_VectorF32_clear_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *_swig_go_0) {
+void _wrap_VectorF32_clear_healpix_cxx_5a797e8e3d968ccb(std::vector< float > *_swig_go_0) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   
   arg1 = *(std::vector< float > **)&_swig_go_0; 
@@ -772,7 +772,7 @@ void _wrap_VectorF32_clear_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *_s
 }
 
 
-void _wrap_VectorF32_add_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *_swig_go_0, float _swig_go_1) {
+void _wrap_VectorF32_add_healpix_cxx_5a797e8e3d968ccb(std::vector< float > *_swig_go_0, float _swig_go_1) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   std::vector< float >::value_type *arg2 = 0 ;
   
@@ -784,7 +784,7 @@ void _wrap_VectorF32_add_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *_swi
 }
 
 
-float _wrap_VectorF32_get_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *_swig_go_0, intgo _swig_go_1) {
+float _wrap_VectorF32_get_healpix_cxx_5a797e8e3d968ccb(std::vector< float > *_swig_go_0, intgo _swig_go_1) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   int arg2 ;
   std::vector< float >::value_type *result = 0 ;
@@ -805,7 +805,7 @@ float _wrap_VectorF32_get_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *_sw
 }
 
 
-void _wrap_VectorF32_set_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *_swig_go_0, intgo _swig_go_1, float _swig_go_2) {
+void _wrap_VectorF32_set_healpix_cxx_5a797e8e3d968ccb(std::vector< float > *_swig_go_0, intgo _swig_go_1, float _swig_go_2) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   int arg2 ;
   std::vector< float >::value_type *arg3 = 0 ;
@@ -825,7 +825,7 @@ void _wrap_VectorF32_set_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *_swi
 }
 
 
-void _wrap_delete_VectorF32_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *_swig_go_0) {
+void _wrap_delete_VectorF32_healpix_cxx_5a797e8e3d968ccb(std::vector< float > *_swig_go_0) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   
   arg1 = *(std::vector< float > **)&_swig_go_0; 
@@ -835,74 +835,74 @@ void _wrap_delete_VectorF32_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< float > *_
 }
 
 
-std::vector< long long > *_wrap_new_VectorI64__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3() {
-  std::vector< int64 > *result = 0 ;
+std::vector< long long > *_wrap_new_VectorI64__SWIG_0_healpix_cxx_5a797e8e3d968ccb() {
+  std::vector< int64_t > *result = 0 ;
   std::vector< long long > *_swig_go_result;
   
   
-  result = (std::vector< int64 > *)new std::vector< int64 >();
-  *(std::vector< int64 > **)&_swig_go_result = (std::vector< int64 > *)result; 
+  result = (std::vector< int64_t > *)new std::vector< int64_t >();
+  *(std::vector< int64_t > **)&_swig_go_result = (std::vector< int64_t > *)result; 
   return _swig_go_result;
 }
 
 
-std::vector< long long > *_wrap_new_VectorI64__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(long long _swig_go_0) {
+std::vector< long long > *_wrap_new_VectorI64__SWIG_1_healpix_cxx_5a797e8e3d968ccb(long long _swig_go_0) {
   std::vector< long long >::size_type arg1 ;
-  std::vector< int64 > *result = 0 ;
+  std::vector< int64_t > *result = 0 ;
   std::vector< long long > *_swig_go_result;
   
   arg1 = (size_t)_swig_go_0; 
   
-  result = (std::vector< int64 > *)new std::vector< int64 >(arg1);
-  *(std::vector< int64 > **)&_swig_go_result = (std::vector< int64 > *)result; 
+  result = (std::vector< int64_t > *)new std::vector< int64_t >(arg1);
+  *(std::vector< int64_t > **)&_swig_go_result = (std::vector< int64_t > *)result; 
   return _swig_go_result;
 }
 
 
-std::vector< long long > *_wrap_new_VectorI64__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< long long > *_swig_go_0) {
-  std::vector< int64 > *arg1 = 0 ;
-  std::vector< int64 > *result = 0 ;
+std::vector< long long > *_wrap_new_VectorI64__SWIG_2_healpix_cxx_5a797e8e3d968ccb(std::vector< long long > *_swig_go_0) {
+  std::vector< int64_t > *arg1 = 0 ;
+  std::vector< int64_t > *result = 0 ;
   std::vector< long long > *_swig_go_result;
   
-  arg1 = *(std::vector< int64 > **)&_swig_go_0; 
+  arg1 = *(std::vector< int64_t > **)&_swig_go_0; 
   
-  result = (std::vector< int64 > *)new std::vector< int64 >((std::vector< int64 > const &)*arg1);
-  *(std::vector< int64 > **)&_swig_go_result = (std::vector< int64 > *)result; 
+  result = (std::vector< int64_t > *)new std::vector< int64_t >((std::vector< int64_t > const &)*arg1);
+  *(std::vector< int64_t > **)&_swig_go_result = (std::vector< int64_t > *)result; 
   return _swig_go_result;
 }
 
 
-long long _wrap_VectorI64_size_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< long long > *_swig_go_0) {
-  std::vector< int64 > *arg1 = (std::vector< int64 > *) 0 ;
+long long _wrap_VectorI64_size_healpix_cxx_5a797e8e3d968ccb(std::vector< long long > *_swig_go_0) {
+  std::vector< int64_t > *arg1 = (std::vector< int64_t > *) 0 ;
   std::vector< long long >::size_type result;
   long long _swig_go_result;
   
-  arg1 = *(std::vector< int64 > **)&_swig_go_0; 
+  arg1 = *(std::vector< int64_t > **)&_swig_go_0; 
   
-  result = ((std::vector< int64 > const *)arg1)->size();
+  result = ((std::vector< int64_t > const *)arg1)->size();
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-long long _wrap_VectorI64_capacity_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< long long > *_swig_go_0) {
-  std::vector< int64 > *arg1 = (std::vector< int64 > *) 0 ;
+long long _wrap_VectorI64_capacity_healpix_cxx_5a797e8e3d968ccb(std::vector< long long > *_swig_go_0) {
+  std::vector< int64_t > *arg1 = (std::vector< int64_t > *) 0 ;
   std::vector< long long >::size_type result;
   long long _swig_go_result;
   
-  arg1 = *(std::vector< int64 > **)&_swig_go_0; 
+  arg1 = *(std::vector< int64_t > **)&_swig_go_0; 
   
-  result = ((std::vector< int64 > const *)arg1)->capacity();
+  result = ((std::vector< int64_t > const *)arg1)->capacity();
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-void _wrap_VectorI64_reserve_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< long long > *_swig_go_0, long long _swig_go_1) {
-  std::vector< int64 > *arg1 = (std::vector< int64 > *) 0 ;
+void _wrap_VectorI64_reserve_healpix_cxx_5a797e8e3d968ccb(std::vector< long long > *_swig_go_0, long long _swig_go_1) {
+  std::vector< int64_t > *arg1 = (std::vector< int64_t > *) 0 ;
   std::vector< long long >::size_type arg2 ;
   
-  arg1 = *(std::vector< int64 > **)&_swig_go_0; 
+  arg1 = *(std::vector< int64_t > **)&_swig_go_0; 
   arg2 = (size_t)_swig_go_1; 
   
   (arg1)->reserve(arg2);
@@ -910,34 +910,34 @@ void _wrap_VectorI64_reserve_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< long long
 }
 
 
-bool _wrap_VectorI64_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< long long > *_swig_go_0) {
-  std::vector< int64 > *arg1 = (std::vector< int64 > *) 0 ;
+bool _wrap_VectorI64_isEmpty_healpix_cxx_5a797e8e3d968ccb(std::vector< long long > *_swig_go_0) {
+  std::vector< int64_t > *arg1 = (std::vector< int64_t > *) 0 ;
   bool result;
   bool _swig_go_result;
   
-  arg1 = *(std::vector< int64 > **)&_swig_go_0; 
+  arg1 = *(std::vector< int64_t > **)&_swig_go_0; 
   
-  result = (bool)((std::vector< int64 > const *)arg1)->empty();
+  result = (bool)((std::vector< int64_t > const *)arg1)->empty();
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-void _wrap_VectorI64_clear_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< long long > *_swig_go_0) {
-  std::vector< int64 > *arg1 = (std::vector< int64 > *) 0 ;
+void _wrap_VectorI64_clear_healpix_cxx_5a797e8e3d968ccb(std::vector< long long > *_swig_go_0) {
+  std::vector< int64_t > *arg1 = (std::vector< int64_t > *) 0 ;
   
-  arg1 = *(std::vector< int64 > **)&_swig_go_0; 
+  arg1 = *(std::vector< int64_t > **)&_swig_go_0; 
   
   (arg1)->clear();
   
 }
 
 
-void _wrap_VectorI64_add_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< long long > *_swig_go_0, long long _swig_go_1) {
-  std::vector< int64 > *arg1 = (std::vector< int64 > *) 0 ;
+void _wrap_VectorI64_add_healpix_cxx_5a797e8e3d968ccb(std::vector< long long > *_swig_go_0, long long _swig_go_1) {
+  std::vector< int64_t > *arg1 = (std::vector< int64_t > *) 0 ;
   std::vector< long long >::value_type *arg2 = 0 ;
   
-  arg1 = *(std::vector< int64 > **)&_swig_go_0; 
+  arg1 = *(std::vector< int64_t > **)&_swig_go_0; 
   arg2 = (std::vector< long long >::value_type *)&_swig_go_1; 
   
   (arg1)->push_back((std::vector< long long >::value_type const &)*arg2);
@@ -945,17 +945,17 @@ void _wrap_VectorI64_add_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< long long > *
 }
 
 
-long long _wrap_VectorI64_get_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< long long > *_swig_go_0, intgo _swig_go_1) {
-  std::vector< int64 > *arg1 = (std::vector< int64 > *) 0 ;
+long long _wrap_VectorI64_get_healpix_cxx_5a797e8e3d968ccb(std::vector< long long > *_swig_go_0, intgo _swig_go_1) {
+  std::vector< int64_t > *arg1 = (std::vector< int64_t > *) 0 ;
   int arg2 ;
   std::vector< long long >::value_type *result = 0 ;
   long long _swig_go_result;
   
-  arg1 = *(std::vector< int64 > **)&_swig_go_0; 
+  arg1 = *(std::vector< int64_t > **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   
   try {
-    result = (std::vector< long long >::value_type *) &std_vector_Sl_int64_Sg__get(arg1,arg2);
+    result = (std::vector< long long >::value_type *) &std_vector_Sl_int64_t_Sg__get(arg1,arg2);
   } catch(std::out_of_range &_e) {
     (void)_e;
     _swig_gopanic("C++ std::out_of_range exception thrown");
@@ -966,17 +966,17 @@ long long _wrap_VectorI64_get_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< long lon
 }
 
 
-void _wrap_VectorI64_set_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< long long > *_swig_go_0, intgo _swig_go_1, long long _swig_go_2) {
-  std::vector< int64 > *arg1 = (std::vector< int64 > *) 0 ;
+void _wrap_VectorI64_set_healpix_cxx_5a797e8e3d968ccb(std::vector< long long > *_swig_go_0, intgo _swig_go_1, long long _swig_go_2) {
+  std::vector< int64_t > *arg1 = (std::vector< int64_t > *) 0 ;
   int arg2 ;
   std::vector< long long >::value_type *arg3 = 0 ;
   
-  arg1 = *(std::vector< int64 > **)&_swig_go_0; 
+  arg1 = *(std::vector< int64_t > **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   arg3 = (std::vector< long long >::value_type *)&_swig_go_2; 
   
   try {
-    std_vector_Sl_int64_Sg__set(arg1,arg2,(long long const &)*arg3);
+    std_vector_Sl_int64_t_Sg__set(arg1,arg2,(long long const &)*arg3);
   } catch(std::out_of_range &_e) {
     (void)_e;
     _swig_gopanic("C++ std::out_of_range exception thrown");
@@ -986,17 +986,17 @@ void _wrap_VectorI64_set_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< long long > *
 }
 
 
-void _wrap_delete_VectorI64_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< long long > *_swig_go_0) {
-  std::vector< int64 > *arg1 = (std::vector< int64 > *) 0 ;
+void _wrap_delete_VectorI64_healpix_cxx_5a797e8e3d968ccb(std::vector< long long > *_swig_go_0) {
+  std::vector< int64_t > *arg1 = (std::vector< int64_t > *) 0 ;
   
-  arg1 = *(std::vector< int64 > **)&_swig_go_0; 
+  arg1 = *(std::vector< int64_t > **)&_swig_go_0; 
   
   delete arg1;
   
 }
 
 
-std::vector< int > *_wrap_new_VectorInt__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3() {
+std::vector< int > *_wrap_new_VectorInt__SWIG_0_healpix_cxx_5a797e8e3d968ccb() {
   std::vector< int > *result = 0 ;
   std::vector< int > *_swig_go_result;
   
@@ -1007,7 +1007,7 @@ std::vector< int > *_wrap_new_VectorInt__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3() {
 }
 
 
-std::vector< int > *_wrap_new_VectorInt__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(long long _swig_go_0) {
+std::vector< int > *_wrap_new_VectorInt__SWIG_1_healpix_cxx_5a797e8e3d968ccb(long long _swig_go_0) {
   std::vector< int >::size_type arg1 ;
   std::vector< int > *result = 0 ;
   std::vector< int > *_swig_go_result;
@@ -1020,7 +1020,7 @@ std::vector< int > *_wrap_new_VectorInt__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(lon
 }
 
 
-std::vector< int > *_wrap_new_VectorInt__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_swig_go_0) {
+std::vector< int > *_wrap_new_VectorInt__SWIG_2_healpix_cxx_5a797e8e3d968ccb(std::vector< int > *_swig_go_0) {
   std::vector< int > *arg1 = 0 ;
   std::vector< int > *result = 0 ;
   std::vector< int > *_swig_go_result;
@@ -1033,7 +1033,7 @@ std::vector< int > *_wrap_new_VectorInt__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(std
 }
 
 
-long long _wrap_VectorInt_size_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_swig_go_0) {
+long long _wrap_VectorInt_size_healpix_cxx_5a797e8e3d968ccb(std::vector< int > *_swig_go_0) {
   std::vector< int > *arg1 = (std::vector< int > *) 0 ;
   std::vector< int >::size_type result;
   long long _swig_go_result;
@@ -1046,7 +1046,7 @@ long long _wrap_VectorInt_size_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *
 }
 
 
-long long _wrap_VectorInt_capacity_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_swig_go_0) {
+long long _wrap_VectorInt_capacity_healpix_cxx_5a797e8e3d968ccb(std::vector< int > *_swig_go_0) {
   std::vector< int > *arg1 = (std::vector< int > *) 0 ;
   std::vector< int >::size_type result;
   long long _swig_go_result;
@@ -1059,7 +1059,7 @@ long long _wrap_VectorInt_capacity_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int
 }
 
 
-void _wrap_VectorInt_reserve_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_swig_go_0, long long _swig_go_1) {
+void _wrap_VectorInt_reserve_healpix_cxx_5a797e8e3d968ccb(std::vector< int > *_swig_go_0, long long _swig_go_1) {
   std::vector< int > *arg1 = (std::vector< int > *) 0 ;
   std::vector< int >::size_type arg2 ;
   
@@ -1071,7 +1071,7 @@ void _wrap_VectorInt_reserve_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_s
 }
 
 
-bool _wrap_VectorInt_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_swig_go_0) {
+bool _wrap_VectorInt_isEmpty_healpix_cxx_5a797e8e3d968ccb(std::vector< int > *_swig_go_0) {
   std::vector< int > *arg1 = (std::vector< int > *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -1084,7 +1084,7 @@ bool _wrap_VectorInt_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_s
 }
 
 
-void _wrap_VectorInt_clear_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_swig_go_0) {
+void _wrap_VectorInt_clear_healpix_cxx_5a797e8e3d968ccb(std::vector< int > *_swig_go_0) {
   std::vector< int > *arg1 = (std::vector< int > *) 0 ;
   
   arg1 = *(std::vector< int > **)&_swig_go_0; 
@@ -1094,7 +1094,7 @@ void _wrap_VectorInt_clear_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_swi
 }
 
 
-void _wrap_VectorInt_add_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_swig_go_0, intgo _swig_go_1) {
+void _wrap_VectorInt_add_healpix_cxx_5a797e8e3d968ccb(std::vector< int > *_swig_go_0, intgo _swig_go_1) {
   std::vector< int > *arg1 = (std::vector< int > *) 0 ;
   std::vector< int >::value_type *arg2 = 0 ;
   
@@ -1107,7 +1107,7 @@ void _wrap_VectorInt_add_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_swig_
 }
 
 
-intgo _wrap_VectorInt_get_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_VectorInt_get_healpix_cxx_5a797e8e3d968ccb(std::vector< int > *_swig_go_0, intgo _swig_go_1) {
   std::vector< int > *arg1 = (std::vector< int > *) 0 ;
   int arg2 ;
   std::vector< int >::value_type *result = 0 ;
@@ -1128,7 +1128,7 @@ intgo _wrap_VectorInt_get_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_swig
 }
 
 
-void _wrap_VectorInt_set_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+void _wrap_VectorInt_set_healpix_cxx_5a797e8e3d968ccb(std::vector< int > *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   std::vector< int > *arg1 = (std::vector< int > *) 0 ;
   int arg2 ;
   std::vector< int >::value_type *arg3 = 0 ;
@@ -1149,7 +1149,7 @@ void _wrap_VectorInt_set_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_swig_
 }
 
 
-void _wrap_delete_VectorInt_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_swig_go_0) {
+void _wrap_delete_VectorInt_healpix_cxx_5a797e8e3d968ccb(std::vector< int > *_swig_go_0) {
   std::vector< int > *arg1 = (std::vector< int > *) 0 ;
   
   arg1 = *(std::vector< int > **)&_swig_go_0; 
@@ -1159,7 +1159,7 @@ void _wrap_delete_VectorInt_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< int > *_sw
 }
 
 
-std::vector< pointing > *_wrap_new_VectorPointing__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3() {
+std::vector< pointing > *_wrap_new_VectorPointing__SWIG_0_healpix_cxx_5a797e8e3d968ccb() {
   std::vector< pointing > *result = 0 ;
   std::vector< pointing > *_swig_go_result;
   
@@ -1170,7 +1170,7 @@ std::vector< pointing > *_wrap_new_VectorPointing__SWIG_0_healpix_cxx_8fe10a3dd6
 }
 
 
-std::vector< pointing > *_wrap_new_VectorPointing__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(long long _swig_go_0) {
+std::vector< pointing > *_wrap_new_VectorPointing__SWIG_1_healpix_cxx_5a797e8e3d968ccb(long long _swig_go_0) {
   std::vector< pointing >::size_type arg1 ;
   std::vector< pointing > *result = 0 ;
   std::vector< pointing > *_swig_go_result;
@@ -1183,7 +1183,7 @@ std::vector< pointing > *_wrap_new_VectorPointing__SWIG_1_healpix_cxx_8fe10a3dd6
 }
 
 
-std::vector< pointing > *_wrap_new_VectorPointing__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< pointing > *_swig_go_0) {
+std::vector< pointing > *_wrap_new_VectorPointing__SWIG_2_healpix_cxx_5a797e8e3d968ccb(std::vector< pointing > *_swig_go_0) {
   std::vector< pointing > *arg1 = 0 ;
   std::vector< pointing > *result = 0 ;
   std::vector< pointing > *_swig_go_result;
@@ -1196,7 +1196,7 @@ std::vector< pointing > *_wrap_new_VectorPointing__SWIG_2_healpix_cxx_8fe10a3dd6
 }
 
 
-long long _wrap_VectorPointing_size_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< pointing > *_swig_go_0) {
+long long _wrap_VectorPointing_size_healpix_cxx_5a797e8e3d968ccb(std::vector< pointing > *_swig_go_0) {
   std::vector< pointing > *arg1 = (std::vector< pointing > *) 0 ;
   std::vector< pointing >::size_type result;
   long long _swig_go_result;
@@ -1209,7 +1209,7 @@ long long _wrap_VectorPointing_size_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< po
 }
 
 
-long long _wrap_VectorPointing_capacity_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< pointing > *_swig_go_0) {
+long long _wrap_VectorPointing_capacity_healpix_cxx_5a797e8e3d968ccb(std::vector< pointing > *_swig_go_0) {
   std::vector< pointing > *arg1 = (std::vector< pointing > *) 0 ;
   std::vector< pointing >::size_type result;
   long long _swig_go_result;
@@ -1222,7 +1222,7 @@ long long _wrap_VectorPointing_capacity_healpix_cxx_8fe10a3dd6e6c6d3(std::vector
 }
 
 
-void _wrap_VectorPointing_reserve_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< pointing > *_swig_go_0, long long _swig_go_1) {
+void _wrap_VectorPointing_reserve_healpix_cxx_5a797e8e3d968ccb(std::vector< pointing > *_swig_go_0, long long _swig_go_1) {
   std::vector< pointing > *arg1 = (std::vector< pointing > *) 0 ;
   std::vector< pointing >::size_type arg2 ;
   
@@ -1234,7 +1234,7 @@ void _wrap_VectorPointing_reserve_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< poin
 }
 
 
-bool _wrap_VectorPointing_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< pointing > *_swig_go_0) {
+bool _wrap_VectorPointing_isEmpty_healpix_cxx_5a797e8e3d968ccb(std::vector< pointing > *_swig_go_0) {
   std::vector< pointing > *arg1 = (std::vector< pointing > *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -1247,7 +1247,7 @@ bool _wrap_VectorPointing_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< poin
 }
 
 
-void _wrap_VectorPointing_clear_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< pointing > *_swig_go_0) {
+void _wrap_VectorPointing_clear_healpix_cxx_5a797e8e3d968ccb(std::vector< pointing > *_swig_go_0) {
   std::vector< pointing > *arg1 = (std::vector< pointing > *) 0 ;
   
   arg1 = *(std::vector< pointing > **)&_swig_go_0; 
@@ -1257,7 +1257,7 @@ void _wrap_VectorPointing_clear_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< pointi
 }
 
 
-void _wrap_VectorPointing_add_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< pointing > *_swig_go_0, pointing *_swig_go_1) {
+void _wrap_VectorPointing_add_healpix_cxx_5a797e8e3d968ccb(std::vector< pointing > *_swig_go_0, pointing *_swig_go_1) {
   std::vector< pointing > *arg1 = (std::vector< pointing > *) 0 ;
   std::vector< pointing >::value_type *arg2 = 0 ;
   
@@ -1269,7 +1269,7 @@ void _wrap_VectorPointing_add_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< pointing
 }
 
 
-pointing *_wrap_VectorPointing_get_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< pointing > *_swig_go_0, intgo _swig_go_1) {
+pointing *_wrap_VectorPointing_get_healpix_cxx_5a797e8e3d968ccb(std::vector< pointing > *_swig_go_0, intgo _swig_go_1) {
   std::vector< pointing > *arg1 = (std::vector< pointing > *) 0 ;
   int arg2 ;
   std::vector< pointing >::value_type *result = 0 ;
@@ -1290,7 +1290,7 @@ pointing *_wrap_VectorPointing_get_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< poi
 }
 
 
-void _wrap_VectorPointing_set_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< pointing > *_swig_go_0, intgo _swig_go_1, pointing *_swig_go_2) {
+void _wrap_VectorPointing_set_healpix_cxx_5a797e8e3d968ccb(std::vector< pointing > *_swig_go_0, intgo _swig_go_1, pointing *_swig_go_2) {
   std::vector< pointing > *arg1 = (std::vector< pointing > *) 0 ;
   int arg2 ;
   std::vector< pointing >::value_type *arg3 = 0 ;
@@ -1310,7 +1310,7 @@ void _wrap_VectorPointing_set_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< pointing
 }
 
 
-void _wrap_delete_VectorPointing_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< pointing > *_swig_go_0) {
+void _wrap_delete_VectorPointing_healpix_cxx_5a797e8e3d968ccb(std::vector< pointing > *_swig_go_0) {
   std::vector< pointing > *arg1 = (std::vector< pointing > *) 0 ;
   
   arg1 = *(std::vector< pointing > **)&_swig_go_0; 
@@ -1320,7 +1320,7 @@ void _wrap_delete_VectorPointing_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< point
 }
 
 
-void _wrap_Vec3Floats_x_set_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0, double _swig_go_1) {
+void _wrap_Vec3Floats_x_set_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0, double _swig_go_1) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   double arg2 ;
   
@@ -1332,7 +1332,7 @@ void _wrap_Vec3Floats_x_set_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig
 }
 
 
-double _wrap_Vec3Floats_x_get_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0) {
+double _wrap_Vec3Floats_x_get_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   double result;
   double _swig_go_result;
@@ -1345,7 +1345,7 @@ double _wrap_Vec3Floats_x_get_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_sw
 }
 
 
-void _wrap_Vec3Floats_y_set_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0, double _swig_go_1) {
+void _wrap_Vec3Floats_y_set_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0, double _swig_go_1) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   double arg2 ;
   
@@ -1357,7 +1357,7 @@ void _wrap_Vec3Floats_y_set_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig
 }
 
 
-double _wrap_Vec3Floats_y_get_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0) {
+double _wrap_Vec3Floats_y_get_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   double result;
   double _swig_go_result;
@@ -1370,7 +1370,7 @@ double _wrap_Vec3Floats_y_get_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_sw
 }
 
 
-void _wrap_Vec3Floats_z_set_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0, double _swig_go_1) {
+void _wrap_Vec3Floats_z_set_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0, double _swig_go_1) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   double arg2 ;
   
@@ -1382,7 +1382,7 @@ void _wrap_Vec3Floats_z_set_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig
 }
 
 
-double _wrap_Vec3Floats_z_get_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0) {
+double _wrap_Vec3Floats_z_get_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   double result;
   double _swig_go_result;
@@ -1395,7 +1395,7 @@ double _wrap_Vec3Floats_z_get_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_sw
 }
 
 
-vec3_t< double > *_wrap_new_Vec3Floats__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3() {
+vec3_t< double > *_wrap_new_Vec3Floats__SWIG_0_healpix_cxx_5a797e8e3d968ccb() {
   vec3_t< double > *result = 0 ;
   vec3_t< double > *_swig_go_result;
   
@@ -1406,7 +1406,7 @@ vec3_t< double > *_wrap_new_Vec3Floats__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3() {
 }
 
 
-vec3_t< double > *_wrap_new_Vec3Floats__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(double _swig_go_0, double _swig_go_1, double _swig_go_2) {
+vec3_t< double > *_wrap_new_Vec3Floats__SWIG_1_healpix_cxx_5a797e8e3d968ccb(double _swig_go_0, double _swig_go_1, double _swig_go_2) {
   double arg1 ;
   double arg2 ;
   double arg3 ;
@@ -1423,7 +1423,7 @@ vec3_t< double > *_wrap_new_Vec3Floats__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(doub
 }
 
 
-void _wrap_Vec3Floats_Set_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0, double _swig_go_1, double _swig_go_2, double _swig_go_3) {
+void _wrap_Vec3Floats_Set_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0, double _swig_go_1, double _swig_go_2, double _swig_go_3) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -1439,7 +1439,7 @@ void _wrap_Vec3Floats_Set_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_g
 }
 
 
-void _wrap_Vec3Floats_set_z_phi_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+void _wrap_Vec3Floats_set_z_phi_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -1453,7 +1453,7 @@ void _wrap_Vec3Floats_set_z_phi_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_
 }
 
 
-void _wrap_Vec3Floats_Normalize_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0) {
+void _wrap_Vec3Floats_Normalize_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   
   arg1 = *(vec3_t< double > **)&_swig_go_0; 
@@ -1463,7 +1463,7 @@ void _wrap_Vec3Floats_Normalize_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_
 }
 
 
-vec3_t< double > *_wrap_Vec3Floats_Norm_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0) {
+vec3_t< double > *_wrap_Vec3Floats_Norm_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   vec3_t< double > result;
   vec3_t< double > *_swig_go_result;
@@ -1476,7 +1476,7 @@ vec3_t< double > *_wrap_Vec3Floats_Norm_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< dou
 }
 
 
-double _wrap_Vec3Floats_Length_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0) {
+double _wrap_Vec3Floats_Length_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   double result;
   double _swig_go_result;
@@ -1489,7 +1489,7 @@ double _wrap_Vec3Floats_Length_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_s
 }
 
 
-double _wrap_Vec3Floats_SquaredLength_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0) {
+double _wrap_Vec3Floats_SquaredLength_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   double result;
   double _swig_go_result;
@@ -1502,7 +1502,7 @@ double _wrap_Vec3Floats_SquaredLength_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< doubl
 }
 
 
-vec3_t< double > *_wrap_Vec3Floats_invert_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0) {
+vec3_t< double > *_wrap_Vec3Floats_invert_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   vec3_t< double > result;
   vec3_t< double > *_swig_go_result;
@@ -1515,7 +1515,7 @@ vec3_t< double > *_wrap_Vec3Floats_invert_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< d
 }
 
 
-void _wrap_Vec3Floats_Flip_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0) {
+void _wrap_Vec3Floats_Flip_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   
   arg1 = *(vec3_t< double > **)&_swig_go_0; 
@@ -1525,7 +1525,7 @@ void _wrap_Vec3Floats_Flip_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_
 }
 
 
-vec3_t< double > *_wrap_Vec3Floats_add_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0, vec3_t< double > *_swig_go_1) {
+vec3_t< double > *_wrap_Vec3Floats_add_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0, vec3_t< double > *_swig_go_1) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   vec3_t< double > *arg2 = 0 ;
   vec3_t< double > result;
@@ -1540,7 +1540,7 @@ vec3_t< double > *_wrap_Vec3Floats_add_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< doub
 }
 
 
-vec3_t< double > *_wrap_Vec3Floats_addInPlace_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0, vec3_t< double > *_swig_go_1) {
+vec3_t< double > *_wrap_Vec3Floats_addInPlace_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0, vec3_t< double > *_swig_go_1) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   vec3_t< double > *arg2 = 0 ;
   vec3_t< double > *result = 0 ;
@@ -1555,7 +1555,7 @@ vec3_t< double > *_wrap_Vec3Floats_addInPlace_healpix_cxx_8fe10a3dd6e6c6d3(vec3_
 }
 
 
-vec3_t< double > *_wrap_Vec3Floats_subtract_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0, vec3_t< double > *_swig_go_1) {
+vec3_t< double > *_wrap_Vec3Floats_subtract_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0, vec3_t< double > *_swig_go_1) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   vec3_t< double > *arg2 = 0 ;
   vec3_t< double > result;
@@ -1570,7 +1570,7 @@ vec3_t< double > *_wrap_Vec3Floats_subtract_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t<
 }
 
 
-vec3_t< double > *_wrap_Vec3Floats_subtractInPlace_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0, vec3_t< double > *_swig_go_1) {
+vec3_t< double > *_wrap_Vec3Floats_subtractInPlace_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0, vec3_t< double > *_swig_go_1) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   vec3_t< double > *arg2 = 0 ;
   vec3_t< double > *result = 0 ;
@@ -1585,7 +1585,7 @@ vec3_t< double > *_wrap_Vec3Floats_subtractInPlace_healpix_cxx_8fe10a3dd6e6c6d3(
 }
 
 
-vec3_t< double > *_wrap_Vec3Floats_multiply_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0, double _swig_go_1) {
+vec3_t< double > *_wrap_Vec3Floats_multiply_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0, double _swig_go_1) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   double arg2 ;
   vec3_t< double > result;
@@ -1600,7 +1600,7 @@ vec3_t< double > *_wrap_Vec3Floats_multiply_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t<
 }
 
 
-vec3_t< double > *_wrap_Vec3Floats_divide_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0, double _swig_go_1) {
+vec3_t< double > *_wrap_Vec3Floats_divide_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0, double _swig_go_1) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   double arg2 ;
   vec3_t< double > result;
@@ -1615,7 +1615,7 @@ vec3_t< double > *_wrap_Vec3Floats_divide_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< d
 }
 
 
-vec3_t< double > *_wrap_Vec3Floats_multiplyInPlace_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0, double _swig_go_1) {
+vec3_t< double > *_wrap_Vec3Floats_multiplyInPlace_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0, double _swig_go_1) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   double arg2 ;
   vec3_t< double > *result = 0 ;
@@ -1630,7 +1630,7 @@ vec3_t< double > *_wrap_Vec3Floats_multiplyInPlace_healpix_cxx_8fe10a3dd6e6c6d3(
 }
 
 
-void _wrap_delete_Vec3Floats_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swig_go_0) {
+void _wrap_delete_Vec3Floats_healpix_cxx_5a797e8e3d968ccb(vec3_t< double > *_swig_go_0) {
   vec3_t< double > *arg1 = (vec3_t< double > *) 0 ;
   
   arg1 = *(vec3_t< double > **)&_swig_go_0; 
@@ -1640,22 +1640,22 @@ void _wrap_delete_Vec3Floats_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< double > *_swi
 }
 
 
-void _wrap_Rangeset_clear_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
+void _wrap_Rangeset_clear_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
   
   (arg1)->clear();
   
 }
 
 
-void _wrap_Rangeset_reserve_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, tsize *_swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
+void _wrap_Rangeset_reserve_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, tsize *_swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
   tsize arg2 ;
   tsize *argp2 ;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
   
   argp2 = (tsize *)_swig_go_1;
   if (argp2 == NULL) {
@@ -1669,88 +1669,88 @@ void _wrap_Rangeset_reserve_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_
 }
 
 
-tsize *_wrap_Rangeset_nranges_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
+tsize *_wrap_Rangeset_nranges_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
   tsize result;
   tsize *_swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
   
-  result = ((rangeset< int > const *)arg1)->nranges();
+  result = ((rangeset< int64_t > const *)arg1)->nranges();
   *(tsize **)&_swig_go_result = new tsize(result); 
   return _swig_go_result;
 }
 
 
-tsize *_wrap_Rangeset_size_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
+tsize *_wrap_Rangeset_size_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
   tsize result;
   tsize *_swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
   
-  result = ((rangeset< int > const *)arg1)->size();
+  result = ((rangeset< int64_t > const *)arg1)->size();
   *(tsize **)&_swig_go_result = new tsize(result); 
   return _swig_go_result;
 }
 
 
-bool _wrap_Rangeset_empty_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
+bool _wrap_Rangeset_empty_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
   bool result;
   bool _swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
   
-  result = (bool)((rangeset< int > const *)arg1)->empty();
+  result = (bool)((rangeset< int64_t > const *)arg1)->empty();
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-std::vector< int > *_wrap_Rangeset_data_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  rangeset< int >::rtype *result = 0 ;
-  std::vector< int > *_swig_go_result;
+std::vector< long long > *_wrap_Rangeset_data_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  rangeset< long long >::rtype *result = 0 ;
+  std::vector< long long > *_swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
   
-  result = (rangeset< int >::rtype *) &((rangeset< int > const *)arg1)->data();
-  *(rangeset< int >::rtype **)&_swig_go_result = result; 
+  result = (rangeset< long long >::rtype *) &((rangeset< int64_t > const *)arg1)->data();
+  *(rangeset< long long >::rtype **)&_swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-void _wrap_Rangeset_checkConsistency_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
+void _wrap_Rangeset_checkConsistency_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
   
-  ((rangeset< int > const *)arg1)->checkConsistency();
-  
-}
-
-
-void _wrap_Rangeset_setData_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, std::vector< int > *_swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  rangeset< int >::rtype *arg2 = 0 ;
-  
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = *(rangeset< int >::rtype **)&_swig_go_1; 
-  
-  (arg1)->setData((rangeset< int >::rtype const &)*arg2);
+  ((rangeset< int64_t > const *)arg1)->checkConsistency();
   
 }
 
 
-intgo _wrap_Rangeset_ivbegin_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, tdiff *_swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
+void _wrap_Rangeset_setData_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, std::vector< long long > *_swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  rangeset< long long >::rtype *arg2 = 0 ;
+  
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = *(rangeset< long long >::rtype **)&_swig_go_1; 
+  
+  (arg1)->setData((rangeset< long long >::rtype const &)*arg2);
+  
+}
+
+
+long long _wrap_Rangeset_ivbegin_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, tdiff *_swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
   tdiff arg2 ;
   tdiff *argp2 ;
-  int *result = 0 ;
-  intgo _swig_go_result;
+  long long *result = 0 ;
+  long long _swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
   
   argp2 = (tdiff *)_swig_go_1;
   if (argp2 == NULL) {
@@ -1759,20 +1759,20 @@ intgo _wrap_Rangeset_ivbegin_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig
   arg2 = (tdiff)*argp2;
   
   
-  result = (int *) &((rangeset< int > const *)arg1)->ivbegin(arg2);
-  _swig_go_result = (int)*result; 
+  result = (long long *) &((rangeset< int64_t > const *)arg1)->ivbegin(arg2);
+  _swig_go_result = (long long)*result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Rangeset_ivend_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, tdiff *_swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
+long long _wrap_Rangeset_ivend_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, tdiff *_swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
   tdiff arg2 ;
   tdiff *argp2 ;
-  int *result = 0 ;
-  intgo _swig_go_result;
+  long long *result = 0 ;
+  long long _swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
   
   argp2 = (tdiff *)_swig_go_1;
   if (argp2 == NULL) {
@@ -1781,20 +1781,20 @@ intgo _wrap_Rangeset_ivend_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_g
   arg2 = (tdiff)*argp2;
   
   
-  result = (int *) &((rangeset< int > const *)arg1)->ivend(arg2);
-  _swig_go_result = (int)*result; 
+  result = (long long *) &((rangeset< int64_t > const *)arg1)->ivend(arg2);
+  _swig_go_result = (long long)*result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Rangeset_ivlen_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, tdiff *_swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
+long long _wrap_Rangeset_ivlen_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, tdiff *_swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
   tdiff arg2 ;
   tdiff *argp2 ;
-  int result;
-  intgo _swig_go_result;
+  long long result;
+  long long _swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
   
   argp2 = (tdiff *)_swig_go_1;
   if (argp2 == NULL) {
@@ -1803,331 +1803,319 @@ intgo _wrap_Rangeset_ivlen_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_g
   arg2 = (tdiff)*argp2;
   
   
-  result = (int)((rangeset< int > const *)arg1)->ivlen(arg2);
+  result = (long long)((rangeset< int64_t > const *)arg1)->ivlen(arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-void _wrap_Rangeset_append__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  int *arg2 = 0 ;
-  int *arg3 = 0 ;
+void _wrap_Rangeset_append__SWIG_0_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  long long *arg2 = 0 ;
+  long long *arg3 = 0 ;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = (int *)&_swig_go_1; 
-  arg3 = (int *)&_swig_go_2; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = (long long *)&_swig_go_1; 
+  arg3 = (long long *)&_swig_go_2; 
   
-  (arg1)->append((int const &)*arg2,(int const &)*arg3);
-  
-  
+  (arg1)->append((long long const &)*arg2,(long long const &)*arg3);
   
 }
 
 
-void _wrap_Rangeset_append__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, intgo _swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  int *arg2 = 0 ;
+void _wrap_Rangeset_append__SWIG_1_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, long long _swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  long long *arg2 = 0 ;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = (int *)&_swig_go_1; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = (long long *)&_swig_go_1; 
   
-  (arg1)->append((int const &)*arg2);
-  
-  
-}
-
-
-void _wrap_Rangeset_append__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, rangeset< int > *_swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  rangeset< int > *arg2 = 0 ;
-  
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = *(rangeset< int > **)&_swig_go_1; 
-  
-  (arg1)->append((rangeset< int > const &)*arg2);
+  (arg1)->append((long long const &)*arg2);
   
 }
 
 
-void _wrap_Rangeset_add__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  int *arg2 = 0 ;
-  int *arg3 = 0 ;
+void _wrap_Rangeset_append__SWIG_2_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, rangeset< long long > *_swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  rangeset< int64_t > *arg2 = 0 ;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = (int *)&_swig_go_1; 
-  arg3 = (int *)&_swig_go_2; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = *(rangeset< int64_t > **)&_swig_go_1; 
   
-  (arg1)->add((int const &)*arg2,(int const &)*arg3);
-  
-  
+  (arg1)->append((rangeset< int64_t > const &)*arg2);
   
 }
 
 
-void _wrap_Rangeset_add__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, intgo _swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  int *arg2 = 0 ;
+void _wrap_Rangeset_add__SWIG_0_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  long long *arg2 = 0 ;
+  long long *arg3 = 0 ;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = (int *)&_swig_go_1; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = (long long *)&_swig_go_1; 
+  arg3 = (long long *)&_swig_go_2; 
   
-  (arg1)->add((int const &)*arg2);
-  
-  
-}
-
-
-void _wrap_Rangeset_remove__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  int *arg2 = 0 ;
-  int *arg3 = 0 ;
-  
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = (int *)&_swig_go_1; 
-  arg3 = (int *)&_swig_go_2; 
-  
-  (arg1)->remove((int const &)*arg2,(int const &)*arg3);
-  
-  
+  (arg1)->add((long long const &)*arg2,(long long const &)*arg3);
   
 }
 
 
-void _wrap_Rangeset_remove__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, intgo _swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  int *arg2 = 0 ;
+void _wrap_Rangeset_add__SWIG_1_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, long long _swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  long long *arg2 = 0 ;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = (int *)&_swig_go_1; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = (long long *)&_swig_go_1; 
   
-  (arg1)->remove((int const &)*arg2);
-  
-  
-}
-
-
-void _wrap_Rangeset_intersect_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  int *arg2 = 0 ;
-  int *arg3 = 0 ;
-  
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = (int *)&_swig_go_1; 
-  arg3 = (int *)&_swig_go_2; 
-  
-  (arg1)->intersect((int const &)*arg2,(int const &)*arg3);
-  
-  
+  (arg1)->add((long long const &)*arg2);
   
 }
 
 
-intgo _wrap_Rangeset_nval_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  int result;
-  intgo _swig_go_result;
+void _wrap_Rangeset_remove__SWIG_0_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  long long *arg2 = 0 ;
+  long long *arg3 = 0 ;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = (long long *)&_swig_go_1; 
+  arg3 = (long long *)&_swig_go_2; 
   
-  result = (int)((rangeset< int > const *)arg1)->nval();
+  (arg1)->remove((long long const &)*arg2,(long long const &)*arg3);
+  
+}
+
+
+void _wrap_Rangeset_remove__SWIG_1_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, long long _swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  long long *arg2 = 0 ;
+  
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = (long long *)&_swig_go_1; 
+  
+  (arg1)->remove((long long const &)*arg2);
+  
+}
+
+
+void _wrap_Rangeset_intersect_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  long long *arg2 = 0 ;
+  long long *arg3 = 0 ;
+  
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = (long long *)&_swig_go_1; 
+  arg3 = (long long *)&_swig_go_2; 
+  
+  (arg1)->intersect((long long const &)*arg2,(long long const &)*arg3);
+  
+}
+
+
+long long _wrap_Rangeset_nval_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  long long result;
+  long long _swig_go_result;
+  
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  
+  result = (long long)((rangeset< int64_t > const *)arg1)->nval();
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-void _wrap_Rangeset_toVector__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, std::vector< int > *_swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  std::vector< int > *arg2 = 0 ;
+void _wrap_Rangeset_toVector__SWIG_0_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, std::vector< long long > *_swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  std::vector< long long > *arg2 = 0 ;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = *(std::vector< int > **)&_swig_go_1; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = *(std::vector< long long > **)&_swig_go_1; 
   
-  ((rangeset< int > const *)arg1)->toVector(*arg2);
+  ((rangeset< int64_t > const *)arg1)->toVector(*arg2);
   
 }
 
 
-std::vector< int > *_wrap_Rangeset_toVector__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  std::vector< int > result;
-  std::vector< int > *_swig_go_result;
+std::vector< long long > *_wrap_Rangeset_toVector__SWIG_1_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  std::vector< long long > result;
+  std::vector< long long > *_swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
   
-  result = ((rangeset< int > const *)arg1)->toVector();
-  *(std::vector< int > **)&_swig_go_result = new std::vector< int >(result); 
+  result = ((rangeset< int64_t > const *)arg1)->toVector();
+  *(std::vector< long long > **)&_swig_go_result = new std::vector< long long >(result); 
   return _swig_go_result;
 }
 
 
-rangeset< int > *_wrap_Rangeset_op_or_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, rangeset< int > *_swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  rangeset< int > *arg2 = 0 ;
-  rangeset< int > result;
-  rangeset< int > *_swig_go_result;
+rangeset< long long > *_wrap_Rangeset_op_or_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, rangeset< long long > *_swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  rangeset< int64_t > *arg2 = 0 ;
+  rangeset< int64_t > result;
+  rangeset< long long > *_swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = *(rangeset< int > **)&_swig_go_1; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = *(rangeset< int64_t > **)&_swig_go_1; 
   
-  result = ((rangeset< int > const *)arg1)->op_or((rangeset< int > const &)*arg2);
-  *(rangeset< int > **)&_swig_go_result = new rangeset< int >(result); 
+  result = ((rangeset< int64_t > const *)arg1)->op_or((rangeset< int64_t > const &)*arg2);
+  *(rangeset< int64_t > **)&_swig_go_result = new rangeset< int64_t >(result); 
   return _swig_go_result;
 }
 
 
-rangeset< int > *_wrap_Rangeset_op_and_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, rangeset< int > *_swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  rangeset< int > *arg2 = 0 ;
-  rangeset< int > result;
-  rangeset< int > *_swig_go_result;
+rangeset< long long > *_wrap_Rangeset_op_and_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, rangeset< long long > *_swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  rangeset< int64_t > *arg2 = 0 ;
+  rangeset< int64_t > result;
+  rangeset< long long > *_swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = *(rangeset< int > **)&_swig_go_1; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = *(rangeset< int64_t > **)&_swig_go_1; 
   
-  result = ((rangeset< int > const *)arg1)->op_and((rangeset< int > const &)*arg2);
-  *(rangeset< int > **)&_swig_go_result = new rangeset< int >(result); 
+  result = ((rangeset< int64_t > const *)arg1)->op_and((rangeset< int64_t > const &)*arg2);
+  *(rangeset< int64_t > **)&_swig_go_result = new rangeset< int64_t >(result); 
   return _swig_go_result;
 }
 
 
-rangeset< int > *_wrap_Rangeset_op_andnot_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, rangeset< int > *_swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  rangeset< int > *arg2 = 0 ;
-  rangeset< int > result;
-  rangeset< int > *_swig_go_result;
+rangeset< long long > *_wrap_Rangeset_op_andnot_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, rangeset< long long > *_swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  rangeset< int64_t > *arg2 = 0 ;
+  rangeset< int64_t > result;
+  rangeset< long long > *_swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = *(rangeset< int > **)&_swig_go_1; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = *(rangeset< int64_t > **)&_swig_go_1; 
   
-  result = ((rangeset< int > const *)arg1)->op_andnot((rangeset< int > const &)*arg2);
-  *(rangeset< int > **)&_swig_go_result = new rangeset< int >(result); 
+  result = ((rangeset< int64_t > const *)arg1)->op_andnot((rangeset< int64_t > const &)*arg2);
+  *(rangeset< int64_t > **)&_swig_go_result = new rangeset< int64_t >(result); 
   return _swig_go_result;
 }
 
 
-rangeset< int > *_wrap_Rangeset_op_xor_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, rangeset< int > *_swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  rangeset< int > *arg2 = 0 ;
-  rangeset< int > result;
-  rangeset< int > *_swig_go_result;
+rangeset< long long > *_wrap_Rangeset_op_xor_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, rangeset< long long > *_swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  rangeset< int64_t > *arg2 = 0 ;
+  rangeset< int64_t > result;
+  rangeset< long long > *_swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = *(rangeset< int > **)&_swig_go_1; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = *(rangeset< int64_t > **)&_swig_go_1; 
   
-  result = ((rangeset< int > const *)arg1)->op_xor((rangeset< int > const &)*arg2);
-  *(rangeset< int > **)&_swig_go_result = new rangeset< int >(result); 
+  result = ((rangeset< int64_t > const *)arg1)->op_xor((rangeset< int64_t > const &)*arg2);
+  *(rangeset< int64_t > **)&_swig_go_result = new rangeset< int64_t >(result); 
   return _swig_go_result;
 }
 
 
-tdiff *_wrap_Rangeset_findInterval_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, intgo _swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  int *arg2 = 0 ;
+tdiff *_wrap_Rangeset_findInterval_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, long long _swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  long long *arg2 = 0 ;
   tdiff result;
   tdiff *_swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = (int *)&_swig_go_1; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = (long long *)&_swig_go_1; 
   
-  result = ((rangeset< int > const *)arg1)->findInterval((int const &)*arg2);
+  result = ((rangeset< int64_t > const *)arg1)->findInterval((long long const &)*arg2);
   *(tdiff **)&_swig_go_result = new tdiff(result); 
-  
   return _swig_go_result;
 }
 
 
-bool _wrap_Rangeset_contains__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  int arg2 ;
-  int arg3 ;
+bool _wrap_Rangeset_contains__SWIG_0_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  long long arg2 ;
+  long long arg3 ;
   bool result;
   bool _swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
+  arg3 = (long long)_swig_go_2; 
   
-  result = (bool)((rangeset< int > const *)arg1)->contains(arg2,arg3);
+  result = (bool)((rangeset< int64_t > const *)arg1)->contains(arg2,arg3);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_Rangeset_contains__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, intgo _swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  int arg2 ;
+bool _wrap_Rangeset_contains__SWIG_1_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, long long _swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  long long arg2 ;
   bool result;
   bool _swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
   
-  result = (bool)((rangeset< int > const *)arg1)->contains(arg2);
+  result = (bool)((rangeset< int64_t > const *)arg1)->contains(arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_Rangeset_contains__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, rangeset< int > *_swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  rangeset< int > *arg2 = 0 ;
+bool _wrap_Rangeset_contains__SWIG_2_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, rangeset< long long > *_swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  rangeset< int64_t > *arg2 = 0 ;
   bool result;
   bool _swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = *(rangeset< int > **)&_swig_go_1; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = *(rangeset< int64_t > **)&_swig_go_1; 
   
-  result = (bool)((rangeset< int > const *)arg1)->contains((rangeset< int > const &)*arg2);
+  result = (bool)((rangeset< int64_t > const *)arg1)->contains((rangeset< int64_t > const &)*arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_Rangeset_overlaps__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  int arg2 ;
-  int arg3 ;
+bool _wrap_Rangeset_overlaps__SWIG_0_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  long long arg2 ;
+  long long arg3 ;
   bool result;
   bool _swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  arg3 = (int)_swig_go_2; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
+  arg3 = (long long)_swig_go_2; 
   
-  result = (bool)((rangeset< int > const *)arg1)->overlaps(arg2,arg3);
+  result = (bool)((rangeset< int64_t > const *)arg1)->overlaps(arg2,arg3);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_Rangeset_overlaps__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0, rangeset< int > *_swig_go_1) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
-  rangeset< int > *arg2 = 0 ;
+bool _wrap_Rangeset_overlaps__SWIG_1_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0, rangeset< long long > *_swig_go_1) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
+  rangeset< int64_t > *arg2 = 0 ;
   bool result;
   bool _swig_go_result;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
-  arg2 = *(rangeset< int > **)&_swig_go_1; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
+  arg2 = *(rangeset< int64_t > **)&_swig_go_1; 
   
-  result = (bool)((rangeset< int > const *)arg1)->overlaps((rangeset< int > const &)*arg2);
+  result = (bool)((rangeset< int64_t > const *)arg1)->overlaps((rangeset< int64_t > const &)*arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_Rangeset_healpix_cxx_8fe10a3dd6e6c6d3(rangeset< int > *_swig_go_0) {
-  rangeset< int > *arg1 = (rangeset< int > *) 0 ;
+void _wrap_delete_Rangeset_healpix_cxx_5a797e8e3d968ccb(rangeset< long long > *_swig_go_0) {
+  rangeset< int64_t > *arg1 = (rangeset< int64_t > *) 0 ;
   
-  arg1 = *(rangeset< int > **)&_swig_go_0; 
+  arg1 = *(rangeset< int64_t > **)&_swig_go_0; 
   
   delete arg1;
   
 }
 
 
-intgo _wrap_RING_healpix_cxx_8fe10a3dd6e6c6d3() {
+intgo _wrap_RING_healpix_cxx_5a797e8e3d968ccb() {
   Healpix_Ordering_Scheme result;
   intgo _swig_go_result;
   
@@ -2139,7 +2127,7 @@ intgo _wrap_RING_healpix_cxx_8fe10a3dd6e6c6d3() {
 }
 
 
-intgo _wrap_NEST_healpix_cxx_8fe10a3dd6e6c6d3() {
+intgo _wrap_NEST_healpix_cxx_5a797e8e3d968ccb() {
   Healpix_Ordering_Scheme result;
   intgo _swig_go_result;
   
@@ -2151,7 +2139,7 @@ intgo _wrap_NEST_healpix_cxx_8fe10a3dd6e6c6d3() {
 }
 
 
-intgo _wrap_string2HealpixScheme_healpix_cxx_8fe10a3dd6e6c6d3(std::string *_swig_go_0) {
+intgo _wrap_string2HealpixScheme_healpix_cxx_5a797e8e3d968ccb(std::string *_swig_go_0) {
   std::string *arg1 = 0 ;
   Healpix_Ordering_Scheme result;
   intgo _swig_go_result;
@@ -2164,7 +2152,7 @@ intgo _wrap_string2HealpixScheme_healpix_cxx_8fe10a3dd6e6c6d3(std::string *_swig
 }
 
 
-nside_dummy *_wrap_new_nside_dummy_healpix_cxx_8fe10a3dd6e6c6d3() {
+nside_dummy *_wrap_new_nside_dummy_healpix_cxx_5a797e8e3d968ccb() {
   nside_dummy *result = 0 ;
   nside_dummy *_swig_go_result;
   
@@ -2175,7 +2163,7 @@ nside_dummy *_wrap_new_nside_dummy_healpix_cxx_8fe10a3dd6e6c6d3() {
 }
 
 
-void _wrap_delete_nside_dummy_healpix_cxx_8fe10a3dd6e6c6d3(nside_dummy *_swig_go_0) {
+void _wrap_delete_nside_dummy_healpix_cxx_5a797e8e3d968ccb(nside_dummy *_swig_go_0) {
   nside_dummy *arg1 = (nside_dummy *) 0 ;
   
   arg1 = *(nside_dummy **)&_swig_go_0; 
@@ -2185,7 +2173,7 @@ void _wrap_delete_nside_dummy_healpix_cxx_8fe10a3dd6e6c6d3(nside_dummy *_swig_go
 }
 
 
-nside_dummy *_wrap_SET_NSIDE_get_healpix_cxx_8fe10a3dd6e6c6d3() {
+nside_dummy *_wrap_SET_NSIDE_get_healpix_cxx_5a797e8e3d968ccb() {
   nside_dummy *result = 0 ;
   nside_dummy *_swig_go_result;
   
@@ -2196,7 +2184,7 @@ nside_dummy *_wrap_SET_NSIDE_get_healpix_cxx_8fe10a3dd6e6c6d3() {
 }
 
 
-Healpix_Tables *_wrap_new_Healpix_Tables_healpix_cxx_8fe10a3dd6e6c6d3() {
+Healpix_Tables *_wrap_new_Healpix_Tables_healpix_cxx_5a797e8e3d968ccb() {
   Healpix_Tables *result = 0 ;
   Healpix_Tables *_swig_go_result;
   
@@ -2207,7 +2195,7 @@ Healpix_Tables *_wrap_new_Healpix_Tables_healpix_cxx_8fe10a3dd6e6c6d3() {
 }
 
 
-void _wrap_delete_Healpix_Tables_healpix_cxx_8fe10a3dd6e6c6d3(Healpix_Tables *_swig_go_0) {
+void _wrap_delete_Healpix_Tables_healpix_cxx_5a797e8e3d968ccb(Healpix_Tables *_swig_go_0) {
   Healpix_Tables *arg1 = (Healpix_Tables *) 0 ;
   
   arg1 = *(Healpix_Tables **)&_swig_go_0; 
@@ -2217,79 +2205,79 @@ void _wrap_delete_Healpix_Tables_healpix_cxx_8fe10a3dd6e6c6d3(Healpix_Tables *_s
 }
 
 
-intgo _wrap_order_max_Healpix_Base_healpix_cxx_8fe10a3dd6e6c6d3() {
+intgo _wrap_order_max_Healpix_Base_healpix_cxx_5a797e8e3d968ccb() {
   int result;
   intgo _swig_go_result;
   
   
-  result = T_Healpix_Base< int >::order_max;
+  result = T_Healpix_Base< int64_t >::order_max;
   
   _swig_go_result = (intgo)result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Healpix_Base_nside2order_healpix_cxx_8fe10a3dd6e6c6d3(intgo _swig_go_0) {
-  int arg1 ;
+intgo _wrap_Healpix_Base_nside2order_healpix_cxx_5a797e8e3d968ccb(long long _swig_go_0) {
+  long long arg1 ;
   int result;
   intgo _swig_go_result;
   
-  arg1 = (int)_swig_go_0; 
+  arg1 = (long long)_swig_go_0; 
   
-  result = (int)T_Healpix_Base< int >::SWIGTEMPLATEDISAMBIGUATOR nside2order(arg1);
+  result = (int)T_Healpix_Base< int64_t >::SWIGTEMPLATEDISAMBIGUATOR nside2order(arg1);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Healpix_Base_npix2nside_healpix_cxx_8fe10a3dd6e6c6d3(intgo _swig_go_0) {
-  int arg1 ;
-  int result;
-  intgo _swig_go_result;
+long long _wrap_Healpix_Base_npix2nside_healpix_cxx_5a797e8e3d968ccb(long long _swig_go_0) {
+  long long arg1 ;
+  long long result;
+  long long _swig_go_result;
   
-  arg1 = (int)_swig_go_0; 
+  arg1 = (long long)_swig_go_0; 
   
-  result = (int)T_Healpix_Base< int >::SWIGTEMPLATEDISAMBIGUATOR npix2nside(arg1);
+  result = (long long)T_Healpix_Base< int64_t >::SWIGTEMPLATEDISAMBIGUATOR npix2nside(arg1);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-T_Healpix_Base< int > *_wrap_new_Healpix_Base__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3() {
-  T_Healpix_Base< int > *result = 0 ;
-  T_Healpix_Base< int > *_swig_go_result;
+T_Healpix_Base< long long > *_wrap_new_Healpix_Base__SWIG_0_healpix_cxx_5a797e8e3d968ccb() {
+  T_Healpix_Base< int64_t > *result = 0 ;
+  T_Healpix_Base< long long > *_swig_go_result;
   
   
-  result = (T_Healpix_Base< int > *)new T_Healpix_Base< int >();
-  *(T_Healpix_Base< int > **)&_swig_go_result = (T_Healpix_Base< int > *)result; 
+  result = (T_Healpix_Base< int64_t > *)new T_Healpix_Base< int64_t >();
+  *(T_Healpix_Base< int64_t > **)&_swig_go_result = (T_Healpix_Base< int64_t > *)result; 
   return _swig_go_result;
 }
 
 
-T_Healpix_Base< int > *_wrap_new_Healpix_Base__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(intgo _swig_go_0, intgo _swig_go_1) {
+T_Healpix_Base< long long > *_wrap_new_Healpix_Base__SWIG_1_healpix_cxx_5a797e8e3d968ccb(intgo _swig_go_0, intgo _swig_go_1) {
   int arg1 ;
   Healpix_Ordering_Scheme arg2 ;
-  T_Healpix_Base< int > *result = 0 ;
-  T_Healpix_Base< int > *_swig_go_result;
+  T_Healpix_Base< int64_t > *result = 0 ;
+  T_Healpix_Base< long long > *_swig_go_result;
   
   arg1 = (int)_swig_go_0; 
   arg2 = (Healpix_Ordering_Scheme)_swig_go_1; 
   
-  result = (T_Healpix_Base< int > *)new T_Healpix_Base< int >(arg1,arg2);
-  *(T_Healpix_Base< int > **)&_swig_go_result = (T_Healpix_Base< int > *)result; 
+  result = (T_Healpix_Base< int64_t > *)new T_Healpix_Base< int64_t >(arg1,arg2);
+  *(T_Healpix_Base< int64_t > **)&_swig_go_result = (T_Healpix_Base< int64_t > *)result; 
   return _swig_go_result;
 }
 
 
-T_Healpix_Base< int > *_wrap_new_Healpix_Base__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(intgo _swig_go_0, intgo _swig_go_1, nside_dummy *_swig_go_2) {
-  int arg1 ;
+T_Healpix_Base< long long > *_wrap_new_Healpix_Base__SWIG_2_healpix_cxx_5a797e8e3d968ccb(long long _swig_go_0, intgo _swig_go_1, nside_dummy *_swig_go_2) {
+  long long arg1 ;
   Healpix_Ordering_Scheme arg2 ;
   nside_dummy arg3 ;
   nside_dummy const *argp3 ;
-  T_Healpix_Base< int > *result = 0 ;
-  T_Healpix_Base< int > *_swig_go_result;
+  T_Healpix_Base< int64_t > *result = 0 ;
+  T_Healpix_Base< long long > *_swig_go_result;
   
-  arg1 = (int)_swig_go_0; 
+  arg1 = (long long)_swig_go_0; 
   arg2 = (Healpix_Ordering_Scheme)_swig_go_1; 
   
   argp3 = (nside_dummy *)_swig_go_2;
@@ -2299,18 +2287,18 @@ T_Healpix_Base< int > *_wrap_new_Healpix_Base__SWIG_2_healpix_cxx_8fe10a3dd6e6c6
   arg3 = (nside_dummy)*argp3;
   
   
-  result = (T_Healpix_Base< int > *)new T_Healpix_Base< int >(arg1,arg2,arg3);
-  *(T_Healpix_Base< int > **)&_swig_go_result = (T_Healpix_Base< int > *)result; 
+  result = (T_Healpix_Base< int64_t > *)new T_Healpix_Base< int64_t >(arg1,arg2,arg3);
+  *(T_Healpix_Base< int64_t > **)&_swig_go_result = (T_Healpix_Base< int64_t > *)result; 
   return _swig_go_result;
 }
 
 
-void _wrap_Healpix_Base_Set_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+void _wrap_Healpix_Base_Set_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   int arg2 ;
   Healpix_Ordering_Scheme arg3 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   arg3 = (Healpix_Ordering_Scheme)_swig_go_2; 
   
@@ -2319,13 +2307,13 @@ void _wrap_Healpix_Base_Set_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *
 }
 
 
-void _wrap_Healpix_Base_SetNside_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
+void _wrap_Healpix_Base_SetNside_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
   Healpix_Ordering_Scheme arg3 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
   arg3 = (Healpix_Ordering_Scheme)_swig_go_2; 
   
   (arg1)->SetNside(arg2,arg3);
@@ -2333,58 +2321,58 @@ void _wrap_Healpix_Base_SetNside_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< in
 }
 
 
-double _wrap_Healpix_Base_ring2z_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
+double _wrap_Healpix_Base_ring2z_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
   double result;
   double _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
   
-  result = (double)((T_Healpix_Base< int > const *)arg1)->ring2z(arg2);
+  result = (double)((T_Healpix_Base< int64_t > const *)arg1)->ring2z(arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Healpix_Base_pix2ring_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
-  int result;
-  intgo _swig_go_result;
+long long _wrap_Healpix_Base_pix2ring_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
+  long long result;
+  long long _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
   
-  result = (int)((T_Healpix_Base< int > const *)arg1)->pix2ring(arg2);
+  result = (long long)((T_Healpix_Base< int64_t > const *)arg1)->pix2ring(arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Healpix_Base_xyf2pix_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+long long _wrap_Healpix_Base_xyf2pix_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   int arg2 ;
   int arg3 ;
   int arg4 ;
-  int result;
-  intgo _swig_go_result;
+  long long result;
+  long long _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
   arg3 = (int)_swig_go_2; 
   arg4 = (int)_swig_go_3; 
   
-  result = (int)((T_Healpix_Base< int > const *)arg1)->xyf2pix(arg2,arg3,arg4);
+  result = (long long)((T_Healpix_Base< int64_t > const *)arg1)->xyf2pix(arg2,arg3,arg4);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-void _wrap_Healpix_Base_pix2xyf_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1, intgo *_swig_go_2, intgo *_swig_go_3, intgo *_swig_go_4) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
+void _wrap_Healpix_Base_pix2xyf_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1, intgo *_swig_go_2, intgo *_swig_go_3, intgo *_swig_go_4) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
   int *arg3 = 0 ;
   int *arg4 = 0 ;
   int *arg5 = 0 ;
@@ -2392,8 +2380,8 @@ void _wrap_Healpix_Base_pix2xyf_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int
   int e4 ;
   int e5 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
   
   e3 = (int)*_swig_go_2;
   arg3 = &e3;
@@ -2407,7 +2395,7 @@ void _wrap_Healpix_Base_pix2xyf_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int
   arg5 = &e5;
   
   
-  ((T_Healpix_Base< int > const *)arg1)->pix2xyf(arg2,*arg3,*arg4,*arg5);
+  ((T_Healpix_Base< int64_t > const *)arg1)->pix2xyf(arg2,*arg3,*arg4,*arg5);
   
   *_swig_go_2 = (intgo)e3; 
   *_swig_go_3 = (intgo)e4; 
@@ -2415,184 +2403,184 @@ void _wrap_Healpix_Base_pix2xyf_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int
 }
 
 
-intgo _wrap_Healpix_Base_nest2ring_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
-  int result;
-  intgo _swig_go_result;
+long long _wrap_Healpix_Base_nest2ring_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
+  long long result;
+  long long _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
   
-  result = (int)((T_Healpix_Base< int > const *)arg1)->nest2ring(arg2);
+  result = (long long)((T_Healpix_Base< int64_t > const *)arg1)->nest2ring(arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Healpix_Base_ring2nest_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
-  int result;
-  intgo _swig_go_result;
+long long _wrap_Healpix_Base_ring2nest_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
+  long long result;
+  long long _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
   
-  result = (int)((T_Healpix_Base< int > const *)arg1)->ring2nest(arg2);
+  result = (long long)((T_Healpix_Base< int64_t > const *)arg1)->ring2nest(arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Healpix_Base_nest2peano_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
-  int result;
-  intgo _swig_go_result;
+long long _wrap_Healpix_Base_nest2peano_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
+  long long result;
+  long long _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
   
-  result = (int)((T_Healpix_Base< int > const *)arg1)->nest2peano(arg2);
+  result = (long long)((T_Healpix_Base< int64_t > const *)arg1)->nest2peano(arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Healpix_Base_peano2nest_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
-  int result;
-  intgo _swig_go_result;
+long long _wrap_Healpix_Base_peano2nest_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
+  long long result;
+  long long _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
   
-  result = (int)((T_Healpix_Base< int > const *)arg1)->peano2nest(arg2);
+  result = (long long)((T_Healpix_Base< int64_t > const *)arg1)->peano2nest(arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Healpix_Base_zphi2pix_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, double _swig_go_1, double _swig_go_2) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+long long _wrap_Healpix_Base_zphi2pix_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   double arg2 ;
   double arg3 ;
-  int result;
-  intgo _swig_go_result;
+  long long result;
+  long long _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = (double)_swig_go_1; 
   arg3 = (double)_swig_go_2; 
   
-  result = (int)((T_Healpix_Base< int > const *)arg1)->zphi2pix(arg2,arg3);
+  result = (long long)((T_Healpix_Base< int64_t > const *)arg1)->zphi2pix(arg2,arg3);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Healpix_Base_ang2pix_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, pointing *_swig_go_1) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+long long _wrap_Healpix_Base_ang2pix_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, pointing *_swig_go_1) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   pointing *arg2 = 0 ;
-  int result;
-  intgo _swig_go_result;
+  long long result;
+  long long _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = *(pointing **)&_swig_go_1; 
   
-  result = (int)((T_Healpix_Base< int > const *)arg1)->ang2pix((pointing const &)*arg2);
+  result = (long long)((T_Healpix_Base< int64_t > const *)arg1)->ang2pix((pointing const &)*arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Healpix_Base_vec2pix_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, vec3_t< float64 > *_swig_go_1) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+long long _wrap_Healpix_Base_vec2pix_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, vec3_t< float64 > *_swig_go_1) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   vec3 *arg2 = 0 ;
-  int result;
-  intgo _swig_go_result;
+  long long result;
+  long long _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = *(vec3 **)&_swig_go_1; 
   
-  result = (int)((T_Healpix_Base< int > const *)arg1)->vec2pix((vec3 const &)*arg2);
+  result = (long long)((T_Healpix_Base< int64_t > const *)arg1)->vec2pix((vec3 const &)*arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-void _wrap_Healpix_Base_pix2zphi_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1, double *_swig_go_2, double *_swig_go_3) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
+void _wrap_Healpix_Base_pix2zphi_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1, double *_swig_go_2, double *_swig_go_3) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
   double *arg3 = 0 ;
   double *arg4 = 0 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
   arg3 = *(double **)&_swig_go_2; 
   arg4 = *(double **)&_swig_go_3; 
   
-  ((T_Healpix_Base< int > const *)arg1)->pix2zphi(arg2,*arg3,*arg4);
+  ((T_Healpix_Base< int64_t > const *)arg1)->pix2zphi(arg2,*arg3,*arg4);
   
 }
 
 
-pointing *_wrap_Healpix_Base_pix2ang_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
+pointing *_wrap_Healpix_Base_pix2ang_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
   pointing result;
   pointing *_swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
   
-  result = ((T_Healpix_Base< int > const *)arg1)->pix2ang(arg2);
+  result = ((T_Healpix_Base< int64_t > const *)arg1)->pix2ang(arg2);
   *(pointing **)&_swig_go_result = new pointing(result); 
   return _swig_go_result;
 }
 
 
-vec3_t< float64 > *_wrap_Healpix_Base_pix2vec_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
+vec3_t< float64 > *_wrap_Healpix_Base_pix2vec_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
   SwigValueWrapper< vec3_t< float64 > > result;
   vec3_t< float64 > *_swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
   
-  result = ((T_Healpix_Base< int > const *)arg1)->pix2vec(arg2);
+  result = ((T_Healpix_Base< int64_t > const *)arg1)->pix2vec(arg2);
   *(vec3 **)&_swig_go_result = new vec3(result); 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Healpix_Base_pixel_import_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1, T_Healpix_Base< int > *_swig_go_2) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
-  T_Healpix_Base< int > *arg3 = 0 ;
-  int result;
-  intgo _swig_go_result;
+long long _wrap_Healpix_Base_pixel_import_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1, T_Healpix_Base< long long > *_swig_go_2) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
+  T_Healpix_Base< int64_t > *arg3 = 0 ;
+  long long result;
+  long long _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  arg3 = *(T_Healpix_Base< int > **)&_swig_go_2; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
+  arg3 = *(T_Healpix_Base< int64_t > **)&_swig_go_2; 
   
-  result = (int)((T_Healpix_Base< int > const *)arg1)->pixel_import(arg2,(T_Healpix_Base< int > const &)*arg3);
+  result = (long long)((T_Healpix_Base< int64_t > const *)arg1)->pixel_import(arg2,(T_Healpix_Base< int64_t > const &)*arg3);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-void _wrap_Healpix_Base_query_disc__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2, rangeset< int > *_swig_go_3) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+void _wrap_Healpix_Base_query_disc__SWIG_0_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2, rangeset< long long > *_swig_go_3) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   pointing arg2 ;
   double arg3 ;
-  rangeset< int > *arg4 = 0 ;
+  rangeset< long long > *arg4 = 0 ;
   pointing *argp2 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   
   argp2 = (pointing *)_swig_go_1;
   if (argp2 == NULL) {
@@ -2601,22 +2589,22 @@ void _wrap_Healpix_Base_query_disc__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpi
   arg2 = (pointing)*argp2;
   
   arg3 = (double)_swig_go_2; 
-  arg4 = *(rangeset< int > **)&_swig_go_3; 
+  arg4 = *(rangeset< long long > **)&_swig_go_3; 
   
-  ((T_Healpix_Base< int > const *)arg1)->query_disc(arg2,arg3,*arg4);
+  ((T_Healpix_Base< int64_t > const *)arg1)->query_disc(arg2,arg3,*arg4);
   
 }
 
 
-rangeset< int > *_wrap_Healpix_Base_query_disc__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+rangeset< long long > *_wrap_Healpix_Base_query_disc__SWIG_1_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   pointing arg2 ;
   double arg3 ;
   pointing *argp2 ;
-  rangeset< int > result;
-  rangeset< int > *_swig_go_result;
+  rangeset< long long > result;
+  rangeset< long long > *_swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   
   argp2 = (pointing *)_swig_go_1;
   if (argp2 == NULL) {
@@ -2626,21 +2614,21 @@ rangeset< int > *_wrap_Healpix_Base_query_disc__SWIG_1_healpix_cxx_8fe10a3dd6e6c
   
   arg3 = (double)_swig_go_2; 
   
-  result = ((T_Healpix_Base< int > const *)arg1)->query_disc(arg2,arg3);
-  *(rangeset< int > **)&_swig_go_result = new rangeset< int >(result); 
+  result = ((T_Healpix_Base< int64_t > const *)arg1)->query_disc(arg2,arg3);
+  *(rangeset< long long > **)&_swig_go_result = new rangeset< long long >(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_Healpix_Base_query_disc_inclusive__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2, rangeset< int > *_swig_go_3, intgo _swig_go_4) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+void _wrap_Healpix_Base_query_disc_inclusive__SWIG_0_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2, rangeset< long long > *_swig_go_3, intgo _swig_go_4) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   pointing arg2 ;
   double arg3 ;
-  rangeset< int > *arg4 = 0 ;
+  rangeset< long long > *arg4 = 0 ;
   int arg5 ;
   pointing *argp2 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   
   argp2 = (pointing *)_swig_go_1;
   if (argp2 == NULL) {
@@ -2649,22 +2637,22 @@ void _wrap_Healpix_Base_query_disc_inclusive__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d
   arg2 = (pointing)*argp2;
   
   arg3 = (double)_swig_go_2; 
-  arg4 = *(rangeset< int > **)&_swig_go_3; 
+  arg4 = *(rangeset< long long > **)&_swig_go_3; 
   arg5 = (int)_swig_go_4; 
   
-  ((T_Healpix_Base< int > const *)arg1)->query_disc_inclusive(arg2,arg3,*arg4,arg5);
+  ((T_Healpix_Base< int64_t > const *)arg1)->query_disc_inclusive(arg2,arg3,*arg4,arg5);
   
 }
 
 
-void _wrap_Healpix_Base_query_disc_inclusive__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2, rangeset< int > *_swig_go_3) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+void _wrap_Healpix_Base_query_disc_inclusive__SWIG_1_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2, rangeset< long long > *_swig_go_3) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   pointing arg2 ;
   double arg3 ;
-  rangeset< int > *arg4 = 0 ;
+  rangeset< long long > *arg4 = 0 ;
   pointing *argp2 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   
   argp2 = (pointing *)_swig_go_1;
   if (argp2 == NULL) {
@@ -2673,23 +2661,23 @@ void _wrap_Healpix_Base_query_disc_inclusive__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d
   arg2 = (pointing)*argp2;
   
   arg3 = (double)_swig_go_2; 
-  arg4 = *(rangeset< int > **)&_swig_go_3; 
+  arg4 = *(rangeset< long long > **)&_swig_go_3; 
   
-  ((T_Healpix_Base< int > const *)arg1)->query_disc_inclusive(arg2,arg3,*arg4);
+  ((T_Healpix_Base< int64_t > const *)arg1)->query_disc_inclusive(arg2,arg3,*arg4);
   
 }
 
 
-rangeset< int > *_wrap_Healpix_Base_query_disc_inclusive__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2, intgo _swig_go_3) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+rangeset< long long > *_wrap_Healpix_Base_query_disc_inclusive__SWIG_2_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2, intgo _swig_go_3) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   pointing arg2 ;
   double arg3 ;
   int arg4 ;
   pointing *argp2 ;
-  rangeset< int > result;
-  rangeset< int > *_swig_go_result;
+  rangeset< long long > result;
+  rangeset< long long > *_swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   
   argp2 = (pointing *)_swig_go_1;
   if (argp2 == NULL) {
@@ -2700,21 +2688,21 @@ rangeset< int > *_wrap_Healpix_Base_query_disc_inclusive__SWIG_2_healpix_cxx_8fe
   arg3 = (double)_swig_go_2; 
   arg4 = (int)_swig_go_3; 
   
-  result = ((T_Healpix_Base< int > const *)arg1)->query_disc_inclusive(arg2,arg3,arg4);
-  *(rangeset< int > **)&_swig_go_result = new rangeset< int >(result); 
+  result = ((T_Healpix_Base< int64_t > const *)arg1)->query_disc_inclusive(arg2,arg3,arg4);
+  *(rangeset< long long > **)&_swig_go_result = new rangeset< long long >(result); 
   return _swig_go_result;
 }
 
 
-rangeset< int > *_wrap_Healpix_Base_query_disc_inclusive__SWIG_3_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+rangeset< long long > *_wrap_Healpix_Base_query_disc_inclusive__SWIG_3_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   pointing arg2 ;
   double arg3 ;
   pointing *argp2 ;
-  rangeset< int > result;
-  rangeset< int > *_swig_go_result;
+  rangeset< long long > result;
+  rangeset< long long > *_swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   
   argp2 = (pointing *)_swig_go_1;
   if (argp2 == NULL) {
@@ -2724,426 +2712,396 @@ rangeset< int > *_wrap_Healpix_Base_query_disc_inclusive__SWIG_3_healpix_cxx_8fe
   
   arg3 = (double)_swig_go_2; 
   
-  result = ((T_Healpix_Base< int > const *)arg1)->query_disc_inclusive(arg2,arg3);
-  *(rangeset< int > **)&_swig_go_result = new rangeset< int >(result); 
+  result = ((T_Healpix_Base< int64_t > const *)arg1)->query_disc_inclusive(arg2,arg3);
+  *(rangeset< long long > **)&_swig_go_result = new rangeset< long long >(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_Healpix_Base_query_disc__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2, std::vector< int > *_swig_go_3) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+void _wrap_Healpix_Base_query_disc__SWIG_2_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2, std::vector< long long > *_swig_go_3) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   pointing *arg2 = 0 ;
   double arg3 ;
-  std::vector< int > *arg4 = 0 ;
+  std::vector< long long > *arg4 = 0 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = *(pointing **)&_swig_go_1; 
   arg3 = (double)_swig_go_2; 
-  arg4 = *(std::vector< int > **)&_swig_go_3; 
+  arg4 = *(std::vector< long long > **)&_swig_go_3; 
   
-  ((T_Healpix_Base< int > const *)arg1)->query_disc((pointing const &)*arg2,arg3,*arg4);
+  ((T_Healpix_Base< int64_t > const *)arg1)->query_disc((pointing const &)*arg2,arg3,*arg4);
   
 }
 
 
-void _wrap_Healpix_Base_query_disc_inclusive__SWIG_4_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2, std::vector< int > *_swig_go_3, intgo _swig_go_4) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+void _wrap_Healpix_Base_query_disc_inclusive__SWIG_4_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2, std::vector< long long > *_swig_go_3, intgo _swig_go_4) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   pointing *arg2 = 0 ;
   double arg3 ;
-  std::vector< int > *arg4 = 0 ;
+  std::vector< long long > *arg4 = 0 ;
   int arg5 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = *(pointing **)&_swig_go_1; 
   arg3 = (double)_swig_go_2; 
-  arg4 = *(std::vector< int > **)&_swig_go_3; 
+  arg4 = *(std::vector< long long > **)&_swig_go_3; 
   arg5 = (int)_swig_go_4; 
   
-  ((T_Healpix_Base< int > const *)arg1)->query_disc_inclusive((pointing const &)*arg2,arg3,*arg4,arg5);
+  ((T_Healpix_Base< int64_t > const *)arg1)->query_disc_inclusive((pointing const &)*arg2,arg3,*arg4,arg5);
   
 }
 
 
-void _wrap_Healpix_Base_query_disc_inclusive__SWIG_5_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2, std::vector< int > *_swig_go_3) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+void _wrap_Healpix_Base_query_disc_inclusive__SWIG_5_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, pointing *_swig_go_1, double _swig_go_2, std::vector< long long > *_swig_go_3) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   pointing *arg2 = 0 ;
   double arg3 ;
-  std::vector< int > *arg4 = 0 ;
+  std::vector< long long > *arg4 = 0 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = *(pointing **)&_swig_go_1; 
   arg3 = (double)_swig_go_2; 
-  arg4 = *(std::vector< int > **)&_swig_go_3; 
+  arg4 = *(std::vector< long long > **)&_swig_go_3; 
   
-  ((T_Healpix_Base< int > const *)arg1)->query_disc_inclusive((pointing const &)*arg2,arg3,*arg4);
-  
-}
-
-
-void _wrap_Healpix_Base_query_polygon__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, std::vector< pointing > *_swig_go_1, rangeset< int > *_swig_go_2) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  std::vector< pointing > *arg2 = 0 ;
-  rangeset< int > *arg3 = 0 ;
-  
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = *(std::vector< pointing > **)&_swig_go_1; 
-  arg3 = *(rangeset< int > **)&_swig_go_2; 
-  
-  ((T_Healpix_Base< int > const *)arg1)->query_polygon((std::vector< pointing > const &)*arg2,*arg3);
+  ((T_Healpix_Base< int64_t > const *)arg1)->query_disc_inclusive((pointing const &)*arg2,arg3,*arg4);
   
 }
 
 
-rangeset< int > *_wrap_Healpix_Base_query_polygon__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, std::vector< pointing > *_swig_go_1) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+void _wrap_Healpix_Base_query_polygon__SWIG_0_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, std::vector< pointing > *_swig_go_1, rangeset< long long > *_swig_go_2) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   std::vector< pointing > *arg2 = 0 ;
-  rangeset< int > result;
-  rangeset< int > *_swig_go_result;
+  rangeset< long long > *arg3 = 0 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = *(std::vector< pointing > **)&_swig_go_1; 
+  arg3 = *(rangeset< long long > **)&_swig_go_2; 
+  
+  ((T_Healpix_Base< int64_t > const *)arg1)->query_polygon((std::vector< pointing > const &)*arg2,*arg3);
+  
+}
+
+
+rangeset< long long > *_wrap_Healpix_Base_query_polygon__SWIG_1_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, std::vector< pointing > *_swig_go_1) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  std::vector< pointing > *arg2 = 0 ;
+  rangeset< long long > result;
+  rangeset< long long > *_swig_go_result;
+  
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = *(std::vector< pointing > **)&_swig_go_1; 
   
-  result = ((T_Healpix_Base< int > const *)arg1)->query_polygon((std::vector< pointing > const &)*arg2);
-  *(rangeset< int > **)&_swig_go_result = new rangeset< int >(result); 
+  result = ((T_Healpix_Base< int64_t > const *)arg1)->query_polygon((std::vector< pointing > const &)*arg2);
+  *(rangeset< long long > **)&_swig_go_result = new rangeset< long long >(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_Healpix_Base_query_polygon_inclusive__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, std::vector< pointing > *_swig_go_1, rangeset< int > *_swig_go_2, intgo _swig_go_3) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+void _wrap_Healpix_Base_query_polygon_inclusive__SWIG_0_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, std::vector< pointing > *_swig_go_1, rangeset< long long > *_swig_go_2, intgo _swig_go_3) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   std::vector< pointing > *arg2 = 0 ;
-  rangeset< int > *arg3 = 0 ;
+  rangeset< long long > *arg3 = 0 ;
   int arg4 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = *(std::vector< pointing > **)&_swig_go_1; 
-  arg3 = *(rangeset< int > **)&_swig_go_2; 
+  arg3 = *(rangeset< long long > **)&_swig_go_2; 
   arg4 = (int)_swig_go_3; 
   
-  ((T_Healpix_Base< int > const *)arg1)->query_polygon_inclusive((std::vector< pointing > const &)*arg2,*arg3,arg4);
+  ((T_Healpix_Base< int64_t > const *)arg1)->query_polygon_inclusive((std::vector< pointing > const &)*arg2,*arg3,arg4);
   
 }
 
 
-void _wrap_Healpix_Base_query_polygon_inclusive__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, std::vector< pointing > *_swig_go_1, rangeset< int > *_swig_go_2) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+void _wrap_Healpix_Base_query_polygon_inclusive__SWIG_1_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, std::vector< pointing > *_swig_go_1, rangeset< long long > *_swig_go_2) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   std::vector< pointing > *arg2 = 0 ;
-  rangeset< int > *arg3 = 0 ;
+  rangeset< long long > *arg3 = 0 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = *(std::vector< pointing > **)&_swig_go_1; 
-  arg3 = *(rangeset< int > **)&_swig_go_2; 
+  arg3 = *(rangeset< long long > **)&_swig_go_2; 
   
-  ((T_Healpix_Base< int > const *)arg1)->query_polygon_inclusive((std::vector< pointing > const &)*arg2,*arg3);
+  ((T_Healpix_Base< int64_t > const *)arg1)->query_polygon_inclusive((std::vector< pointing > const &)*arg2,*arg3);
   
 }
 
 
-rangeset< int > *_wrap_Healpix_Base_query_polygon_inclusive__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, std::vector< pointing > *_swig_go_1, intgo _swig_go_2) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+rangeset< long long > *_wrap_Healpix_Base_query_polygon_inclusive__SWIG_2_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, std::vector< pointing > *_swig_go_1, intgo _swig_go_2) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   std::vector< pointing > *arg2 = 0 ;
   int arg3 ;
-  rangeset< int > result;
-  rangeset< int > *_swig_go_result;
+  rangeset< long long > result;
+  rangeset< long long > *_swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = *(std::vector< pointing > **)&_swig_go_1; 
   arg3 = (int)_swig_go_2; 
   
-  result = ((T_Healpix_Base< int > const *)arg1)->query_polygon_inclusive((std::vector< pointing > const &)*arg2,arg3);
-  *(rangeset< int > **)&_swig_go_result = new rangeset< int >(result); 
+  result = ((T_Healpix_Base< int64_t > const *)arg1)->query_polygon_inclusive((std::vector< pointing > const &)*arg2,arg3);
+  *(rangeset< long long > **)&_swig_go_result = new rangeset< long long >(result); 
   return _swig_go_result;
 }
 
 
-rangeset< int > *_wrap_Healpix_Base_query_polygon_inclusive__SWIG_3_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, std::vector< pointing > *_swig_go_1) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+rangeset< long long > *_wrap_Healpix_Base_query_polygon_inclusive__SWIG_3_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, std::vector< pointing > *_swig_go_1) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   std::vector< pointing > *arg2 = 0 ;
-  rangeset< int > result;
-  rangeset< int > *_swig_go_result;
+  rangeset< long long > result;
+  rangeset< long long > *_swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = *(std::vector< pointing > **)&_swig_go_1; 
   
-  result = ((T_Healpix_Base< int > const *)arg1)->query_polygon_inclusive((std::vector< pointing > const &)*arg2);
-  *(rangeset< int > **)&_swig_go_result = new rangeset< int >(result); 
+  result = ((T_Healpix_Base< int64_t > const *)arg1)->query_polygon_inclusive((std::vector< pointing > const &)*arg2);
+  *(rangeset< long long > **)&_swig_go_result = new rangeset< long long >(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_Healpix_Base_query_strip__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, double _swig_go_1, double _swig_go_2, bool _swig_go_3, rangeset< int > *_swig_go_4) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+void _wrap_Healpix_Base_query_strip__SWIG_0_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, double _swig_go_1, double _swig_go_2, bool _swig_go_3, rangeset< long long > *_swig_go_4) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   double arg2 ;
   double arg3 ;
   bool arg4 ;
-  rangeset< int > *arg5 = 0 ;
+  rangeset< long long > *arg5 = 0 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = (double)_swig_go_1; 
   arg3 = (double)_swig_go_2; 
   arg4 = (bool)_swig_go_3; 
-  arg5 = *(rangeset< int > **)&_swig_go_4; 
+  arg5 = *(rangeset< long long > **)&_swig_go_4; 
   
-  ((T_Healpix_Base< int > const *)arg1)->query_strip(arg2,arg3,arg4,*arg5);
+  ((T_Healpix_Base< int64_t > const *)arg1)->query_strip(arg2,arg3,arg4,*arg5);
   
 }
 
 
-rangeset< int > *_wrap_Healpix_Base_query_strip__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, double _swig_go_1, double _swig_go_2, bool _swig_go_3) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+rangeset< long long > *_wrap_Healpix_Base_query_strip__SWIG_1_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, double _swig_go_1, double _swig_go_2, bool _swig_go_3) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   double arg2 ;
   double arg3 ;
   bool arg4 ;
-  rangeset< int > result;
-  rangeset< int > *_swig_go_result;
+  rangeset< long long > result;
+  rangeset< long long > *_swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = (double)_swig_go_1; 
   arg3 = (double)_swig_go_2; 
   arg4 = (bool)_swig_go_3; 
   
-  result = ((T_Healpix_Base< int > const *)arg1)->query_strip(arg2,arg3,arg4);
-  *(rangeset< int > **)&_swig_go_result = new rangeset< int >(result); 
+  result = ((T_Healpix_Base< int64_t > const *)arg1)->query_strip(arg2,arg3,arg4);
+  *(rangeset< long long > **)&_swig_go_result = new rangeset< long long >(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_Healpix_Base_get_ring_info_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1, intgo *_swig_go_2, intgo *_swig_go_3, double *_swig_go_4, double *_swig_go_5, bool *_swig_go_6) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
-  int *arg3 = 0 ;
-  int *arg4 = 0 ;
+void _wrap_Healpix_Base_get_ring_info_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1, long long *_swig_go_2, long long *_swig_go_3, double *_swig_go_4, double *_swig_go_5, bool *_swig_go_6) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
+  long long *arg3 = 0 ;
+  long long *arg4 = 0 ;
   double *arg5 = 0 ;
   double *arg6 = 0 ;
   bool *arg7 = 0 ;
-  int e3 ;
-  int e4 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
-  e3 = (int)*_swig_go_2;
-  arg3 = &e3;
-  
-  
-  e4 = (int)*_swig_go_3;
-  arg4 = &e4;
-  
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
+  arg3 = *(long long **)&_swig_go_2; 
+  arg4 = *(long long **)&_swig_go_3; 
   arg5 = *(double **)&_swig_go_4; 
   arg6 = *(double **)&_swig_go_5; 
   arg7 = *(bool **)&_swig_go_6; 
   
-  ((T_Healpix_Base< int > const *)arg1)->get_ring_info(arg2,*arg3,*arg4,*arg5,*arg6,*arg7);
+  ((T_Healpix_Base< int64_t > const *)arg1)->get_ring_info(arg2,*arg3,*arg4,*arg5,*arg6,*arg7);
   
-  *_swig_go_2 = (intgo)e3; 
-  *_swig_go_3 = (intgo)e4; 
 }
 
 
-void _wrap_Healpix_Base_get_ring_info2_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1, intgo *_swig_go_2, intgo *_swig_go_3, double *_swig_go_4, bool *_swig_go_5) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
-  int *arg3 = 0 ;
-  int *arg4 = 0 ;
+void _wrap_Healpix_Base_get_ring_info2_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1, long long *_swig_go_2, long long *_swig_go_3, double *_swig_go_4, bool *_swig_go_5) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
+  long long *arg3 = 0 ;
+  long long *arg4 = 0 ;
   double *arg5 = 0 ;
   bool *arg6 = 0 ;
-  int e3 ;
-  int e4 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
-  e3 = (int)*_swig_go_2;
-  arg3 = &e3;
-  
-  
-  e4 = (int)*_swig_go_3;
-  arg4 = &e4;
-  
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
+  arg3 = *(long long **)&_swig_go_2; 
+  arg4 = *(long long **)&_swig_go_3; 
   arg5 = *(double **)&_swig_go_4; 
   arg6 = *(bool **)&_swig_go_5; 
   
-  ((T_Healpix_Base< int > const *)arg1)->get_ring_info2(arg2,*arg3,*arg4,*arg5,*arg6);
+  ((T_Healpix_Base< int64_t > const *)arg1)->get_ring_info2(arg2,*arg3,*arg4,*arg5,*arg6);
   
-  *_swig_go_2 = (intgo)e3; 
-  *_swig_go_3 = (intgo)e4; 
 }
 
 
-void _wrap_Healpix_Base_get_ring_info_small_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1, intgo *_swig_go_2, intgo *_swig_go_3, bool *_swig_go_4) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
-  int *arg3 = 0 ;
-  int *arg4 = 0 ;
+void _wrap_Healpix_Base_get_ring_info_small_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1, long long *_swig_go_2, long long *_swig_go_3, bool *_swig_go_4) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
+  long long *arg3 = 0 ;
+  long long *arg4 = 0 ;
   bool *arg5 = 0 ;
-  int e3 ;
-  int e4 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
-  e3 = (int)*_swig_go_2;
-  arg3 = &e3;
-  
-  
-  e4 = (int)*_swig_go_3;
-  arg4 = &e4;
-  
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
+  arg3 = *(long long **)&_swig_go_2; 
+  arg4 = *(long long **)&_swig_go_3; 
   arg5 = *(bool **)&_swig_go_4; 
   
-  ((T_Healpix_Base< int > const *)arg1)->get_ring_info_small(arg2,*arg3,*arg4,*arg5);
-  
-  *_swig_go_2 = (intgo)e3; 
-  *_swig_go_3 = (intgo)e4; 
-}
-
-
-void _wrap_Healpix_Base_neighbors_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1, fix_arr< int,8 > *_swig_go_2) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
-  fix_arr< int,8 > *arg3 = 0 ;
-  
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  arg3 = *(fix_arr< int,8 > **)&_swig_go_2; 
-  
-  ((T_Healpix_Base< int > const *)arg1)->neighbors(arg2,*arg3);
+  ((T_Healpix_Base< int64_t > const *)arg1)->get_ring_info_small(arg2,*arg3,*arg4,*arg5);
   
 }
 
 
-void _wrap_Healpix_Base_get_interpol_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, pointing *_swig_go_1, fix_arr< int,4 > *_swig_go_2, fix_arr< double,4 > *_swig_go_3) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+void _wrap_Healpix_Base_neighbors_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1, fix_arr< long long,8 > *_swig_go_2) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
+  fix_arr< long long,8 > *arg3 = 0 ;
+  
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
+  arg3 = *(fix_arr< long long,8 > **)&_swig_go_2; 
+  
+  ((T_Healpix_Base< int64_t > const *)arg1)->neighbors(arg2,*arg3);
+  
+}
+
+
+void _wrap_Healpix_Base_get_interpol_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, pointing *_swig_go_1, fix_arr< long long,4 > *_swig_go_2, fix_arr< double,4 > *_swig_go_3) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   pointing *arg2 = 0 ;
-  fix_arr< int,4 > *arg3 = 0 ;
+  fix_arr< long long,4 > *arg3 = 0 ;
   fix_arr< double,4 > *arg4 = 0 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   arg2 = *(pointing **)&_swig_go_1; 
-  arg3 = *(fix_arr< int,4 > **)&_swig_go_2; 
+  arg3 = *(fix_arr< long long,4 > **)&_swig_go_2; 
   arg4 = *(fix_arr< double,4 > **)&_swig_go_3; 
   
-  ((T_Healpix_Base< int > const *)arg1)->get_interpol((pointing const &)*arg2,*arg3,*arg4);
+  ((T_Healpix_Base< int64_t > const *)arg1)->get_interpol((pointing const &)*arg2,*arg3,*arg4);
   
 }
 
 
-intgo _wrap_Healpix_Base_Order_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+intgo _wrap_Healpix_Base_Order_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   int result;
   intgo _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   
-  result = (int)((T_Healpix_Base< int > const *)arg1)->Order();
+  result = (int)((T_Healpix_Base< int64_t > const *)arg1)->Order();
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Healpix_Base_Nside_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int result;
-  intgo _swig_go_result;
+long long _wrap_Healpix_Base_Nside_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long result;
+  long long _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   
-  result = (int)((T_Healpix_Base< int > const *)arg1)->Nside();
+  result = (long long)((T_Healpix_Base< int64_t > const *)arg1)->Nside();
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Healpix_Base_Npix_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int result;
-  intgo _swig_go_result;
+long long _wrap_Healpix_Base_Npix_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long result;
+  long long _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   
-  result = (int)((T_Healpix_Base< int > const *)arg1)->Npix();
+  result = (long long)((T_Healpix_Base< int64_t > const *)arg1)->Npix();
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-intgo _wrap_Healpix_Base_Scheme_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+intgo _wrap_Healpix_Base_Scheme_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   Healpix_Ordering_Scheme result;
   intgo _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   
-  result = (Healpix_Ordering_Scheme)((T_Healpix_Base< int > const *)arg1)->Scheme();
+  result = (Healpix_Ordering_Scheme)((T_Healpix_Base< int64_t > const *)arg1)->Scheme();
   _swig_go_result = (intgo)result; 
   return _swig_go_result;
 }
 
 
-bool _wrap_Healpix_Base_conformable_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, T_Healpix_Base< int > *_swig_go_1) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  T_Healpix_Base< int > *arg2 = 0 ;
+bool _wrap_Healpix_Base_conformable_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, T_Healpix_Base< long long > *_swig_go_1) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  T_Healpix_Base< int64_t > *arg2 = 0 ;
   bool result;
   bool _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = *(T_Healpix_Base< int > **)&_swig_go_1; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = *(T_Healpix_Base< int64_t > **)&_swig_go_1; 
   
-  result = (bool)((T_Healpix_Base< int > const *)arg1)->conformable((T_Healpix_Base< int > const &)*arg2);
+  result = (bool)((T_Healpix_Base< int64_t > const *)arg1)->conformable((T_Healpix_Base< int64_t > const &)*arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-void _wrap_Healpix_Base_swap_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, T_Healpix_Base< int > *_swig_go_1) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  T_Healpix_Base< int > *arg2 = 0 ;
+void _wrap_Healpix_Base_swap_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, T_Healpix_Base< long long > *_swig_go_1) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  T_Healpix_Base< int64_t > *arg2 = 0 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = *(T_Healpix_Base< int > **)&_swig_go_1; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = *(T_Healpix_Base< int64_t > **)&_swig_go_1; 
   
   (arg1)->swap(*arg2);
   
 }
 
 
-double _wrap_Healpix_Base_max_pixrad__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+double _wrap_Healpix_Base_max_pixrad__SWIG_0_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   double result;
   double _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   
-  result = (double)((T_Healpix_Base< int > const *)arg1)->max_pixrad();
+  result = (double)((T_Healpix_Base< int64_t > const *)arg1)->max_pixrad();
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-double _wrap_Healpix_Base_max_pixrad__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
+double _wrap_Healpix_Base_max_pixrad__SWIG_1_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
   double result;
   double _swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
   
-  result = (double)((T_Healpix_Base< int > const *)arg1)->max_pixrad(arg2);
+  result = (double)((T_Healpix_Base< int64_t > const *)arg1)->max_pixrad(arg2);
   _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-void _wrap_Healpix_Base_boundaries_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0, intgo _swig_go_1, tsize *_swig_go_2, std::vector< vec3_t< float64 > > *_swig_go_3) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
-  int arg2 ;
+void _wrap_Healpix_Base_boundaries_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0, long long _swig_go_1, tsize *_swig_go_2, std::vector< vec3_t< float64 > > *_swig_go_3) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
+  long long arg2 ;
   tsize arg3 ;
   std::vector< vec3 > *arg4 = 0 ;
   tsize *argp3 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
+  arg2 = (long long)_swig_go_1; 
   
   argp3 = (tsize *)_swig_go_2;
   if (argp3 == NULL) {
@@ -3153,35 +3111,35 @@ void _wrap_Healpix_Base_boundaries_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< 
   
   arg4 = *(std::vector< vec3 > **)&_swig_go_3; 
   
-  ((T_Healpix_Base< int > const *)arg1)->boundaries(arg2,arg3,*arg4);
+  ((T_Healpix_Base< int64_t > const *)arg1)->boundaries(arg2,arg3,*arg4);
   
 }
 
 
-arr< int > *_wrap_Healpix_Base_swap_cycles_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+arr< int > *_wrap_Healpix_Base_swap_cycles_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   arr< int > result;
   arr< int > *_swig_go_result;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   
-  result = ((T_Healpix_Base< int > const *)arg1)->swap_cycles();
+  result = ((T_Healpix_Base< int64_t > const *)arg1)->swap_cycles();
   *(arr< int > **)&_swig_go_result = new arr< int >(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_delete_Healpix_Base_healpix_cxx_8fe10a3dd6e6c6d3(T_Healpix_Base< int > *_swig_go_0) {
-  T_Healpix_Base< int > *arg1 = (T_Healpix_Base< int > *) 0 ;
+void _wrap_delete_Healpix_Base_healpix_cxx_5a797e8e3d968ccb(T_Healpix_Base< long long > *_swig_go_0) {
+  T_Healpix_Base< int64_t > *arg1 = (T_Healpix_Base< int64_t > *) 0 ;
   
-  arg1 = *(T_Healpix_Base< int > **)&_swig_go_0; 
+  arg1 = *(T_Healpix_Base< int64_t > **)&_swig_go_0; 
   
   delete arg1;
   
 }
 
 
-double _wrap_orientation_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< float64 > *_swig_go_0, vec3_t< float64 > *_swig_go_1) {
+double _wrap_orientation_healpix_cxx_5a797e8e3d968ccb(vec3_t< float64 > *_swig_go_0, vec3_t< float64 > *_swig_go_1) {
   vec3 *arg1 = 0 ;
   vec3 *arg2 = 0 ;
   double result;
@@ -3196,7 +3154,7 @@ double _wrap_orientation_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< float64 > *_swig_g
 }
 
 
-double _wrap_v_angle_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< float64 > *_swig_go_0, vec3_t< float64 > *_swig_go_1) {
+double _wrap_v_angle_healpix_cxx_5a797e8e3d968ccb(vec3_t< float64 > *_swig_go_0, vec3_t< float64 > *_swig_go_1) {
   vec3 *arg1 = 0 ;
   vec3 *arg2 = 0 ;
   double result;
@@ -3211,7 +3169,7 @@ double _wrap_v_angle_healpix_cxx_8fe10a3dd6e6c6d3(vec3_t< float64 > *_swig_go_0,
 }
 
 
-double _wrap_cosdist_zphi_healpix_cxx_8fe10a3dd6e6c6d3(double _swig_go_0, double _swig_go_1, double _swig_go_2, double _swig_go_3) {
+double _wrap_cosdist_zphi_healpix_cxx_5a797e8e3d968ccb(double _swig_go_0, double _swig_go_1, double _swig_go_2, double _swig_go_3) {
   double arg1 ;
   double arg2 ;
   double arg3 ;
@@ -3230,7 +3188,7 @@ double _wrap_cosdist_zphi_healpix_cxx_8fe10a3dd6e6c6d3(double _swig_go_0, double
 }
 
 
-void _wrap_find_enclosing_circle_healpix_cxx_8fe10a3dd6e6c6d3(std::vector< vec3_t< float64 > > *_swig_go_0, vec3_t< float64 > *_swig_go_1, double *_swig_go_2) {
+void _wrap_find_enclosing_circle_healpix_cxx_5a797e8e3d968ccb(std::vector< vec3_t< float64 > > *_swig_go_0, vec3_t< float64 > *_swig_go_1, double *_swig_go_2) {
   std::vector< vec3 > *arg1 = 0 ;
   vec3 *arg2 = 0 ;
   double *arg3 = 0 ;

@@ -82,8 +82,8 @@ type HEALPixMapper struct {
 // controls how finely the sphere is pixelated; higher values of order
 // correspond to finer pixelization. Order must be between 0 and 14.
 func NewHEALPixMapper(order int, scheme OrderingScheme) (*HEALPixMapper, error) {
-	if order < 0 || order > 13 {
-		return nil, errors.New("invalid order, must be between 0 and 14")
+	if order < 0 || order > 30 {
+		return nil, errors.New("invalid order, must be between 0 and 29")
 	}
 
 	cobj := healpix_cxx.NewHealpix_Base(order, scheme.to_c()).(healpix_cxx.SwigcptrHealpix_Base)
@@ -100,13 +100,13 @@ func NewHEALPixMapper(order int, scheme OrderingScheme) (*HEALPixMapper, error) 
 
 // PixelAt returns the number of the pixel which contains the given angular
 // coordinates indicated by ptg.
-func (m *HEALPixMapper) PixelAt(ptg Pointing) int {
+func (m *HEALPixMapper) PixelAt(ptg Pointing) int64 {
 	return m.cobj.Ang2pix(ptg.to_c())
 }
 
 // PointingToCenter returns a pointing towards the center of the pixel with the
 // given number.
-func (m *HEALPixMapper) PointingToCenter(pixel int) Pointing {
+func (m *HEALPixMapper) PointingToCenter(pixel int64) Pointing {
 	return ptgFromC(m.cobj.Pix2ang(pixel), true)
 }
 
@@ -161,5 +161,5 @@ func (m *HEALPixMapper) QueryDiscInclusive(pointing Pointing, r float64, resolut
 // first pixel which is not in the range (in other words, this represents
 // `[Start, Stop)`).
 type PixelRange struct {
-	Start, Stop int
+	Start, Stop int64
 }

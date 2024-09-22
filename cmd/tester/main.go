@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	mapper, err := healpix.NewHEALPixMapper(12, healpix.Nest)
+	mapper, err := healpix.NewHEALPixMapper(18, healpix.Nest)
 	if err != nil {
 		fmt.Printf("error: %v\n", err)
 		os.Exit(1)

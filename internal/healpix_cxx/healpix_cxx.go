@@ -50,205 +50,260 @@ typedef long long swig_type_20;
 typedef long long swig_type_21;
 typedef long long swig_type_22;
 typedef long long swig_type_23;
-extern void _wrap_Swig_free_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_Swig_malloc_healpix_cxx_8fe10a3dd6e6c6d3(swig_intgo arg1);
-extern void _wrap_pointing_theta_set_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, double arg2);
-extern double _wrap_pointing_theta_get_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_pointing_phi_set_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, double arg2);
-extern double _wrap_pointing_phi_get_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_new_pointing__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(void);
-extern uintptr_t _wrap_new_pointing__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(double arg1, double arg2);
-extern uintptr_t _wrap_new_pointing__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_pointing_to_vec3_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_pointing_from_vec3_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_pointing_normalize_theta_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_pointing_normalize_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_delete_pointing_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_new_VectorF64__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(void);
-extern uintptr_t _wrap_new_VectorF64__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(swig_type_1 arg1);
-extern uintptr_t _wrap_new_VectorF64__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern swig_type_2 _wrap_VectorF64_size_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern swig_type_3 _wrap_VectorF64_capacity_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_VectorF64_reserve_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_type_4 arg2);
-extern _Bool _wrap_VectorF64_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_VectorF64_clear_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_VectorF64_add_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, double arg2);
-extern double _wrap_VectorF64_get_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_VectorF64_set_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, double arg3);
-extern void _wrap_delete_VectorF64_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_new_VectorF32__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(void);
-extern uintptr_t _wrap_new_VectorF32__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(swig_type_5 arg1);
-extern uintptr_t _wrap_new_VectorF32__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern swig_type_6 _wrap_VectorF32_size_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern swig_type_7 _wrap_VectorF32_capacity_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_VectorF32_reserve_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_type_8 arg2);
-extern _Bool _wrap_VectorF32_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_VectorF32_clear_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_VectorF32_add_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, float arg2);
-extern float _wrap_VectorF32_get_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_VectorF32_set_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, float arg3);
-extern void _wrap_delete_VectorF32_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_new_VectorI64__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(void);
-extern uintptr_t _wrap_new_VectorI64__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(swig_type_9 arg1);
-extern uintptr_t _wrap_new_VectorI64__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern swig_type_10 _wrap_VectorI64_size_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern swig_type_11 _wrap_VectorI64_capacity_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_VectorI64_reserve_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_type_12 arg2);
-extern _Bool _wrap_VectorI64_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_VectorI64_clear_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_VectorI64_add_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_type_13 arg2);
-extern swig_type_14 _wrap_VectorI64_get_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_VectorI64_set_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_type_15 arg3);
-extern void _wrap_delete_VectorI64_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_new_VectorInt__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(void);
-extern uintptr_t _wrap_new_VectorInt__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(swig_type_16 arg1);
-extern uintptr_t _wrap_new_VectorInt__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern swig_type_17 _wrap_VectorInt_size_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern swig_type_18 _wrap_VectorInt_capacity_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_VectorInt_reserve_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_type_19 arg2);
-extern _Bool _wrap_VectorInt_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_VectorInt_clear_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_VectorInt_add_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_VectorInt_get_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_VectorInt_set_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern void _wrap_delete_VectorInt_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_new_VectorPointing__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(void);
-extern uintptr_t _wrap_new_VectorPointing__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(swig_type_20 arg1);
-extern uintptr_t _wrap_new_VectorPointing__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern swig_type_21 _wrap_VectorPointing_size_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern swig_type_22 _wrap_VectorPointing_capacity_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_VectorPointing_reserve_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_type_23 arg2);
-extern _Bool _wrap_VectorPointing_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_VectorPointing_clear_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_VectorPointing_add_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_VectorPointing_get_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_VectorPointing_set_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
-extern void _wrap_delete_VectorPointing_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_Vec3Floats_x_set_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, double arg2);
-extern double _wrap_Vec3Floats_x_get_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_Vec3Floats_y_set_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, double arg2);
-extern double _wrap_Vec3Floats_y_get_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_Vec3Floats_z_set_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, double arg2);
-extern double _wrap_Vec3Floats_z_get_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_new_Vec3Floats__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(void);
-extern uintptr_t _wrap_new_Vec3Floats__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(double arg1, double arg2, double arg3);
-extern void _wrap_Vec3Floats_Set_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, double arg2, double arg3, double arg4);
-extern void _wrap_Vec3Floats_set_z_phi_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, double arg2, double arg3);
-extern void _wrap_Vec3Floats_Normalize_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_Vec3Floats_Norm_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern double _wrap_Vec3Floats_Length_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern double _wrap_Vec3Floats_SquaredLength_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_Vec3Floats_invert_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_Vec3Floats_Flip_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_Vec3Floats_add_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Vec3Floats_addInPlace_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Vec3Floats_subtract_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Vec3Floats_subtractInPlace_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Vec3Floats_multiply_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, double arg2);
-extern uintptr_t _wrap_Vec3Floats_divide_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, double arg2);
-extern uintptr_t _wrap_Vec3Floats_multiplyInPlace_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, double arg2);
-extern void _wrap_delete_Vec3Floats_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_Rangeset_clear_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_Rangeset_reserve_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Rangeset_nranges_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_Rangeset_size_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern _Bool _wrap_Rangeset_empty_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_Rangeset_data_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_Rangeset_checkConsistency_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_Rangeset_setData_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern swig_intgo _wrap_Rangeset_ivbegin_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern swig_intgo _wrap_Rangeset_ivend_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern swig_intgo _wrap_Rangeset_ivlen_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Rangeset_append__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern void _wrap_Rangeset_append__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_Rangeset_append__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Rangeset_add__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern void _wrap_Rangeset_add__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_Rangeset_remove__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern void _wrap_Rangeset_remove__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_Rangeset_intersect_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern swig_intgo _wrap_Rangeset_nval_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_Rangeset_toVector__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Rangeset_toVector__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_Rangeset_op_or_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Rangeset_op_and_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Rangeset_op_andnot_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Rangeset_op_xor_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Rangeset_findInterval_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern _Bool _wrap_Rangeset_contains__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern _Bool _wrap_Rangeset_contains__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern _Bool _wrap_Rangeset_contains__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern _Bool _wrap_Rangeset_overlaps__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern _Bool _wrap_Rangeset_overlaps__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_delete_Rangeset_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern swig_intgo _wrap_RING_healpix_cxx_8fe10a3dd6e6c6d3(void);
-extern swig_intgo _wrap_NEST_healpix_cxx_8fe10a3dd6e6c6d3(void);
-extern swig_intgo _wrap_string2HealpixScheme_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_new_nside_dummy_healpix_cxx_8fe10a3dd6e6c6d3(void);
-extern void _wrap_delete_nside_dummy_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern uintptr_t _wrap_SET_NSIDE_get_healpix_cxx_8fe10a3dd6e6c6d3(void);
-extern uintptr_t _wrap_new_Healpix_Tables_healpix_cxx_8fe10a3dd6e6c6d3(void);
-extern void _wrap_delete_Healpix_Tables_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern swig_intgo _wrap_order_max_Healpix_Base_healpix_cxx_8fe10a3dd6e6c6d3(void);
-extern swig_intgo _wrap_Healpix_Base_nside2order_healpix_cxx_8fe10a3dd6e6c6d3(swig_intgo arg1);
-extern swig_intgo _wrap_Healpix_Base_npix2nside_healpix_cxx_8fe10a3dd6e6c6d3(swig_intgo arg1);
-extern uintptr_t _wrap_new_Healpix_Base__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(void);
-extern uintptr_t _wrap_new_Healpix_Base__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(swig_intgo arg1, swig_intgo arg2);
-extern uintptr_t _wrap_new_Healpix_Base__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(swig_intgo arg1, swig_intgo arg2, uintptr_t arg3);
-extern void _wrap_Healpix_Base_Set_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern void _wrap_Healpix_Base_SetNside_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern double _wrap_Healpix_Base_ring2z_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Healpix_Base_pix2ring_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Healpix_Base_xyf2pix_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, swig_intgo arg4);
-extern void _wrap_Healpix_Base_pix2xyf_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_voidp arg3, swig_voidp arg4, swig_voidp arg5);
-extern swig_intgo _wrap_Healpix_Base_nest2ring_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Healpix_Base_ring2nest_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Healpix_Base_nest2peano_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Healpix_Base_peano2nest_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Healpix_Base_zphi2pix_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, double arg2, double arg3);
-extern swig_intgo _wrap_Healpix_Base_ang2pix_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern swig_intgo _wrap_Healpix_Base_vec2pix_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Healpix_Base_pix2zphi_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_voidp arg3, swig_voidp arg4);
-extern uintptr_t _wrap_Healpix_Base_pix2ang_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_Healpix_Base_pix2vec_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Healpix_Base_pixel_import_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
-extern void _wrap_Healpix_Base_query_disc__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2, double arg3, uintptr_t arg4);
-extern uintptr_t _wrap_Healpix_Base_query_disc__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2, double arg3);
-extern void _wrap_Healpix_Base_query_disc_inclusive__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2, double arg3, uintptr_t arg4, swig_intgo arg5);
-extern void _wrap_Healpix_Base_query_disc_inclusive__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2, double arg3, uintptr_t arg4);
-extern uintptr_t _wrap_Healpix_Base_query_disc_inclusive__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2, double arg3, swig_intgo arg4);
-extern uintptr_t _wrap_Healpix_Base_query_disc_inclusive__SWIG_3_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2, double arg3);
-extern void _wrap_Healpix_Base_query_disc__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2, double arg3, uintptr_t arg4);
-extern void _wrap_Healpix_Base_query_disc_inclusive__SWIG_4_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2, double arg3, uintptr_t arg4, swig_intgo arg5);
-extern void _wrap_Healpix_Base_query_disc_inclusive__SWIG_5_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2, double arg3, uintptr_t arg4);
-extern void _wrap_Healpix_Base_query_polygon__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_Healpix_Base_query_polygon__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Healpix_Base_query_polygon_inclusive__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, swig_intgo arg4);
-extern void _wrap_Healpix_Base_query_polygon_inclusive__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_Healpix_Base_query_polygon_inclusive__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern uintptr_t _wrap_Healpix_Base_query_polygon_inclusive__SWIG_3_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Healpix_Base_query_strip__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, double arg2, double arg3, _Bool arg4, uintptr_t arg5);
-extern uintptr_t _wrap_Healpix_Base_query_strip__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, double arg2, double arg3, _Bool arg4);
-extern void _wrap_Healpix_Base_get_ring_info_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_voidp arg3, swig_voidp arg4, swig_voidp arg5, swig_voidp arg6, swig_voidp arg7);
-extern void _wrap_Healpix_Base_get_ring_info2_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_voidp arg3, swig_voidp arg4, swig_voidp arg5, swig_voidp arg6);
-extern void _wrap_Healpix_Base_get_ring_info_small_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, swig_voidp arg3, swig_voidp arg4, swig_voidp arg5);
-extern void _wrap_Healpix_Base_neighbors_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
-extern void _wrap_Healpix_Base_get_interpol_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern swig_intgo _wrap_Healpix_Base_Order_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern swig_intgo _wrap_Healpix_Base_Nside_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern swig_intgo _wrap_Healpix_Base_Npix_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern swig_intgo _wrap_Healpix_Base_Scheme_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern _Bool _wrap_Healpix_Base_conformable_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Healpix_Base_swap_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern double _wrap_Healpix_Base_max_pixrad__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern double _wrap_Healpix_Base_max_pixrad__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_Healpix_Base_boundaries_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3, uintptr_t arg4);
-extern uintptr_t _wrap_Healpix_Base_swap_cycles_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern void _wrap_delete_Healpix_Base_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1);
-extern double _wrap_orientation_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern double _wrap_v_angle_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2);
-extern double _wrap_cosdist_zphi_healpix_cxx_8fe10a3dd6e6c6d3(double arg1, double arg2, double arg3, double arg4);
-extern void _wrap_find_enclosing_circle_healpix_cxx_8fe10a3dd6e6c6d3(uintptr_t arg1, uintptr_t arg2, swig_voidp arg3);
+typedef long long swig_type_24;
+typedef long long swig_type_25;
+typedef long long swig_type_26;
+typedef long long swig_type_27;
+typedef long long swig_type_28;
+typedef long long swig_type_29;
+typedef long long swig_type_30;
+typedef long long swig_type_31;
+typedef long long swig_type_32;
+typedef long long swig_type_33;
+typedef long long swig_type_34;
+typedef long long swig_type_35;
+typedef long long swig_type_36;
+typedef long long swig_type_37;
+typedef long long swig_type_38;
+typedef long long swig_type_39;
+typedef long long swig_type_40;
+typedef long long swig_type_41;
+typedef long long swig_type_42;
+typedef long long swig_type_43;
+typedef long long swig_type_44;
+typedef long long swig_type_45;
+typedef long long swig_type_46;
+typedef long long swig_type_47;
+typedef long long swig_type_48;
+typedef long long swig_type_49;
+typedef long long swig_type_50;
+typedef long long swig_type_51;
+typedef long long swig_type_52;
+typedef long long swig_type_53;
+typedef long long swig_type_54;
+typedef long long swig_type_55;
+typedef long long swig_type_56;
+typedef long long swig_type_57;
+typedef long long swig_type_58;
+typedef long long swig_type_59;
+typedef long long swig_type_60;
+typedef long long swig_type_61;
+typedef long long swig_type_62;
+typedef long long swig_type_63;
+typedef long long swig_type_64;
+typedef long long swig_type_65;
+typedef long long swig_type_66;
+typedef long long swig_type_67;
+typedef long long swig_type_68;
+typedef long long swig_type_69;
+typedef long long swig_type_70;
+typedef long long swig_type_71;
+typedef long long swig_type_72;
+typedef long long swig_type_73;
+typedef long long swig_type_74;
+typedef long long swig_type_75;
+typedef long long swig_type_76;
+typedef long long swig_type_77;
+typedef long long swig_type_78;
+extern void _wrap_Swig_free_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_Swig_malloc_healpix_cxx_5a797e8e3d968ccb(swig_intgo arg1);
+extern void _wrap_pointing_theta_set_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, double arg2);
+extern double _wrap_pointing_theta_get_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_pointing_phi_set_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, double arg2);
+extern double _wrap_pointing_phi_get_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_new_pointing__SWIG_0_healpix_cxx_5a797e8e3d968ccb(void);
+extern uintptr_t _wrap_new_pointing__SWIG_1_healpix_cxx_5a797e8e3d968ccb(double arg1, double arg2);
+extern uintptr_t _wrap_new_pointing__SWIG_2_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_pointing_to_vec3_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_pointing_from_vec3_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_pointing_normalize_theta_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_pointing_normalize_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_delete_pointing_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_new_VectorF64__SWIG_0_healpix_cxx_5a797e8e3d968ccb(void);
+extern uintptr_t _wrap_new_VectorF64__SWIG_1_healpix_cxx_5a797e8e3d968ccb(swig_type_1 arg1);
+extern uintptr_t _wrap_new_VectorF64__SWIG_2_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern swig_type_2 _wrap_VectorF64_size_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern swig_type_3 _wrap_VectorF64_capacity_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_VectorF64_reserve_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_4 arg2);
+extern _Bool _wrap_VectorF64_isEmpty_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_VectorF64_clear_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_VectorF64_add_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, double arg2);
+extern double _wrap_VectorF64_get_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_VectorF64_set_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_intgo arg2, double arg3);
+extern void _wrap_delete_VectorF64_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_new_VectorF32__SWIG_0_healpix_cxx_5a797e8e3d968ccb(void);
+extern uintptr_t _wrap_new_VectorF32__SWIG_1_healpix_cxx_5a797e8e3d968ccb(swig_type_5 arg1);
+extern uintptr_t _wrap_new_VectorF32__SWIG_2_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern swig_type_6 _wrap_VectorF32_size_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern swig_type_7 _wrap_VectorF32_capacity_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_VectorF32_reserve_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_8 arg2);
+extern _Bool _wrap_VectorF32_isEmpty_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_VectorF32_clear_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_VectorF32_add_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, float arg2);
+extern float _wrap_VectorF32_get_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_VectorF32_set_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_intgo arg2, float arg3);
+extern void _wrap_delete_VectorF32_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_new_VectorI64__SWIG_0_healpix_cxx_5a797e8e3d968ccb(void);
+extern uintptr_t _wrap_new_VectorI64__SWIG_1_healpix_cxx_5a797e8e3d968ccb(swig_type_9 arg1);
+extern uintptr_t _wrap_new_VectorI64__SWIG_2_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern swig_type_10 _wrap_VectorI64_size_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern swig_type_11 _wrap_VectorI64_capacity_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_VectorI64_reserve_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_12 arg2);
+extern _Bool _wrap_VectorI64_isEmpty_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_VectorI64_clear_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_VectorI64_add_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_13 arg2);
+extern swig_type_14 _wrap_VectorI64_get_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_VectorI64_set_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_intgo arg2, swig_type_15 arg3);
+extern void _wrap_delete_VectorI64_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_new_VectorInt__SWIG_0_healpix_cxx_5a797e8e3d968ccb(void);
+extern uintptr_t _wrap_new_VectorInt__SWIG_1_healpix_cxx_5a797e8e3d968ccb(swig_type_16 arg1);
+extern uintptr_t _wrap_new_VectorInt__SWIG_2_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern swig_type_17 _wrap_VectorInt_size_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern swig_type_18 _wrap_VectorInt_capacity_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_VectorInt_reserve_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_19 arg2);
+extern _Bool _wrap_VectorInt_isEmpty_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_VectorInt_clear_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_VectorInt_add_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_VectorInt_get_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_VectorInt_set_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern void _wrap_delete_VectorInt_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_new_VectorPointing__SWIG_0_healpix_cxx_5a797e8e3d968ccb(void);
+extern uintptr_t _wrap_new_VectorPointing__SWIG_1_healpix_cxx_5a797e8e3d968ccb(swig_type_20 arg1);
+extern uintptr_t _wrap_new_VectorPointing__SWIG_2_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern swig_type_21 _wrap_VectorPointing_size_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern swig_type_22 _wrap_VectorPointing_capacity_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_VectorPointing_reserve_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_23 arg2);
+extern _Bool _wrap_VectorPointing_isEmpty_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_VectorPointing_clear_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_VectorPointing_add_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_VectorPointing_get_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_VectorPointing_set_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
+extern void _wrap_delete_VectorPointing_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_Vec3Floats_x_set_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, double arg2);
+extern double _wrap_Vec3Floats_x_get_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_Vec3Floats_y_set_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, double arg2);
+extern double _wrap_Vec3Floats_y_get_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_Vec3Floats_z_set_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, double arg2);
+extern double _wrap_Vec3Floats_z_get_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_new_Vec3Floats__SWIG_0_healpix_cxx_5a797e8e3d968ccb(void);
+extern uintptr_t _wrap_new_Vec3Floats__SWIG_1_healpix_cxx_5a797e8e3d968ccb(double arg1, double arg2, double arg3);
+extern void _wrap_Vec3Floats_Set_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, double arg2, double arg3, double arg4);
+extern void _wrap_Vec3Floats_set_z_phi_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, double arg2, double arg3);
+extern void _wrap_Vec3Floats_Normalize_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_Vec3Floats_Norm_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern double _wrap_Vec3Floats_Length_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern double _wrap_Vec3Floats_SquaredLength_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_Vec3Floats_invert_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_Vec3Floats_Flip_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_Vec3Floats_add_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Vec3Floats_addInPlace_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Vec3Floats_subtract_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Vec3Floats_subtractInPlace_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Vec3Floats_multiply_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, double arg2);
+extern uintptr_t _wrap_Vec3Floats_divide_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, double arg2);
+extern uintptr_t _wrap_Vec3Floats_multiplyInPlace_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, double arg2);
+extern void _wrap_delete_Vec3Floats_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_Rangeset_clear_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_Rangeset_reserve_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Rangeset_nranges_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_Rangeset_size_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern _Bool _wrap_Rangeset_empty_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_Rangeset_data_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_Rangeset_checkConsistency_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_Rangeset_setData_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern swig_type_24 _wrap_Rangeset_ivbegin_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern swig_type_25 _wrap_Rangeset_ivend_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern swig_type_26 _wrap_Rangeset_ivlen_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Rangeset_append__SWIG_0_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_27 arg2, swig_type_28 arg3);
+extern void _wrap_Rangeset_append__SWIG_1_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_29 arg2);
+extern void _wrap_Rangeset_append__SWIG_2_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Rangeset_add__SWIG_0_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_30 arg2, swig_type_31 arg3);
+extern void _wrap_Rangeset_add__SWIG_1_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_32 arg2);
+extern void _wrap_Rangeset_remove__SWIG_0_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_33 arg2, swig_type_34 arg3);
+extern void _wrap_Rangeset_remove__SWIG_1_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_35 arg2);
+extern void _wrap_Rangeset_intersect_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_36 arg2, swig_type_37 arg3);
+extern swig_type_38 _wrap_Rangeset_nval_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_Rangeset_toVector__SWIG_0_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Rangeset_toVector__SWIG_1_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_Rangeset_op_or_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Rangeset_op_and_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Rangeset_op_andnot_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Rangeset_op_xor_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Rangeset_findInterval_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_39 arg2);
+extern _Bool _wrap_Rangeset_contains__SWIG_0_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_40 arg2, swig_type_41 arg3);
+extern _Bool _wrap_Rangeset_contains__SWIG_1_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_42 arg2);
+extern _Bool _wrap_Rangeset_contains__SWIG_2_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern _Bool _wrap_Rangeset_overlaps__SWIG_0_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_43 arg2, swig_type_44 arg3);
+extern _Bool _wrap_Rangeset_overlaps__SWIG_1_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_delete_Rangeset_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern swig_intgo _wrap_RING_healpix_cxx_5a797e8e3d968ccb(void);
+extern swig_intgo _wrap_NEST_healpix_cxx_5a797e8e3d968ccb(void);
+extern swig_intgo _wrap_string2HealpixScheme_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_new_nside_dummy_healpix_cxx_5a797e8e3d968ccb(void);
+extern void _wrap_delete_nside_dummy_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern uintptr_t _wrap_SET_NSIDE_get_healpix_cxx_5a797e8e3d968ccb(void);
+extern uintptr_t _wrap_new_Healpix_Tables_healpix_cxx_5a797e8e3d968ccb(void);
+extern void _wrap_delete_Healpix_Tables_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern swig_intgo _wrap_order_max_Healpix_Base_healpix_cxx_5a797e8e3d968ccb(void);
+extern swig_intgo _wrap_Healpix_Base_nside2order_healpix_cxx_5a797e8e3d968ccb(swig_type_45 arg1);
+extern swig_type_46 _wrap_Healpix_Base_npix2nside_healpix_cxx_5a797e8e3d968ccb(swig_type_47 arg1);
+extern uintptr_t _wrap_new_Healpix_Base__SWIG_0_healpix_cxx_5a797e8e3d968ccb(void);
+extern uintptr_t _wrap_new_Healpix_Base__SWIG_1_healpix_cxx_5a797e8e3d968ccb(swig_intgo arg1, swig_intgo arg2);
+extern uintptr_t _wrap_new_Healpix_Base__SWIG_2_healpix_cxx_5a797e8e3d968ccb(swig_type_48 arg1, swig_intgo arg2, uintptr_t arg3);
+extern void _wrap_Healpix_Base_Set_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern void _wrap_Healpix_Base_SetNside_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_49 arg2, swig_intgo arg3);
+extern double _wrap_Healpix_Base_ring2z_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_50 arg2);
+extern swig_type_51 _wrap_Healpix_Base_pix2ring_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_52 arg2);
+extern swig_type_53 _wrap_Healpix_Base_xyf2pix_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, swig_intgo arg4);
+extern void _wrap_Healpix_Base_pix2xyf_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_54 arg2, swig_voidp arg3, swig_voidp arg4, swig_voidp arg5);
+extern swig_type_55 _wrap_Healpix_Base_nest2ring_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_56 arg2);
+extern swig_type_57 _wrap_Healpix_Base_ring2nest_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_58 arg2);
+extern swig_type_59 _wrap_Healpix_Base_nest2peano_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_60 arg2);
+extern swig_type_61 _wrap_Healpix_Base_peano2nest_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_62 arg2);
+extern swig_type_63 _wrap_Healpix_Base_zphi2pix_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, double arg2, double arg3);
+extern swig_type_64 _wrap_Healpix_Base_ang2pix_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern swig_type_65 _wrap_Healpix_Base_vec2pix_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Healpix_Base_pix2zphi_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_66 arg2, swig_voidp arg3, swig_voidp arg4);
+extern uintptr_t _wrap_Healpix_Base_pix2ang_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_67 arg2);
+extern uintptr_t _wrap_Healpix_Base_pix2vec_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_68 arg2);
+extern swig_type_69 _wrap_Healpix_Base_pixel_import_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_70 arg2, uintptr_t arg3);
+extern void _wrap_Healpix_Base_query_disc__SWIG_0_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2, double arg3, uintptr_t arg4);
+extern uintptr_t _wrap_Healpix_Base_query_disc__SWIG_1_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2, double arg3);
+extern void _wrap_Healpix_Base_query_disc_inclusive__SWIG_0_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2, double arg3, uintptr_t arg4, swig_intgo arg5);
+extern void _wrap_Healpix_Base_query_disc_inclusive__SWIG_1_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2, double arg3, uintptr_t arg4);
+extern uintptr_t _wrap_Healpix_Base_query_disc_inclusive__SWIG_2_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2, double arg3, swig_intgo arg4);
+extern uintptr_t _wrap_Healpix_Base_query_disc_inclusive__SWIG_3_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2, double arg3);
+extern void _wrap_Healpix_Base_query_disc__SWIG_2_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2, double arg3, uintptr_t arg4);
+extern void _wrap_Healpix_Base_query_disc_inclusive__SWIG_4_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2, double arg3, uintptr_t arg4, swig_intgo arg5);
+extern void _wrap_Healpix_Base_query_disc_inclusive__SWIG_5_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2, double arg3, uintptr_t arg4);
+extern void _wrap_Healpix_Base_query_polygon__SWIG_0_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_Healpix_Base_query_polygon__SWIG_1_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Healpix_Base_query_polygon_inclusive__SWIG_0_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, swig_intgo arg4);
+extern void _wrap_Healpix_Base_query_polygon_inclusive__SWIG_1_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_Healpix_Base_query_polygon_inclusive__SWIG_2_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
+extern uintptr_t _wrap_Healpix_Base_query_polygon_inclusive__SWIG_3_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Healpix_Base_query_strip__SWIG_0_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, double arg2, double arg3, _Bool arg4, uintptr_t arg5);
+extern uintptr_t _wrap_Healpix_Base_query_strip__SWIG_1_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, double arg2, double arg3, _Bool arg4);
+extern void _wrap_Healpix_Base_get_ring_info_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_71 arg2, swig_voidp arg3, swig_voidp arg4, swig_voidp arg5, swig_voidp arg6, swig_voidp arg7);
+extern void _wrap_Healpix_Base_get_ring_info2_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_72 arg2, swig_voidp arg3, swig_voidp arg4, swig_voidp arg5, swig_voidp arg6);
+extern void _wrap_Healpix_Base_get_ring_info_small_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_73 arg2, swig_voidp arg3, swig_voidp arg4, swig_voidp arg5);
+extern void _wrap_Healpix_Base_neighbors_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_74 arg2, uintptr_t arg3);
+extern void _wrap_Healpix_Base_get_interpol_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern swig_intgo _wrap_Healpix_Base_Order_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern swig_type_75 _wrap_Healpix_Base_Nside_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern swig_type_76 _wrap_Healpix_Base_Npix_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern swig_intgo _wrap_Healpix_Base_Scheme_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern _Bool _wrap_Healpix_Base_conformable_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Healpix_Base_swap_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern double _wrap_Healpix_Base_max_pixrad__SWIG_0_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern double _wrap_Healpix_Base_max_pixrad__SWIG_1_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_77 arg2);
+extern void _wrap_Healpix_Base_boundaries_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, swig_type_78 arg2, uintptr_t arg3, uintptr_t arg4);
+extern uintptr_t _wrap_Healpix_Base_swap_cycles_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern void _wrap_delete_Healpix_Base_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1);
+extern double _wrap_orientation_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern double _wrap_v_angle_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2);
+extern double _wrap_cosdist_zphi_healpix_cxx_5a797e8e3d968ccb(double arg1, double arg2, double arg3, double arg4);
+extern void _wrap_find_enclosing_circle_healpix_cxx_5a797e8e3d968ccb(uintptr_t arg1, uintptr_t arg2, swig_voidp arg3);
 #undef intgo
 */
 import "C"
@@ -280,8 +335,8 @@ func getSwigcptr(v interface { Swigcptr() uintptr }) uintptr {
 
 type _ sync.Mutex
 
-//export cgo_panic__healpix_cxx_8fe10a3dd6e6c6d3
-func cgo_panic__healpix_cxx_8fe10a3dd6e6c6d3(p *byte) {
+//export cgo_panic__healpix_cxx_5a797e8e3d968ccb
+func cgo_panic__healpix_cxx_5a797e8e3d968ccb(p *byte) {
 	s := (*[1024]byte)(unsafe.Pointer(p))[:]
 	for i, b := range s {
 		if b == 0 {
@@ -293,13 +348,13 @@ func cgo_panic__healpix_cxx_8fe10a3dd6e6c6d3(p *byte) {
 
 func Swig_free(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_Swig_free_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_Swig_free_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 func Swig_malloc(arg1 int) (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Swig_malloc_healpix_cxx_8fe10a3dd6e6c6d3(C.swig_intgo(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Swig_malloc_healpix_cxx_5a797e8e3d968ccb(C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
@@ -315,32 +370,32 @@ func (p SwigcptrPointing) SwigIsPointing() {
 func (arg1 SwigcptrPointing) SetTheta(arg2 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_pointing_theta_set_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
+	C._wrap_pointing_theta_set_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
 }
 
 func (arg1 SwigcptrPointing) GetTheta() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_pointing_theta_get_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_pointing_theta_get_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrPointing) SetPhi(arg2 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_pointing_phi_set_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
+	C._wrap_pointing_phi_set_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
 }
 
 func (arg1 SwigcptrPointing) GetPhi() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_pointing_phi_get_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_pointing_phi_get_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewPointing__SWIG_0() (_swig_ret Pointing) {
 	var swig_r Pointing
-	swig_r = (Pointing)(SwigcptrPointing(C._wrap_new_pointing__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3()))
+	swig_r = (Pointing)(SwigcptrPointing(C._wrap_new_pointing__SWIG_0_healpix_cxx_5a797e8e3d968ccb()))
 	return swig_r
 }
 
@@ -348,14 +403,14 @@ func NewPointing__SWIG_1(arg1 float64, arg2 float64) (_swig_ret Pointing) {
 	var swig_r Pointing
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Pointing)(SwigcptrPointing(C._wrap_new_pointing__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.double(_swig_i_0), C.double(_swig_i_1))))
+	swig_r = (Pointing)(SwigcptrPointing(C._wrap_new_pointing__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.double(_swig_i_0), C.double(_swig_i_1))))
 	return swig_r
 }
 
 func NewPointing__SWIG_2(arg1 Vec3_t_Sl_float64_Sg_) (_swig_ret Pointing) {
 	var swig_r Pointing
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (Pointing)(SwigcptrPointing(C._wrap_new_pointing__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))))
+	swig_r = (Pointing)(SwigcptrPointing(C._wrap_new_pointing__SWIG_2_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -376,29 +431,29 @@ func NewPointing(a ...interface{}) Pointing {
 func (arg1 SwigcptrPointing) To_vec3() (_swig_ret Vec3_t_Sl_float64_Sg_) {
 	var swig_r Vec3_t_Sl_float64_Sg_
 	_swig_i_0 := arg1
-	swig_r = (Vec3_t_Sl_float64_Sg_)(SwigcptrVec3_t_Sl_float64_Sg_(C._wrap_pointing_to_vec3_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))))
+	swig_r = (Vec3_t_Sl_float64_Sg_)(SwigcptrVec3_t_Sl_float64_Sg_(C._wrap_pointing_to_vec3_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrPointing) From_vec3(arg2 Vec3_t_Sl_float64_Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_pointing_from_vec3_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_pointing_from_vec3_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrPointing) Normalize_theta() {
 	_swig_i_0 := arg1
-	C._wrap_pointing_normalize_theta_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_pointing_normalize_theta_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrPointing) Normalize() {
 	_swig_i_0 := arg1
-	C._wrap_pointing_normalize_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_pointing_normalize_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 func DeletePointing(arg1 Pointing) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_pointing_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_pointing_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 type Pointing interface {
@@ -425,21 +480,21 @@ func (p SwigcptrVectorF64) SwigIsVectorF64() {
 
 func NewVectorF64__SWIG_0() (_swig_ret VectorF64) {
 	var swig_r VectorF64
-	swig_r = (VectorF64)(SwigcptrVectorF64(C._wrap_new_VectorF64__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3()))
+	swig_r = (VectorF64)(SwigcptrVectorF64(C._wrap_new_VectorF64__SWIG_0_healpix_cxx_5a797e8e3d968ccb()))
 	return swig_r
 }
 
 func NewVectorF64__SWIG_1(arg1 int64) (_swig_ret VectorF64) {
 	var swig_r VectorF64
 	_swig_i_0 := arg1
-	swig_r = (VectorF64)(SwigcptrVectorF64(C._wrap_new_VectorF64__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.swig_type_1(_swig_i_0))))
+	swig_r = (VectorF64)(SwigcptrVectorF64(C._wrap_new_VectorF64__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.swig_type_1(_swig_i_0))))
 	return swig_r
 }
 
 func NewVectorF64__SWIG_2(arg1 VectorF64) (_swig_ret VectorF64) {
 	var swig_r VectorF64
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (VectorF64)(SwigcptrVectorF64(C._wrap_new_VectorF64__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorF64)(SwigcptrVectorF64(C._wrap_new_VectorF64__SWIG_2_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -464,46 +519,46 @@ check_2:
 func (arg1 SwigcptrVectorF64) Size() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_VectorF64_size_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_VectorF64_size_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorF64) Capacity() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_VectorF64_capacity_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_VectorF64_capacity_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorF64) Reserve(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_VectorF64_reserve_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_type_4(_swig_i_1))
+	C._wrap_VectorF64_reserve_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_4(_swig_i_1))
 }
 
 func (arg1 SwigcptrVectorF64) IsEmpty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_VectorF64_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_VectorF64_isEmpty_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorF64) Clear() {
 	_swig_i_0 := arg1
-	C._wrap_VectorF64_clear_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_VectorF64_clear_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrVectorF64) Add(arg2 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_VectorF64_add_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
+	C._wrap_VectorF64_add_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
 }
 
 func (arg1 SwigcptrVectorF64) Get(arg2 int) (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float64)(C._wrap_VectorF64_get_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (float64)(C._wrap_VectorF64_get_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -511,12 +566,12 @@ func (arg1 SwigcptrVectorF64) Set(arg2 int, arg3 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_VectorF64_set_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.double(_swig_i_2))
+	C._wrap_VectorF64_set_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.double(_swig_i_2))
 }
 
 func DeleteVectorF64(arg1 VectorF64) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_VectorF64_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_VectorF64_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 type VectorF64 interface {
@@ -543,21 +598,21 @@ func (p SwigcptrVectorF32) SwigIsVectorF32() {
 
 func NewVectorF32__SWIG_0() (_swig_ret VectorF32) {
 	var swig_r VectorF32
-	swig_r = (VectorF32)(SwigcptrVectorF32(C._wrap_new_VectorF32__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3()))
+	swig_r = (VectorF32)(SwigcptrVectorF32(C._wrap_new_VectorF32__SWIG_0_healpix_cxx_5a797e8e3d968ccb()))
 	return swig_r
 }
 
 func NewVectorF32__SWIG_1(arg1 int64) (_swig_ret VectorF32) {
 	var swig_r VectorF32
 	_swig_i_0 := arg1
-	swig_r = (VectorF32)(SwigcptrVectorF32(C._wrap_new_VectorF32__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.swig_type_5(_swig_i_0))))
+	swig_r = (VectorF32)(SwigcptrVectorF32(C._wrap_new_VectorF32__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.swig_type_5(_swig_i_0))))
 	return swig_r
 }
 
 func NewVectorF32__SWIG_2(arg1 VectorF32) (_swig_ret VectorF32) {
 	var swig_r VectorF32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (VectorF32)(SwigcptrVectorF32(C._wrap_new_VectorF32__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorF32)(SwigcptrVectorF32(C._wrap_new_VectorF32__SWIG_2_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -582,46 +637,46 @@ check_2:
 func (arg1 SwigcptrVectorF32) Size() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_VectorF32_size_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_VectorF32_size_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorF32) Capacity() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_VectorF32_capacity_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_VectorF32_capacity_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorF32) Reserve(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_VectorF32_reserve_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_type_8(_swig_i_1))
+	C._wrap_VectorF32_reserve_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_8(_swig_i_1))
 }
 
 func (arg1 SwigcptrVectorF32) IsEmpty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_VectorF32_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_VectorF32_isEmpty_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorF32) Clear() {
 	_swig_i_0 := arg1
-	C._wrap_VectorF32_clear_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_VectorF32_clear_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrVectorF32) Add(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_VectorF32_add_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_VectorF32_add_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrVectorF32) Get(arg2 int) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_VectorF32_get_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (float32)(C._wrap_VectorF32_get_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -629,12 +684,12 @@ func (arg1 SwigcptrVectorF32) Set(arg2 int, arg3 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_VectorF32_set_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2))
+	C._wrap_VectorF32_set_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2))
 }
 
 func DeleteVectorF32(arg1 VectorF32) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_VectorF32_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_VectorF32_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 type VectorF32 interface {
@@ -661,21 +716,21 @@ func (p SwigcptrVectorI64) SwigIsVectorI64() {
 
 func NewVectorI64__SWIG_0() (_swig_ret VectorI64) {
 	var swig_r VectorI64
-	swig_r = (VectorI64)(SwigcptrVectorI64(C._wrap_new_VectorI64__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3()))
+	swig_r = (VectorI64)(SwigcptrVectorI64(C._wrap_new_VectorI64__SWIG_0_healpix_cxx_5a797e8e3d968ccb()))
 	return swig_r
 }
 
 func NewVectorI64__SWIG_1(arg1 int64) (_swig_ret VectorI64) {
 	var swig_r VectorI64
 	_swig_i_0 := arg1
-	swig_r = (VectorI64)(SwigcptrVectorI64(C._wrap_new_VectorI64__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.swig_type_9(_swig_i_0))))
+	swig_r = (VectorI64)(SwigcptrVectorI64(C._wrap_new_VectorI64__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.swig_type_9(_swig_i_0))))
 	return swig_r
 }
 
 func NewVectorI64__SWIG_2(arg1 VectorI64) (_swig_ret VectorI64) {
 	var swig_r VectorI64
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (VectorI64)(SwigcptrVectorI64(C._wrap_new_VectorI64__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorI64)(SwigcptrVectorI64(C._wrap_new_VectorI64__SWIG_2_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -700,46 +755,46 @@ check_2:
 func (arg1 SwigcptrVectorI64) Size() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_VectorI64_size_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_VectorI64_size_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorI64) Capacity() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_VectorI64_capacity_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_VectorI64_capacity_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorI64) Reserve(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_VectorI64_reserve_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_type_12(_swig_i_1))
+	C._wrap_VectorI64_reserve_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_12(_swig_i_1))
 }
 
 func (arg1 SwigcptrVectorI64) IsEmpty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_VectorI64_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_VectorI64_isEmpty_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorI64) Clear() {
 	_swig_i_0 := arg1
-	C._wrap_VectorI64_clear_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_VectorI64_clear_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrVectorI64) Add(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_VectorI64_add_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_type_13(_swig_i_1))
+	C._wrap_VectorI64_add_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_13(_swig_i_1))
 }
 
 func (arg1 SwigcptrVectorI64) Get(arg2 int) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int64)(C._wrap_VectorI64_get_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (int64)(C._wrap_VectorI64_get_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -747,12 +802,12 @@ func (arg1 SwigcptrVectorI64) Set(arg2 int, arg3 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_VectorI64_set_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_type_15(_swig_i_2))
+	C._wrap_VectorI64_set_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_type_15(_swig_i_2))
 }
 
 func DeleteVectorI64(arg1 VectorI64) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_VectorI64_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_VectorI64_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 type VectorI64 interface {
@@ -779,21 +834,21 @@ func (p SwigcptrVectorInt) SwigIsVectorInt() {
 
 func NewVectorInt__SWIG_0() (_swig_ret VectorInt) {
 	var swig_r VectorInt
-	swig_r = (VectorInt)(SwigcptrVectorInt(C._wrap_new_VectorInt__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3()))
+	swig_r = (VectorInt)(SwigcptrVectorInt(C._wrap_new_VectorInt__SWIG_0_healpix_cxx_5a797e8e3d968ccb()))
 	return swig_r
 }
 
 func NewVectorInt__SWIG_1(arg1 int64) (_swig_ret VectorInt) {
 	var swig_r VectorInt
 	_swig_i_0 := arg1
-	swig_r = (VectorInt)(SwigcptrVectorInt(C._wrap_new_VectorInt__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.swig_type_16(_swig_i_0))))
+	swig_r = (VectorInt)(SwigcptrVectorInt(C._wrap_new_VectorInt__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.swig_type_16(_swig_i_0))))
 	return swig_r
 }
 
 func NewVectorInt__SWIG_2(arg1 VectorInt) (_swig_ret VectorInt) {
 	var swig_r VectorInt
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (VectorInt)(SwigcptrVectorInt(C._wrap_new_VectorInt__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorInt)(SwigcptrVectorInt(C._wrap_new_VectorInt__SWIG_2_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -818,46 +873,46 @@ check_2:
 func (arg1 SwigcptrVectorInt) Size() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_VectorInt_size_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_VectorInt_size_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorInt) Capacity() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_VectorInt_capacity_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_VectorInt_capacity_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorInt) Reserve(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_VectorInt_reserve_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_type_19(_swig_i_1))
+	C._wrap_VectorInt_reserve_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_19(_swig_i_1))
 }
 
 func (arg1 SwigcptrVectorInt) IsEmpty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_VectorInt_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_VectorInt_isEmpty_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorInt) Clear() {
 	_swig_i_0 := arg1
-	C._wrap_VectorInt_clear_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_VectorInt_clear_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrVectorInt) Add(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_VectorInt_add_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_VectorInt_add_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrVectorInt) Get(arg2 int) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_VectorInt_get_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (int)(C._wrap_VectorInt_get_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -865,12 +920,12 @@ func (arg1 SwigcptrVectorInt) Set(arg2 int, arg3 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_VectorInt_set_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_VectorInt_set_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
 func DeleteVectorInt(arg1 VectorInt) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_VectorInt_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_VectorInt_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 type VectorInt interface {
@@ -897,21 +952,21 @@ func (p SwigcptrVectorPointing) SwigIsVectorPointing() {
 
 func NewVectorPointing__SWIG_0() (_swig_ret VectorPointing) {
 	var swig_r VectorPointing
-	swig_r = (VectorPointing)(SwigcptrVectorPointing(C._wrap_new_VectorPointing__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3()))
+	swig_r = (VectorPointing)(SwigcptrVectorPointing(C._wrap_new_VectorPointing__SWIG_0_healpix_cxx_5a797e8e3d968ccb()))
 	return swig_r
 }
 
 func NewVectorPointing__SWIG_1(arg1 int64) (_swig_ret VectorPointing) {
 	var swig_r VectorPointing
 	_swig_i_0 := arg1
-	swig_r = (VectorPointing)(SwigcptrVectorPointing(C._wrap_new_VectorPointing__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.swig_type_20(_swig_i_0))))
+	swig_r = (VectorPointing)(SwigcptrVectorPointing(C._wrap_new_VectorPointing__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.swig_type_20(_swig_i_0))))
 	return swig_r
 }
 
 func NewVectorPointing__SWIG_2(arg1 VectorPointing) (_swig_ret VectorPointing) {
 	var swig_r VectorPointing
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (VectorPointing)(SwigcptrVectorPointing(C._wrap_new_VectorPointing__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorPointing)(SwigcptrVectorPointing(C._wrap_new_VectorPointing__SWIG_2_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -936,46 +991,46 @@ check_2:
 func (arg1 SwigcptrVectorPointing) Size() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_VectorPointing_size_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_VectorPointing_size_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorPointing) Capacity() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_VectorPointing_capacity_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_VectorPointing_capacity_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorPointing) Reserve(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_VectorPointing_reserve_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_type_23(_swig_i_1))
+	C._wrap_VectorPointing_reserve_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_23(_swig_i_1))
 }
 
 func (arg1 SwigcptrVectorPointing) IsEmpty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_VectorPointing_isEmpty_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_VectorPointing_isEmpty_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVectorPointing) Clear() {
 	_swig_i_0 := arg1
-	C._wrap_VectorPointing_clear_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_VectorPointing_clear_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrVectorPointing) Add(arg2 Pointing) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_VectorPointing_add_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_VectorPointing_add_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrVectorPointing) Get(arg2 int) (_swig_ret Pointing) {
 	var swig_r Pointing
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Pointing)(SwigcptrPointing(C._wrap_VectorPointing_get_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Pointing)(SwigcptrPointing(C._wrap_VectorPointing_get_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -983,12 +1038,12 @@ func (arg1 SwigcptrVectorPointing) Set(arg2 int, arg3 Pointing) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_VectorPointing_set_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_VectorPointing_set_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func DeleteVectorPointing(arg1 VectorPointing) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_VectorPointing_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_VectorPointing_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 type VectorPointing interface {
@@ -1016,45 +1071,45 @@ func (p SwigcptrVec3Floats) SwigIsVec3Floats() {
 func (arg1 SwigcptrVec3Floats) SetX(arg2 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Vec3Floats_x_set_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
+	C._wrap_Vec3Floats_x_set_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
 }
 
 func (arg1 SwigcptrVec3Floats) GetX() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_Vec3Floats_x_get_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_Vec3Floats_x_get_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVec3Floats) SetY(arg2 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Vec3Floats_y_set_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
+	C._wrap_Vec3Floats_y_set_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
 }
 
 func (arg1 SwigcptrVec3Floats) GetY() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_Vec3Floats_y_get_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_Vec3Floats_y_get_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVec3Floats) SetZ(arg2 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Vec3Floats_z_set_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
+	C._wrap_Vec3Floats_z_set_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
 }
 
 func (arg1 SwigcptrVec3Floats) GetZ() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_Vec3Floats_z_get_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_Vec3Floats_z_get_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewVec3Floats__SWIG_0() (_swig_ret Vec3Floats) {
 	var swig_r Vec3Floats
-	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_new_Vec3Floats__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3()))
+	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_new_Vec3Floats__SWIG_0_healpix_cxx_5a797e8e3d968ccb()))
 	return swig_r
 }
 
@@ -1063,7 +1118,7 @@ func NewVec3Floats__SWIG_1(arg1 float64, arg2 float64, arg3 float64) (_swig_ret 
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_new_Vec3Floats__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.double(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2))))
+	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_new_Vec3Floats__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.double(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2))))
 	return swig_r
 }
 
@@ -1083,59 +1138,59 @@ func (arg1 SwigcptrVec3Floats) Set(arg2 float64, arg3 float64, arg4 float64) {
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_Vec3Floats_Set_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2), C.double(_swig_i_3))
+	C._wrap_Vec3Floats_Set_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2), C.double(_swig_i_3))
 }
 
 func (arg1 SwigcptrVec3Floats) Set_z_phi(arg2 float64, arg3 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Vec3Floats_set_z_phi_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2))
+	C._wrap_Vec3Floats_set_z_phi_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2))
 }
 
 func (arg1 SwigcptrVec3Floats) Normalize() {
 	_swig_i_0 := arg1
-	C._wrap_Vec3Floats_Normalize_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_Vec3Floats_Normalize_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrVec3Floats) Norm() (_swig_ret Vec3Floats) {
 	var swig_r Vec3Floats
 	_swig_i_0 := arg1
-	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_Norm_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))))
+	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_Norm_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrVec3Floats) Length() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_Vec3Floats_Length_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_Vec3Floats_Length_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVec3Floats) SquaredLength() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_Vec3Floats_SquaredLength_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_Vec3Floats_SquaredLength_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVec3Floats) Invert() (_swig_ret Vec3Floats) {
 	var swig_r Vec3Floats
 	_swig_i_0 := arg1
-	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_invert_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))))
+	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_invert_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrVec3Floats) Flip() {
 	_swig_i_0 := arg1
-	C._wrap_Vec3Floats_Flip_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_Vec3Floats_Flip_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrVec3Floats) Add(arg2 Vec3Floats) (_swig_ret Vec3Floats) {
 	var swig_r Vec3Floats
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_add_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_add_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1143,7 +1198,7 @@ func (arg1 SwigcptrVec3Floats) AddInPlace(arg2 Vec3Floats) (_swig_ret Vec3Floats
 	var swig_r Vec3Floats
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_addInPlace_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_addInPlace_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1151,7 +1206,7 @@ func (arg1 SwigcptrVec3Floats) Subtract(arg2 Vec3Floats) (_swig_ret Vec3Floats) 
 	var swig_r Vec3Floats
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_subtract_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_subtract_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1159,7 +1214,7 @@ func (arg1 SwigcptrVec3Floats) SubtractInPlace(arg2 Vec3Floats) (_swig_ret Vec3F
 	var swig_r Vec3Floats
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_subtractInPlace_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_subtractInPlace_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1167,7 +1222,7 @@ func (arg1 SwigcptrVec3Floats) Multiply(arg2 float64) (_swig_ret Vec3Floats) {
 	var swig_r Vec3Floats
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_multiply_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
+	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_multiply_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
 	return swig_r
 }
 
@@ -1175,7 +1230,7 @@ func (arg1 SwigcptrVec3Floats) Divide(arg2 float64) (_swig_ret Vec3Floats) {
 	var swig_r Vec3Floats
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_divide_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
+	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_divide_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
 	return swig_r
 }
 
@@ -1183,13 +1238,13 @@ func (arg1 SwigcptrVec3Floats) MultiplyInPlace(arg2 float64) (_swig_ret Vec3Floa
 	var swig_r Vec3Floats
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_multiplyInPlace_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
+	swig_r = (Vec3Floats)(SwigcptrVec3Floats(C._wrap_Vec3Floats_multiplyInPlace_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))))
 	return swig_r
 }
 
 func DeleteVec3Floats(arg1 Vec3Floats) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_Vec3Floats_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Vec3Floats_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 type Vec3Floats interface {
@@ -1229,95 +1284,95 @@ func (p SwigcptrRangeset) SwigIsRangeset() {
 
 func (arg1 SwigcptrRangeset) Clear() {
 	_swig_i_0 := arg1
-	C._wrap_Rangeset_clear_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_Rangeset_clear_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrRangeset) Reserve(arg2 Tsize) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_Rangeset_reserve_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Rangeset_reserve_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrRangeset) Nranges() (_swig_ret Tsize) {
 	var swig_r Tsize
 	_swig_i_0 := arg1
-	swig_r = (Tsize)(SwigcptrTsize(C._wrap_Rangeset_nranges_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))))
+	swig_r = (Tsize)(SwigcptrTsize(C._wrap_Rangeset_nranges_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrRangeset) Size() (_swig_ret Tsize) {
 	var swig_r Tsize
 	_swig_i_0 := arg1
-	swig_r = (Tsize)(SwigcptrTsize(C._wrap_Rangeset_size_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))))
+	swig_r = (Tsize)(SwigcptrTsize(C._wrap_Rangeset_size_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrRangeset) Empty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Rangeset_empty_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Rangeset_empty_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
-func (arg1 SwigcptrRangeset) Data() (_swig_ret VectorInt) {
-	var swig_r VectorInt
+func (arg1 SwigcptrRangeset) Data() (_swig_ret VectorI64) {
+	var swig_r VectorI64
 	_swig_i_0 := arg1
-	swig_r = (VectorInt)(SwigcptrVectorInt(C._wrap_Rangeset_data_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorI64)(SwigcptrVectorI64(C._wrap_Rangeset_data_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrRangeset) CheckConsistency() {
 	_swig_i_0 := arg1
-	C._wrap_Rangeset_checkConsistency_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_Rangeset_checkConsistency_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
-func (arg1 SwigcptrRangeset) SetData(arg2 VectorInt) {
+func (arg1 SwigcptrRangeset) SetData(arg2 VectorI64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_Rangeset_setData_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Rangeset_setData_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func (arg1 SwigcptrRangeset) Ivbegin(arg2 Tdiff) (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrRangeset) Ivbegin(arg2 Tdiff) (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (int)(C._wrap_Rangeset_ivbegin_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (int64)(C._wrap_Rangeset_ivbegin_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
-func (arg1 SwigcptrRangeset) Ivend(arg2 Tdiff) (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrRangeset) Ivend(arg2 Tdiff) (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (int)(C._wrap_Rangeset_ivend_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (int64)(C._wrap_Rangeset_ivend_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
-func (arg1 SwigcptrRangeset) Ivlen(arg2 Tdiff) (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrRangeset) Ivlen(arg2 Tdiff) (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (int)(C._wrap_Rangeset_ivlen_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (int64)(C._wrap_Rangeset_ivlen_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
-func (arg1 SwigcptrRangeset) Append__SWIG_0(arg2 int, arg3 int) {
+func (arg1 SwigcptrRangeset) Append__SWIG_0(arg2 int64, arg3 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Rangeset_append__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_Rangeset_append__SWIG_0_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_27(_swig_i_1), C.swig_type_28(_swig_i_2))
 }
 
-func (arg1 SwigcptrRangeset) Append__SWIG_1(arg2 int) {
+func (arg1 SwigcptrRangeset) Append__SWIG_1(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Rangeset_append__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Rangeset_append__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_29(_swig_i_1))
 }
 
 func (arg1 SwigcptrRangeset) Append__SWIG_2(arg2 Rangeset) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_Rangeset_append__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Rangeset_append__SWIG_2_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (p SwigcptrRangeset) Append(a ...interface{}) {
@@ -1331,92 +1386,92 @@ func (p SwigcptrRangeset) Append(a ...interface{}) {
 	}
 check_1:
 	if argc == 1 {
-		p.Append__SWIG_1(a[0].(int))
+		p.Append__SWIG_1(a[0].(int64))
 		return
 	}
 	if argc == 2 {
-		p.Append__SWIG_0(a[0].(int), a[1].(int))
+		p.Append__SWIG_0(a[0].(int64), a[1].(int64))
 		return
 	}
 	panic("No match for overloaded function call")
 }
 
-func (arg1 SwigcptrRangeset) Add__SWIG_0(arg2 int, arg3 int) {
+func (arg1 SwigcptrRangeset) Add__SWIG_0(arg2 int64, arg3 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Rangeset_add__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_Rangeset_add__SWIG_0_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_30(_swig_i_1), C.swig_type_31(_swig_i_2))
 }
 
-func (arg1 SwigcptrRangeset) Add__SWIG_1(arg2 int) {
+func (arg1 SwigcptrRangeset) Add__SWIG_1(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Rangeset_add__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Rangeset_add__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_32(_swig_i_1))
 }
 
 func (p SwigcptrRangeset) Add(a ...interface{}) {
 	argc := len(a)
 	if argc == 1 {
-		p.Add__SWIG_1(a[0].(int))
+		p.Add__SWIG_1(a[0].(int64))
 		return
 	}
 	if argc == 2 {
-		p.Add__SWIG_0(a[0].(int), a[1].(int))
+		p.Add__SWIG_0(a[0].(int64), a[1].(int64))
 		return
 	}
 	panic("No match for overloaded function call")
 }
 
-func (arg1 SwigcptrRangeset) Remove__SWIG_0(arg2 int, arg3 int) {
+func (arg1 SwigcptrRangeset) Remove__SWIG_0(arg2 int64, arg3 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Rangeset_remove__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_Rangeset_remove__SWIG_0_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_33(_swig_i_1), C.swig_type_34(_swig_i_2))
 }
 
-func (arg1 SwigcptrRangeset) Remove__SWIG_1(arg2 int) {
+func (arg1 SwigcptrRangeset) Remove__SWIG_1(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Rangeset_remove__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_Rangeset_remove__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_35(_swig_i_1))
 }
 
 func (p SwigcptrRangeset) Remove(a ...interface{}) {
 	argc := len(a)
 	if argc == 1 {
-		p.Remove__SWIG_1(a[0].(int))
+		p.Remove__SWIG_1(a[0].(int64))
 		return
 	}
 	if argc == 2 {
-		p.Remove__SWIG_0(a[0].(int), a[1].(int))
+		p.Remove__SWIG_0(a[0].(int64), a[1].(int64))
 		return
 	}
 	panic("No match for overloaded function call")
 }
 
-func (arg1 SwigcptrRangeset) Intersect(arg2 int, arg3 int) {
+func (arg1 SwigcptrRangeset) Intersect(arg2 int64, arg3 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Rangeset_intersect_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_Rangeset_intersect_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_36(_swig_i_1), C.swig_type_37(_swig_i_2))
 }
 
-func (arg1 SwigcptrRangeset) Nval() (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrRangeset) Nval() (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_Rangeset_nval_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_Rangeset_nval_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
-func (arg1 SwigcptrRangeset) ToVector__SWIG_0(arg2 VectorInt) {
+func (arg1 SwigcptrRangeset) ToVector__SWIG_0(arg2 VectorI64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_Rangeset_toVector__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Rangeset_toVector__SWIG_0_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func (arg1 SwigcptrRangeset) ToVector__SWIG_1() (_swig_ret VectorInt) {
-	var swig_r VectorInt
+func (arg1 SwigcptrRangeset) ToVector__SWIG_1() (_swig_ret VectorI64) {
+	var swig_r VectorI64
 	_swig_i_0 := arg1
-	swig_r = (VectorInt)(SwigcptrVectorInt(C._wrap_Rangeset_toVector__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))))
+	swig_r = (VectorI64)(SwigcptrVectorI64(C._wrap_Rangeset_toVector__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1426,7 +1481,7 @@ func (p SwigcptrRangeset) ToVector(a ...interface{}) interface{} {
 		return p.ToVector__SWIG_1()
 	}
 	if argc == 1 {
-		p.ToVector__SWIG_0(a[0].(VectorInt))
+		p.ToVector__SWIG_0(a[0].(VectorI64))
 		return 0
 	}
 	panic("No match for overloaded function call")
@@ -1436,7 +1491,7 @@ func (arg1 SwigcptrRangeset) Op_or(arg2 Rangeset) (_swig_ret Rangeset) {
 	var swig_r Rangeset
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Rangeset_op_or_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Rangeset_op_or_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1444,7 +1499,7 @@ func (arg1 SwigcptrRangeset) Op_and(arg2 Rangeset) (_swig_ret Rangeset) {
 	var swig_r Rangeset
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Rangeset_op_and_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Rangeset_op_and_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1452,7 +1507,7 @@ func (arg1 SwigcptrRangeset) Op_andnot(arg2 Rangeset) (_swig_ret Rangeset) {
 	var swig_r Rangeset
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Rangeset_op_andnot_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Rangeset_op_andnot_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1460,32 +1515,32 @@ func (arg1 SwigcptrRangeset) Op_xor(arg2 Rangeset) (_swig_ret Rangeset) {
 	var swig_r Rangeset
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Rangeset_op_xor_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Rangeset_op_xor_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
-func (arg1 SwigcptrRangeset) FindInterval(arg2 int) (_swig_ret Tdiff) {
+func (arg1 SwigcptrRangeset) FindInterval(arg2 int64) (_swig_ret Tdiff) {
 	var swig_r Tdiff
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Tdiff)(SwigcptrTdiff(C._wrap_Rangeset_findInterval_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Tdiff)(SwigcptrTdiff(C._wrap_Rangeset_findInterval_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_39(_swig_i_1))))
 	return swig_r
 }
 
-func (arg1 SwigcptrRangeset) Contains__SWIG_0(arg2 int, arg3 int) (_swig_ret bool) {
+func (arg1 SwigcptrRangeset) Contains__SWIG_0(arg2 int64, arg3 int64) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_Rangeset_contains__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_Rangeset_contains__SWIG_0_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_40(_swig_i_1), C.swig_type_41(_swig_i_2)))
 	return swig_r
 }
 
-func (arg1 SwigcptrRangeset) Contains__SWIG_1(arg2 int) (_swig_ret bool) {
+func (arg1 SwigcptrRangeset) Contains__SWIG_1(arg2 int64) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_Rangeset_contains__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (bool)(C._wrap_Rangeset_contains__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_42(_swig_i_1)))
 	return swig_r
 }
 
@@ -1493,7 +1548,7 @@ func (arg1 SwigcptrRangeset) Contains__SWIG_2(arg2 Rangeset) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (bool)(C._wrap_Rangeset_contains__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_Rangeset_contains__SWIG_2_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -1507,20 +1562,20 @@ func (p SwigcptrRangeset) Contains(a ...interface{}) bool {
 	}
 check_1:
 	if argc == 1 {
-		return p.Contains__SWIG_1(a[0].(int))
+		return p.Contains__SWIG_1(a[0].(int64))
 	}
 	if argc == 2 {
-		return p.Contains__SWIG_0(a[0].(int), a[1].(int))
+		return p.Contains__SWIG_0(a[0].(int64), a[1].(int64))
 	}
 	panic("No match for overloaded function call")
 }
 
-func (arg1 SwigcptrRangeset) Overlaps__SWIG_0(arg2 int, arg3 int) (_swig_ret bool) {
+func (arg1 SwigcptrRangeset) Overlaps__SWIG_0(arg2 int64, arg3 int64) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_Rangeset_overlaps__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (bool)(C._wrap_Rangeset_overlaps__SWIG_0_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_43(_swig_i_1), C.swig_type_44(_swig_i_2)))
 	return swig_r
 }
 
@@ -1528,7 +1583,7 @@ func (arg1 SwigcptrRangeset) Overlaps__SWIG_1(arg2 Rangeset) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (bool)(C._wrap_Rangeset_overlaps__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_Rangeset_overlaps__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -1538,14 +1593,14 @@ func (p SwigcptrRangeset) Overlaps(a ...interface{}) bool {
 		return p.Overlaps__SWIG_1(a[0].(Rangeset))
 	}
 	if argc == 2 {
-		return p.Overlaps__SWIG_0(a[0].(int), a[1].(int))
+		return p.Overlaps__SWIG_0(a[0].(int64), a[1].(int64))
 	}
 	panic("No match for overloaded function call")
 }
 
 func DeleteRangeset(arg1 Rangeset) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_Rangeset_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Rangeset_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 type Rangeset interface {
@@ -1556,23 +1611,23 @@ type Rangeset interface {
 	Nranges() (_swig_ret Tsize)
 	Size() (_swig_ret Tsize)
 	Empty() (_swig_ret bool)
-	Data() (_swig_ret VectorInt)
+	Data() (_swig_ret VectorI64)
 	CheckConsistency()
-	SetData(arg2 VectorInt)
-	Ivbegin(arg2 Tdiff) (_swig_ret int)
-	Ivend(arg2 Tdiff) (_swig_ret int)
-	Ivlen(arg2 Tdiff) (_swig_ret int)
+	SetData(arg2 VectorI64)
+	Ivbegin(arg2 Tdiff) (_swig_ret int64)
+	Ivend(arg2 Tdiff) (_swig_ret int64)
+	Ivlen(arg2 Tdiff) (_swig_ret int64)
 	Append(a ...interface{})
 	Add(a ...interface{})
 	Remove(a ...interface{})
-	Intersect(arg2 int, arg3 int)
-	Nval() (_swig_ret int)
+	Intersect(arg2 int64, arg3 int64)
+	Nval() (_swig_ret int64)
 	ToVector(a ...interface{}) interface{}
 	Op_or(arg2 Rangeset) (_swig_ret Rangeset)
 	Op_and(arg2 Rangeset) (_swig_ret Rangeset)
 	Op_andnot(arg2 Rangeset) (_swig_ret Rangeset)
 	Op_xor(arg2 Rangeset) (_swig_ret Rangeset)
-	FindInterval(arg2 int) (_swig_ret Tdiff)
+	FindInterval(arg2 int64) (_swig_ret Tdiff)
 	Contains(a ...interface{}) bool
 	Overlaps(a ...interface{}) bool
 }
@@ -1580,14 +1635,14 @@ type Rangeset interface {
 type Healpix_Ordering_Scheme int
 func _swig_getRING() (_swig_ret Healpix_Ordering_Scheme) {
 	var swig_r Healpix_Ordering_Scheme
-	swig_r = (Healpix_Ordering_Scheme)(C._wrap_RING_healpix_cxx_8fe10a3dd6e6c6d3())
+	swig_r = (Healpix_Ordering_Scheme)(C._wrap_RING_healpix_cxx_5a797e8e3d968ccb())
 	return swig_r
 }
 
 var RING Healpix_Ordering_Scheme = _swig_getRING()
 func _swig_getNEST() (_swig_ret Healpix_Ordering_Scheme) {
 	var swig_r Healpix_Ordering_Scheme
-	swig_r = (Healpix_Ordering_Scheme)(C._wrap_NEST_healpix_cxx_8fe10a3dd6e6c6d3())
+	swig_r = (Healpix_Ordering_Scheme)(C._wrap_NEST_healpix_cxx_5a797e8e3d968ccb())
 	return swig_r
 }
 
@@ -1595,7 +1650,7 @@ var NEST Healpix_Ordering_Scheme = _swig_getNEST()
 func String2HealpixScheme(arg1 Std_string) (_swig_ret Healpix_Ordering_Scheme) {
 	var swig_r Healpix_Ordering_Scheme
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (Healpix_Ordering_Scheme)(C._wrap_string2HealpixScheme_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (Healpix_Ordering_Scheme)(C._wrap_string2HealpixScheme_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -1610,13 +1665,13 @@ func (p SwigcptrNside_dummy) SwigIsNside_dummy() {
 
 func NewNside_dummy() (_swig_ret Nside_dummy) {
 	var swig_r Nside_dummy
-	swig_r = (Nside_dummy)(SwigcptrNside_dummy(C._wrap_new_nside_dummy_healpix_cxx_8fe10a3dd6e6c6d3()))
+	swig_r = (Nside_dummy)(SwigcptrNside_dummy(C._wrap_new_nside_dummy_healpix_cxx_5a797e8e3d968ccb()))
 	return swig_r
 }
 
 func DeleteNside_dummy(arg1 Nside_dummy) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_nside_dummy_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_nside_dummy_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 type Nside_dummy interface {
@@ -1626,7 +1681,7 @@ type Nside_dummy interface {
 
 func GetSET_NSIDE() (_swig_ret Nside_dummy) {
 	var swig_r Nside_dummy
-	swig_r = (Nside_dummy)(SwigcptrNside_dummy(C._wrap_SET_NSIDE_get_healpix_cxx_8fe10a3dd6e6c6d3()))
+	swig_r = (Nside_dummy)(SwigcptrNside_dummy(C._wrap_SET_NSIDE_get_healpix_cxx_5a797e8e3d968ccb()))
 	return swig_r
 }
 
@@ -1641,13 +1696,13 @@ func (p SwigcptrHealpix_Tables) SwigIsHealpix_Tables() {
 
 func NewHealpix_Tables() (_swig_ret Healpix_Tables) {
 	var swig_r Healpix_Tables
-	swig_r = (Healpix_Tables)(SwigcptrHealpix_Tables(C._wrap_new_Healpix_Tables_healpix_cxx_8fe10a3dd6e6c6d3()))
+	swig_r = (Healpix_Tables)(SwigcptrHealpix_Tables(C._wrap_new_Healpix_Tables_healpix_cxx_5a797e8e3d968ccb()))
 	return swig_r
 }
 
 func DeleteHealpix_Tables(arg1 Healpix_Tables) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_Healpix_Tables_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Healpix_Tables_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 type Healpix_Tables interface {
@@ -1666,28 +1721,28 @@ func (p SwigcptrHealpix_Base) SwigIsHealpix_Base() {
 
 func _swig_getHealpix_Base_order_max_Healpix_Base() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_order_max_Healpix_Base_healpix_cxx_8fe10a3dd6e6c6d3())
+	swig_r = (int)(C._wrap_order_max_Healpix_Base_healpix_cxx_5a797e8e3d968ccb())
 	return swig_r
 }
 
 var Healpix_BaseOrder_max int = _swig_getHealpix_Base_order_max_Healpix_Base()
-func Healpix_BaseNside2order(arg1 int) (_swig_ret int) {
+func Healpix_BaseNside2order(arg1 int64) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_Healpix_Base_nside2order_healpix_cxx_8fe10a3dd6e6c6d3(C.swig_intgo(_swig_i_0)))
+	swig_r = (int)(C._wrap_Healpix_Base_nside2order_healpix_cxx_5a797e8e3d968ccb(C.swig_type_45(_swig_i_0)))
 	return swig_r
 }
 
-func Healpix_BaseNpix2nside(arg1 int) (_swig_ret int) {
-	var swig_r int
+func Healpix_BaseNpix2nside(arg1 int64) (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_Healpix_Base_npix2nside_healpix_cxx_8fe10a3dd6e6c6d3(C.swig_intgo(_swig_i_0)))
+	swig_r = (int64)(C._wrap_Healpix_Base_npix2nside_healpix_cxx_5a797e8e3d968ccb(C.swig_type_47(_swig_i_0)))
 	return swig_r
 }
 
 func NewHealpix_Base__SWIG_0() (_swig_ret Healpix_Base) {
 	var swig_r Healpix_Base
-	swig_r = (Healpix_Base)(SwigcptrHealpix_Base(C._wrap_new_Healpix_Base__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3()))
+	swig_r = (Healpix_Base)(SwigcptrHealpix_Base(C._wrap_new_Healpix_Base__SWIG_0_healpix_cxx_5a797e8e3d968ccb()))
 	return swig_r
 }
 
@@ -1695,16 +1750,16 @@ func NewHealpix_Base__SWIG_1(arg1 int, arg2 Healpix_Ordering_Scheme) (_swig_ret 
 	var swig_r Healpix_Base
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Healpix_Base)(SwigcptrHealpix_Base(C._wrap_new_Healpix_Base__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Healpix_Base)(SwigcptrHealpix_Base(C._wrap_new_Healpix_Base__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
-func NewHealpix_Base__SWIG_2(arg1 int, arg2 Healpix_Ordering_Scheme, arg3 Nside_dummy) (_swig_ret Healpix_Base) {
+func NewHealpix_Base__SWIG_2(arg1 int64, arg2 Healpix_Ordering_Scheme, arg3 Nside_dummy) (_swig_ret Healpix_Base) {
 	var swig_r Healpix_Base
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	swig_r = (Healpix_Base)(SwigcptrHealpix_Base(C._wrap_new_Healpix_Base__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (Healpix_Base)(SwigcptrHealpix_Base(C._wrap_new_Healpix_Base__SWIG_2_healpix_cxx_5a797e8e3d968ccb(C.swig_type_48(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -1717,7 +1772,7 @@ func NewHealpix_Base(a ...interface{}) Healpix_Base {
 		return NewHealpix_Base__SWIG_1(a[0].(int), a[1].(Healpix_Ordering_Scheme))
 	}
 	if argc == 3 {
-		return NewHealpix_Base__SWIG_2(a[0].(int), a[1].(Healpix_Ordering_Scheme), a[2].(Nside_dummy))
+		return NewHealpix_Base__SWIG_2(a[0].(int64), a[1].(Healpix_Ordering_Scheme), a[2].(Nside_dummy))
 	}
 	panic("No match for overloaded function call")
 }
@@ -1726,138 +1781,138 @@ func (arg1 SwigcptrHealpix_Base) Set(arg2 int, arg3 Healpix_Ordering_Scheme) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Healpix_Base_Set_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_Healpix_Base_Set_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
-func (arg1 SwigcptrHealpix_Base) SetNside(arg2 int, arg3 Healpix_Ordering_Scheme) {
+func (arg1 SwigcptrHealpix_Base) SetNside(arg2 int64, arg3 Healpix_Ordering_Scheme) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Healpix_Base_SetNside_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_Healpix_Base_SetNside_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_49(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
-func (arg1 SwigcptrHealpix_Base) Ring2z(arg2 int) (_swig_ret float64) {
+func (arg1 SwigcptrHealpix_Base) Ring2z(arg2 int64) (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float64)(C._wrap_Healpix_Base_ring2z_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (float64)(C._wrap_Healpix_Base_ring2z_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_50(_swig_i_1)))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Pix2ring(arg2 int) (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrHealpix_Base) Pix2ring(arg2 int64) (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_Healpix_Base_pix2ring_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (int64)(C._wrap_Healpix_Base_pix2ring_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_52(_swig_i_1)))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Xyf2pix(arg2 int, arg3 int, arg4 int) (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrHealpix_Base) Xyf2pix(arg2 int, arg3 int, arg4 int) (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (int)(C._wrap_Healpix_Base_xyf2pix_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
+	swig_r = (int64)(C._wrap_Healpix_Base_xyf2pix_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Pix2xyf(arg2 int, arg3 *int, arg4 *int, arg5 *int) {
+func (arg1 SwigcptrHealpix_Base) Pix2xyf(arg2 int64, arg3 *int, arg4 *int, arg5 *int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_Healpix_Base_pix2xyf_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_voidp(_swig_i_3), C.swig_voidp(_swig_i_4))
+	C._wrap_Healpix_Base_pix2xyf_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_54(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_voidp(_swig_i_3), C.swig_voidp(_swig_i_4))
 }
 
-func (arg1 SwigcptrHealpix_Base) Nest2ring(arg2 int) (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrHealpix_Base) Nest2ring(arg2 int64) (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_Healpix_Base_nest2ring_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (int64)(C._wrap_Healpix_Base_nest2ring_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_56(_swig_i_1)))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Ring2nest(arg2 int) (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrHealpix_Base) Ring2nest(arg2 int64) (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_Healpix_Base_ring2nest_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (int64)(C._wrap_Healpix_Base_ring2nest_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_58(_swig_i_1)))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Nest2peano(arg2 int) (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrHealpix_Base) Nest2peano(arg2 int64) (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_Healpix_Base_nest2peano_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (int64)(C._wrap_Healpix_Base_nest2peano_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_60(_swig_i_1)))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Peano2nest(arg2 int) (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrHealpix_Base) Peano2nest(arg2 int64) (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_Healpix_Base_peano2nest_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (int64)(C._wrap_Healpix_Base_peano2nest_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_62(_swig_i_1)))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Zphi2pix(arg2 float64, arg3 float64) (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrHealpix_Base) Zphi2pix(arg2 float64, arg3 float64) (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (int)(C._wrap_Healpix_Base_zphi2pix_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2)))
+	swig_r = (int64)(C._wrap_Healpix_Base_zphi2pix_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2)))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Ang2pix(arg2 Pointing) (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrHealpix_Base) Ang2pix(arg2 Pointing) (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (int)(C._wrap_Healpix_Base_ang2pix_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (int64)(C._wrap_Healpix_Base_ang2pix_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Vec2pix(arg2 Vec3_t_Sl_float64_Sg_) (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrHealpix_Base) Vec2pix(arg2 Vec3_t_Sl_float64_Sg_) (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (int)(C._wrap_Healpix_Base_vec2pix_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (int64)(C._wrap_Healpix_Base_vec2pix_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Pix2zphi(arg2 int, arg3 *float64, arg4 *float64) {
+func (arg1 SwigcptrHealpix_Base) Pix2zphi(arg2 int64, arg3 *float64, arg4 *float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_Healpix_Base_pix2zphi_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_voidp(_swig_i_3))
+	C._wrap_Healpix_Base_pix2zphi_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_66(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_voidp(_swig_i_3))
 }
 
-func (arg1 SwigcptrHealpix_Base) Pix2ang(arg2 int) (_swig_ret Pointing) {
+func (arg1 SwigcptrHealpix_Base) Pix2ang(arg2 int64) (_swig_ret Pointing) {
 	var swig_r Pointing
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Pointing)(SwigcptrPointing(C._wrap_Healpix_Base_pix2ang_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Pointing)(SwigcptrPointing(C._wrap_Healpix_Base_pix2ang_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_67(_swig_i_1))))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Pix2vec(arg2 int) (_swig_ret Vec3_t_Sl_float64_Sg_) {
+func (arg1 SwigcptrHealpix_Base) Pix2vec(arg2 int64) (_swig_ret Vec3_t_Sl_float64_Sg_) {
 	var swig_r Vec3_t_Sl_float64_Sg_
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Vec3_t_Sl_float64_Sg_)(SwigcptrVec3_t_Sl_float64_Sg_(C._wrap_Healpix_Base_pix2vec_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Vec3_t_Sl_float64_Sg_)(SwigcptrVec3_t_Sl_float64_Sg_(C._wrap_Healpix_Base_pix2vec_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_68(_swig_i_1))))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Pixel_import(arg2 int, arg3 Healpix_Base) (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrHealpix_Base) Pixel_import(arg2 int64, arg3 Healpix_Base) (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	swig_r = (int)(C._wrap_Healpix_Base_pixel_import_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2)))
+	swig_r = (int64)(C._wrap_Healpix_Base_pixel_import_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_70(_swig_i_1), C.uintptr_t(_swig_i_2)))
 	return swig_r
 }
 
@@ -1866,7 +1921,7 @@ func (arg1 SwigcptrHealpix_Base) Query_disc__SWIG_0(arg2 Pointing, arg3 float64,
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
 	_swig_i_3 := getSwigcptr(arg4)
-	C._wrap_Healpix_Base_query_disc__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2), C.uintptr_t(_swig_i_3))
+	C._wrap_Healpix_Base_query_disc__SWIG_0_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2), C.uintptr_t(_swig_i_3))
 }
 
 func (arg1 SwigcptrHealpix_Base) Query_disc__SWIG_1(arg2 Pointing, arg3 float64) (_swig_ret Rangeset) {
@@ -1874,7 +1929,7 @@ func (arg1 SwigcptrHealpix_Base) Query_disc__SWIG_1(arg2 Pointing, arg3 float64)
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
-	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Healpix_Base_query_disc__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2))))
+	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Healpix_Base_query_disc__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2))))
 	return swig_r
 }
 
@@ -1884,7 +1939,7 @@ func (arg1 SwigcptrHealpix_Base) Query_disc_inclusive__SWIG_0(arg2 Pointing, arg
 	_swig_i_2 := arg3
 	_swig_i_3 := getSwigcptr(arg4)
 	_swig_i_4 := arg5
-	C._wrap_Healpix_Base_query_disc_inclusive__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4))
+	C._wrap_Healpix_Base_query_disc_inclusive__SWIG_0_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4))
 }
 
 func (arg1 SwigcptrHealpix_Base) Query_disc_inclusive__SWIG_1(arg2 Pointing, arg3 float64, arg4 Rangeset) {
@@ -1892,7 +1947,7 @@ func (arg1 SwigcptrHealpix_Base) Query_disc_inclusive__SWIG_1(arg2 Pointing, arg
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
 	_swig_i_3 := getSwigcptr(arg4)
-	C._wrap_Healpix_Base_query_disc_inclusive__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2), C.uintptr_t(_swig_i_3))
+	C._wrap_Healpix_Base_query_disc_inclusive__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2), C.uintptr_t(_swig_i_3))
 }
 
 func (arg1 SwigcptrHealpix_Base) Query_disc_inclusive__SWIG_2(arg2 Pointing, arg3 float64, arg4 int) (_swig_ret Rangeset) {
@@ -1901,7 +1956,7 @@ func (arg1 SwigcptrHealpix_Base) Query_disc_inclusive__SWIG_2(arg2 Pointing, arg
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Healpix_Base_query_disc_inclusive__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2), C.swig_intgo(_swig_i_3))))
+	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Healpix_Base_query_disc_inclusive__SWIG_2_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2), C.swig_intgo(_swig_i_3))))
 	return swig_r
 }
 
@@ -1910,16 +1965,16 @@ func (arg1 SwigcptrHealpix_Base) Query_disc_inclusive__SWIG_3(arg2 Pointing, arg
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
-	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Healpix_Base_query_disc_inclusive__SWIG_3_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2))))
+	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Healpix_Base_query_disc_inclusive__SWIG_3_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2))))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Query_disc__SWIG_2(arg2 Pointing, arg3 float64, arg4 VectorInt) {
+func (arg1 SwigcptrHealpix_Base) Query_disc__SWIG_2(arg2 Pointing, arg3 float64, arg4 VectorI64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
 	_swig_i_3 := getSwigcptr(arg4)
-	C._wrap_Healpix_Base_query_disc__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2), C.uintptr_t(_swig_i_3))
+	C._wrap_Healpix_Base_query_disc__SWIG_2_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2), C.uintptr_t(_swig_i_3))
 }
 
 func (p SwigcptrHealpix_Base) Query_disc(a ...interface{}) interface{} {
@@ -1936,27 +1991,27 @@ func (p SwigcptrHealpix_Base) Query_disc(a ...interface{}) interface{} {
 	}
 check_2:
 	if argc == 3 {
-		p.Query_disc__SWIG_2(a[0].(Pointing), a[1].(float64), a[2].(VectorInt))
+		p.Query_disc__SWIG_2(a[0].(Pointing), a[1].(float64), a[2].(VectorI64))
 		return 0
 	}
 	panic("No match for overloaded function call")
 }
 
-func (arg1 SwigcptrHealpix_Base) Query_disc_inclusive__SWIG_4(arg2 Pointing, arg3 float64, arg4 VectorInt, arg5 int) {
+func (arg1 SwigcptrHealpix_Base) Query_disc_inclusive__SWIG_4(arg2 Pointing, arg3 float64, arg4 VectorI64, arg5 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
 	_swig_i_3 := getSwigcptr(arg4)
 	_swig_i_4 := arg5
-	C._wrap_Healpix_Base_query_disc_inclusive__SWIG_4_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4))
+	C._wrap_Healpix_Base_query_disc_inclusive__SWIG_4_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2), C.uintptr_t(_swig_i_3), C.swig_intgo(_swig_i_4))
 }
 
-func (arg1 SwigcptrHealpix_Base) Query_disc_inclusive__SWIG_5(arg2 Pointing, arg3 float64, arg4 VectorInt) {
+func (arg1 SwigcptrHealpix_Base) Query_disc_inclusive__SWIG_5(arg2 Pointing, arg3 float64, arg4 VectorI64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
 	_swig_i_3 := getSwigcptr(arg4)
-	C._wrap_Healpix_Base_query_disc_inclusive__SWIG_5_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2), C.uintptr_t(_swig_i_3))
+	C._wrap_Healpix_Base_query_disc_inclusive__SWIG_5_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.double(_swig_i_2), C.uintptr_t(_swig_i_3))
 }
 
 func (p SwigcptrHealpix_Base) Query_disc_inclusive(a ...interface{}) interface{} {
@@ -1973,10 +2028,10 @@ func (p SwigcptrHealpix_Base) Query_disc_inclusive(a ...interface{}) interface{}
 	}
 check_2:
 	if argc == 3 {
-		if _, ok := a[2].(VectorInt); !ok {
+		if _, ok := a[2].(VectorI64); !ok {
 			goto check_3
 		}
-		p.Query_disc_inclusive__SWIG_5(a[0].(Pointing), a[1].(float64), a[2].(VectorInt))
+		p.Query_disc_inclusive__SWIG_5(a[0].(Pointing), a[1].(float64), a[2].(VectorI64))
 		return 0
 	}
 check_3:
@@ -1984,10 +2039,10 @@ check_3:
 		return p.Query_disc_inclusive__SWIG_2(a[0].(Pointing), a[1].(float64), a[2].(int))
 	}
 	if argc == 4 {
-		if _, ok := a[2].(VectorInt); !ok {
+		if _, ok := a[2].(VectorI64); !ok {
 			goto check_5
 		}
-		p.Query_disc_inclusive__SWIG_4(a[0].(Pointing), a[1].(float64), a[2].(VectorInt), a[3].(int))
+		p.Query_disc_inclusive__SWIG_4(a[0].(Pointing), a[1].(float64), a[2].(VectorI64), a[3].(int))
 		return 0
 	}
 check_5:
@@ -2002,14 +2057,14 @@ func (arg1 SwigcptrHealpix_Base) Query_polygon__SWIG_0(arg2 VectorPointing, arg3
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_Healpix_Base_query_polygon__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_Healpix_Base_query_polygon__SWIG_0_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func (arg1 SwigcptrHealpix_Base) Query_polygon__SWIG_1(arg2 VectorPointing) (_swig_ret Rangeset) {
 	var swig_r Rangeset
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Healpix_Base_query_polygon__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Healpix_Base_query_polygon__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -2030,14 +2085,14 @@ func (arg1 SwigcptrHealpix_Base) Query_polygon_inclusive__SWIG_0(arg2 VectorPoin
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
 	_swig_i_3 := arg4
-	C._wrap_Healpix_Base_query_polygon_inclusive__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3))
+	C._wrap_Healpix_Base_query_polygon_inclusive__SWIG_0_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3))
 }
 
 func (arg1 SwigcptrHealpix_Base) Query_polygon_inclusive__SWIG_1(arg2 VectorPointing, arg3 Rangeset) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_Healpix_Base_query_polygon_inclusive__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_Healpix_Base_query_polygon_inclusive__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func (arg1 SwigcptrHealpix_Base) Query_polygon_inclusive__SWIG_2(arg2 VectorPointing, arg3 int) (_swig_ret Rangeset) {
@@ -2045,7 +2100,7 @@ func (arg1 SwigcptrHealpix_Base) Query_polygon_inclusive__SWIG_2(arg2 VectorPoin
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
-	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Healpix_Base_query_polygon_inclusive__SWIG_2_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Healpix_Base_query_polygon_inclusive__SWIG_2_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
@@ -2053,7 +2108,7 @@ func (arg1 SwigcptrHealpix_Base) Query_polygon_inclusive__SWIG_3(arg2 VectorPoin
 	var swig_r Rangeset
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Healpix_Base_query_polygon_inclusive__SWIG_3_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Healpix_Base_query_polygon_inclusive__SWIG_3_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -2086,7 +2141,7 @@ func (arg1 SwigcptrHealpix_Base) Query_strip__SWIG_0(arg2 float64, arg3 float64,
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := getSwigcptr(arg5)
-	C._wrap_Healpix_Base_query_strip__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2), C._Bool(_swig_i_3), C.uintptr_t(_swig_i_4))
+	C._wrap_Healpix_Base_query_strip__SWIG_0_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2), C._Bool(_swig_i_3), C.uintptr_t(_swig_i_4))
 }
 
 func (arg1 SwigcptrHealpix_Base) Query_strip__SWIG_1(arg2 float64, arg3 float64, arg4 bool) (_swig_ret Rangeset) {
@@ -2095,7 +2150,7 @@ func (arg1 SwigcptrHealpix_Base) Query_strip__SWIG_1(arg2 float64, arg3 float64,
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Healpix_Base_query_strip__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2), C._Bool(_swig_i_3))))
+	swig_r = (Rangeset)(SwigcptrRangeset(C._wrap_Healpix_Base_query_strip__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2), C._Bool(_swig_i_3))))
 	return swig_r
 }
 
@@ -2111,7 +2166,7 @@ func (p SwigcptrHealpix_Base) Query_strip(a ...interface{}) interface{} {
 	panic("No match for overloaded function call")
 }
 
-func (arg1 SwigcptrHealpix_Base) Get_ring_info(arg2 int, arg3 *int, arg4 *int, arg5 *float64, arg6 *float64, arg7 *bool) {
+func (arg1 SwigcptrHealpix_Base) Get_ring_info(arg2 int64, arg3 *int64, arg4 *int64, arg5 *float64, arg6 *float64, arg7 *bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
@@ -2119,68 +2174,68 @@ func (arg1 SwigcptrHealpix_Base) Get_ring_info(arg2 int, arg3 *int, arg4 *int, a
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
 	_swig_i_6 := arg7
-	C._wrap_Healpix_Base_get_ring_info_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_voidp(_swig_i_3), C.swig_voidp(_swig_i_4), C.swig_voidp(_swig_i_5), C.swig_voidp(_swig_i_6))
+	C._wrap_Healpix_Base_get_ring_info_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_71(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_voidp(_swig_i_3), C.swig_voidp(_swig_i_4), C.swig_voidp(_swig_i_5), C.swig_voidp(_swig_i_6))
 }
 
-func (arg1 SwigcptrHealpix_Base) Get_ring_info2(arg2 int, arg3 *int, arg4 *int, arg5 *float64, arg6 *bool) {
+func (arg1 SwigcptrHealpix_Base) Get_ring_info2(arg2 int64, arg3 *int64, arg4 *int64, arg5 *float64, arg6 *bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	C._wrap_Healpix_Base_get_ring_info2_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_voidp(_swig_i_3), C.swig_voidp(_swig_i_4), C.swig_voidp(_swig_i_5))
+	C._wrap_Healpix_Base_get_ring_info2_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_72(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_voidp(_swig_i_3), C.swig_voidp(_swig_i_4), C.swig_voidp(_swig_i_5))
 }
 
-func (arg1 SwigcptrHealpix_Base) Get_ring_info_small(arg2 int, arg3 *int, arg4 *int, arg5 *bool) {
+func (arg1 SwigcptrHealpix_Base) Get_ring_info_small(arg2 int64, arg3 *int64, arg4 *int64, arg5 *bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_Healpix_Base_get_ring_info_small_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_voidp(_swig_i_3), C.swig_voidp(_swig_i_4))
+	C._wrap_Healpix_Base_get_ring_info_small_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_73(_swig_i_1), C.swig_voidp(_swig_i_2), C.swig_voidp(_swig_i_3), C.swig_voidp(_swig_i_4))
 }
 
-func (arg1 SwigcptrHealpix_Base) Neighbors(arg2 int, arg3 Fix_arr_Sl_int_Sc_8_Sg_) {
+func (arg1 SwigcptrHealpix_Base) Neighbors(arg2 int64, arg3 Fix_arr_Sl_long_SS_long_Sc_8_Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_Healpix_Base_neighbors_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_Healpix_Base_neighbors_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_74(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
-func (arg1 SwigcptrHealpix_Base) Get_interpol(arg2 Pointing, arg3 Fix_arr_Sl_int_Sc_4_Sg_, arg4 Fix_arr_Sl_double_Sc_4_Sg_) {
+func (arg1 SwigcptrHealpix_Base) Get_interpol(arg2 Pointing, arg3 Fix_arr_Sl_long_SS_long_Sc_4_Sg_, arg4 Fix_arr_Sl_double_Sc_4_Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
 	_swig_i_3 := getSwigcptr(arg4)
-	C._wrap_Healpix_Base_get_interpol_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))
+	C._wrap_Healpix_Base_get_interpol_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))
 }
 
 func (arg1 SwigcptrHealpix_Base) Order() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_Healpix_Base_Order_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_Healpix_Base_Order_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Nside() (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrHealpix_Base) Nside() (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_Healpix_Base_Nside_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_Healpix_Base_Nside_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Npix() (_swig_ret int) {
-	var swig_r int
+func (arg1 SwigcptrHealpix_Base) Npix() (_swig_ret int64) {
+	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_Healpix_Base_Npix_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_Healpix_Base_Npix_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrHealpix_Base) Scheme() (_swig_ret Healpix_Ordering_Scheme) {
 	var swig_r Healpix_Ordering_Scheme
 	_swig_i_0 := arg1
-	swig_r = (Healpix_Ordering_Scheme)(C._wrap_Healpix_Base_Scheme_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (Healpix_Ordering_Scheme)(C._wrap_Healpix_Base_Scheme_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -2188,28 +2243,28 @@ func (arg1 SwigcptrHealpix_Base) Conformable(arg2 Healpix_Base) (_swig_ret bool)
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (bool)(C._wrap_Healpix_Base_conformable_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (bool)(C._wrap_Healpix_Base_conformable_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
 func (arg1 SwigcptrHealpix_Base) Swap(arg2 Healpix_Base) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_Healpix_Base_swap_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Healpix_Base_swap_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrHealpix_Base) Max_pixrad__SWIG_0() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_Healpix_Base_max_pixrad__SWIG_0_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_Healpix_Base_max_pixrad__SWIG_0_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
-func (arg1 SwigcptrHealpix_Base) Max_pixrad__SWIG_1(arg2 int) (_swig_ret float64) {
+func (arg1 SwigcptrHealpix_Base) Max_pixrad__SWIG_1(arg2 int64) (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float64)(C._wrap_Healpix_Base_max_pixrad__SWIG_1_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (float64)(C._wrap_Healpix_Base_max_pixrad__SWIG_1_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_77(_swig_i_1)))
 	return swig_r
 }
 
@@ -2219,29 +2274,29 @@ func (p SwigcptrHealpix_Base) Max_pixrad(a ...interface{}) float64 {
 		return p.Max_pixrad__SWIG_0()
 	}
 	if argc == 1 {
-		return p.Max_pixrad__SWIG_1(a[0].(int))
+		return p.Max_pixrad__SWIG_1(a[0].(int64))
 	}
 	panic("No match for overloaded function call")
 }
 
-func (arg1 SwigcptrHealpix_Base) Boundaries(arg2 int, arg3 Tsize, arg4 Std_vector_Sl_vec3_t_Sl_float64_Sg__Sg_) {
+func (arg1 SwigcptrHealpix_Base) Boundaries(arg2 int64, arg3 Tsize, arg4 Std_vector_Sl_vec3_t_Sl_float64_Sg__Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
 	_swig_i_3 := getSwigcptr(arg4)
-	C._wrap_Healpix_Base_boundaries_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))
+	C._wrap_Healpix_Base_boundaries_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.swig_type_78(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))
 }
 
 func (arg1 SwigcptrHealpix_Base) Swap_cycles() (_swig_ret Arr_Sl_int_Sg_) {
 	var swig_r Arr_Sl_int_Sg_
 	_swig_i_0 := arg1
-	swig_r = (Arr_Sl_int_Sg_)(SwigcptrArr_Sl_int_Sg_(C._wrap_Healpix_Base_swap_cycles_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))))
+	swig_r = (Arr_Sl_int_Sg_)(SwigcptrArr_Sl_int_Sg_(C._wrap_Healpix_Base_swap_cycles_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func DeleteHealpix_Base(arg1 Healpix_Base) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_Healpix_Base_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Healpix_Base_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0))
 }
 
 func (p SwigcptrHealpix_Base) SwigIsHealpix_Tables() {
@@ -2255,40 +2310,40 @@ type Healpix_Base interface {
 	Swigcptr() uintptr
 	SwigIsHealpix_Base()
 	Set(arg2 int, arg3 Healpix_Ordering_Scheme)
-	SetNside(arg2 int, arg3 Healpix_Ordering_Scheme)
-	Ring2z(arg2 int) (_swig_ret float64)
-	Pix2ring(arg2 int) (_swig_ret int)
-	Xyf2pix(arg2 int, arg3 int, arg4 int) (_swig_ret int)
-	Pix2xyf(arg2 int, arg3 *int, arg4 *int, arg5 *int)
-	Nest2ring(arg2 int) (_swig_ret int)
-	Ring2nest(arg2 int) (_swig_ret int)
-	Nest2peano(arg2 int) (_swig_ret int)
-	Peano2nest(arg2 int) (_swig_ret int)
-	Zphi2pix(arg2 float64, arg3 float64) (_swig_ret int)
-	Ang2pix(arg2 Pointing) (_swig_ret int)
-	Vec2pix(arg2 Vec3_t_Sl_float64_Sg_) (_swig_ret int)
-	Pix2zphi(arg2 int, arg3 *float64, arg4 *float64)
-	Pix2ang(arg2 int) (_swig_ret Pointing)
-	Pix2vec(arg2 int) (_swig_ret Vec3_t_Sl_float64_Sg_)
-	Pixel_import(arg2 int, arg3 Healpix_Base) (_swig_ret int)
+	SetNside(arg2 int64, arg3 Healpix_Ordering_Scheme)
+	Ring2z(arg2 int64) (_swig_ret float64)
+	Pix2ring(arg2 int64) (_swig_ret int64)
+	Xyf2pix(arg2 int, arg3 int, arg4 int) (_swig_ret int64)
+	Pix2xyf(arg2 int64, arg3 *int, arg4 *int, arg5 *int)
+	Nest2ring(arg2 int64) (_swig_ret int64)
+	Ring2nest(arg2 int64) (_swig_ret int64)
+	Nest2peano(arg2 int64) (_swig_ret int64)
+	Peano2nest(arg2 int64) (_swig_ret int64)
+	Zphi2pix(arg2 float64, arg3 float64) (_swig_ret int64)
+	Ang2pix(arg2 Pointing) (_swig_ret int64)
+	Vec2pix(arg2 Vec3_t_Sl_float64_Sg_) (_swig_ret int64)
+	Pix2zphi(arg2 int64, arg3 *float64, arg4 *float64)
+	Pix2ang(arg2 int64) (_swig_ret Pointing)
+	Pix2vec(arg2 int64) (_swig_ret Vec3_t_Sl_float64_Sg_)
+	Pixel_import(arg2 int64, arg3 Healpix_Base) (_swig_ret int64)
 	Query_disc(a ...interface{}) interface{}
 	Query_disc_inclusive(a ...interface{}) interface{}
 	Query_polygon(a ...interface{}) interface{}
 	Query_polygon_inclusive(a ...interface{}) interface{}
 	Query_strip(a ...interface{}) interface{}
-	Get_ring_info(arg2 int, arg3 *int, arg4 *int, arg5 *float64, arg6 *float64, arg7 *bool)
-	Get_ring_info2(arg2 int, arg3 *int, arg4 *int, arg5 *float64, arg6 *bool)
-	Get_ring_info_small(arg2 int, arg3 *int, arg4 *int, arg5 *bool)
-	Neighbors(arg2 int, arg3 Fix_arr_Sl_int_Sc_8_Sg_)
-	Get_interpol(arg2 Pointing, arg3 Fix_arr_Sl_int_Sc_4_Sg_, arg4 Fix_arr_Sl_double_Sc_4_Sg_)
+	Get_ring_info(arg2 int64, arg3 *int64, arg4 *int64, arg5 *float64, arg6 *float64, arg7 *bool)
+	Get_ring_info2(arg2 int64, arg3 *int64, arg4 *int64, arg5 *float64, arg6 *bool)
+	Get_ring_info_small(arg2 int64, arg3 *int64, arg4 *int64, arg5 *bool)
+	Neighbors(arg2 int64, arg3 Fix_arr_Sl_long_SS_long_Sc_8_Sg_)
+	Get_interpol(arg2 Pointing, arg3 Fix_arr_Sl_long_SS_long_Sc_4_Sg_, arg4 Fix_arr_Sl_double_Sc_4_Sg_)
 	Order() (_swig_ret int)
-	Nside() (_swig_ret int)
-	Npix() (_swig_ret int)
+	Nside() (_swig_ret int64)
+	Npix() (_swig_ret int64)
 	Scheme() (_swig_ret Healpix_Ordering_Scheme)
 	Conformable(arg2 Healpix_Base) (_swig_ret bool)
 	Swap(arg2 Healpix_Base)
 	Max_pixrad(a ...interface{}) float64
-	Boundaries(arg2 int, arg3 Tsize, arg4 Std_vector_Sl_vec3_t_Sl_float64_Sg__Sg_)
+	Boundaries(arg2 int64, arg3 Tsize, arg4 Std_vector_Sl_vec3_t_Sl_float64_Sg__Sg_)
 	Swap_cycles() (_swig_ret Arr_Sl_int_Sg_)
 	SwigIsHealpix_Tables()
 	SwigGetHealpix_Tables() Healpix_Tables
@@ -2298,7 +2353,7 @@ func Orientation(arg1 Vec3_t_Sl_float64_Sg_, arg2 Vec3_t_Sl_float64_Sg_) (_swig_
 	var swig_r float64
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (float64)(C._wrap_orientation_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (float64)(C._wrap_orientation_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -2306,7 +2361,7 @@ func V_angle(arg1 Vec3_t_Sl_float64_Sg_, arg2 Vec3_t_Sl_float64_Sg_) (_swig_ret 
 	var swig_r float64
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (float64)(C._wrap_v_angle_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (float64)(C._wrap_v_angle_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -2316,7 +2371,7 @@ func Cosdist_zphi(arg1 float64, arg2 float64, arg3 float64, arg4 float64) (_swig
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (float64)(C._wrap_cosdist_zphi_healpix_cxx_8fe10a3dd6e6c6d3(C.double(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2), C.double(_swig_i_3)))
+	swig_r = (float64)(C._wrap_cosdist_zphi_healpix_cxx_5a797e8e3d968ccb(C.double(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2), C.double(_swig_i_3)))
 	return swig_r
 }
 
@@ -2324,7 +2379,7 @@ func Find_enclosing_circle(arg1 Std_vector_Sl_vec3_t_Sl_float64_Sg__Sg_, arg2 Ve
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
-	C._wrap_find_enclosing_circle_healpix_cxx_8fe10a3dd6e6c6d3(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_voidp(_swig_i_2))
+	C._wrap_find_enclosing_circle_healpix_cxx_5a797e8e3d968ccb(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_voidp(_swig_i_2))
 }
 
 
@@ -2333,6 +2388,14 @@ type Tsize interface {
 	Swigcptr() uintptr;
 }
 func (p SwigcptrTsize) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrFix_arr_Sl_long_SS_long_Sc_8_Sg_ uintptr
+type Fix_arr_Sl_long_SS_long_Sc_8_Sg_ interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrFix_arr_Sl_long_SS_long_Sc_8_Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
@@ -2352,14 +2415,6 @@ func (p SwigcptrVec3_t_Sl_float64_Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrFix_arr_Sl_int_Sc_4_Sg_ uintptr
-type Fix_arr_Sl_int_Sc_4_Sg_ interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrFix_arr_Sl_int_Sc_4_Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
 type SwigcptrStd_string uintptr
 type Std_string interface {
 	Swigcptr() uintptr;
@@ -2368,19 +2423,19 @@ func (p SwigcptrStd_string) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrFix_arr_Sl_int_Sc_8_Sg_ uintptr
-type Fix_arr_Sl_int_Sc_8_Sg_ interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrFix_arr_Sl_int_Sc_8_Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
 type SwigcptrStd_vector_Sl_vec3_t_Sl_float64_Sg__Sg_ uintptr
 type Std_vector_Sl_vec3_t_Sl_float64_Sg__Sg_ interface {
 	Swigcptr() uintptr;
 }
 func (p SwigcptrStd_vector_Sl_vec3_t_Sl_float64_Sg__Sg_) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrFix_arr_Sl_long_SS_long_Sc_4_Sg_ uintptr
+type Fix_arr_Sl_long_SS_long_Sc_4_Sg_ interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrFix_arr_Sl_long_SS_long_Sc_4_Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 

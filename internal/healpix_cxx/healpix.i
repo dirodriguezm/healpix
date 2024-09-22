@@ -35,7 +35,7 @@ namespace std {
 namespace std {
   %template(VectorF64) vector<double>;
   %template(VectorF32) vector<float>;
-  %template(VectorI64) vector<int64>;
+  %template(VectorI64) vector<int64_t>;
   %template(VectorInt) vector<int>;
   %template(VectorPointing) vector<pointing>;
 };
@@ -55,14 +55,14 @@ namespace std {
 // Rangesets
 %nodefaultctor rangeset;
 %include "rangeset.h"
-%template(Rangeset) rangeset<int>;
+%template(Rangeset) rangeset<int64_t>;
 
 // Ordering schemes
 %include "healpix_tables.h"
 
 // Bases
 %include "healpix_base.h"
-%template(Healpix_Base) T_Healpix_Base<int>;
+%template(Healpix_Base) T_Healpix_Base<int64_t>;
 
 
 %include "geom_utils.h"
