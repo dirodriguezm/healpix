@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-// source: healpix.i
+// source: healpix_darwin.i
 
 
 extern
