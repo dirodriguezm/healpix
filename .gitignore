@@ -1,1 +1,2 @@
 build/
+internal/healpix_cxx/healpix_wrap.cxx
