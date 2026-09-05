@@ -101,7 +101,7 @@ func NewHEALPixMapper(order int, scheme OrderingScheme) (*HEALPixMapper, error) 
 // PixelAt returns the number of the pixel which contains the given angular
 // coordinates indicated by ptg.
 func (m *HEALPixMapper) PixelAt(ptg Pointing) int64 {
-	return m.cobj.Ang2pix(ptg.to_c())
+	return m.cobj.Zphi2pix(math.Cos(ptg.Theta), ptg.Phi)
 }
 
 // PointingToCenter returns a pointing towards the center of the pixel with the
@@ -113,7 +113,10 @@ func (m *HEALPixMapper) PointingToCenter(pixel int64) Pointing {
 // QueryDisc returns the set of all pixels whose centers lie within a disk. The
 // disc is centered at pointing, and has a radius of r radians.
 func (m *HEALPixMapper) QueryDisc(pointing Pointing, r float64) []PixelRange {
-	rangeset := m.cobj.Query_disc__SWIG_1(pointing.to_c(), r)
+	cpointing := pointing.to_c()
+	defer healpix_cxx.DeletePointing(cpointing)
+
+	rangeset := m.cobj.Query_disc__SWIG_1(cpointing, r)
 	defer healpix_cxx.DeleteRangeset(rangeset)
 	data := rangeset.Data()
 
@@ -141,7 +144,10 @@ func (m *HEALPixMapper) QueryDisc(pointing Pointing, r float64) []PixelRange {
 //
 // This method is more efficient in the Ring scheme.
 func (m *HEALPixMapper) QueryDiscInclusive(pointing Pointing, r float64, resolution int) []PixelRange {
-	rangeset := m.cobj.Query_disc_inclusive__SWIG_2(pointing.to_c(), r, resolution)
+	cpointing := pointing.to_c()
+	defer healpix_cxx.DeletePointing(cpointing)
+
+	rangeset := m.cobj.Query_disc_inclusive__SWIG_2(cpointing, r, resolution)
 	defer healpix_cxx.DeleteRangeset(rangeset)
 
 	data := rangeset.Data()
