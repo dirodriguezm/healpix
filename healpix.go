@@ -101,7 +101,10 @@ func NewHEALPixMapper(order int, scheme OrderingScheme) (*HEALPixMapper, error) 
 // PixelAt returns the number of the pixel which contains the given angular
 // coordinates indicated by ptg.
 func (m *HEALPixMapper) PixelAt(ptg Pointing) int64 {
-	return m.cobj.Zphi2pix(math.Cos(ptg.Theta), ptg.Phi)
+	cpointing := ptg.to_c()
+	defer healpix_cxx.DeletePointing(cpointing)
+
+	return m.cobj.Ang2pix(cpointing)
 }
 
 // PointingToCenter returns a pointing towards the center of the pixel with the
